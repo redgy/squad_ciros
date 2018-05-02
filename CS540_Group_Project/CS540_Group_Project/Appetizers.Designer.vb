@@ -38,6 +38,17 @@ Partial Class Appetizers
         Me.saladLabel = New System.Windows.Forms.Label()
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
+        Me.appetizer0 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.appetizer1 = New System.Windows.Forms.Label()
+        Me.appetizer2 = New System.Windows.Forms.Label()
+        Me.appetizer3 = New System.Windows.Forms.Label()
+        Me.appetizer4 = New System.Windows.Forms.Label()
+        Me.appetizer1d = New System.Windows.Forms.Label()
+        Me.appetizer2d = New System.Windows.Forms.Label()
+        Me.appetizer3d = New System.Windows.Forms.Label()
+        Me.appetizer4d = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -205,12 +216,148 @@ Partial Class Appetizers
         Me.background.Size = New System.Drawing.Size(1018, 691)
         Me.background.TabIndex = 32
         '
+        'appetizer0
+        '
+        Me.appetizer0.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.appetizer0.Location = New System.Drawing.Point(455, 61)
+        Me.appetizer0.Name = "appetizer0"
+        Me.appetizer0.Size = New System.Drawing.Size(495, 92)
+        Me.appetizer0.TabIndex = 48
+        Me.appetizer0.Text = "APPETIZERS"
+        Me.appetizer0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label3
+        '
+        Me.Label3.BackColor = System.Drawing.Color.DarkRed
+        Me.Label3.Location = New System.Drawing.Point(340, 42)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(3, 180)
+        Me.Label3.TabIndex = 49
+        '
+        'Label4
+        '
+        Me.Label4.BackColor = System.Drawing.Color.DarkRed
+        Me.Label4.Location = New System.Drawing.Point(-3, 219)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(346, 3)
+        Me.Label4.TabIndex = 50
+        '
+        'appetizer1
+        '
+        Me.appetizer1.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer1.Font = New System.Drawing.Font("Lucida Sans Unicode", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer1.ForeColor = System.Drawing.Color.White
+        Me.appetizer1.Location = New System.Drawing.Point(499, 202)
+        Me.appetizer1.Name = "appetizer1"
+        Me.appetizer1.Size = New System.Drawing.Size(198, 38)
+        Me.appetizer1.TabIndex = 51
+        Me.appetizer1.Text = "Garlic Knots"
+        Me.appetizer1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'appetizer2
+        '
+        Me.appetizer2.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer2.Font = New System.Drawing.Font("Lucida Sans Unicode", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer2.ForeColor = System.Drawing.Color.White
+        Me.appetizer2.Location = New System.Drawing.Point(499, 316)
+        Me.appetizer2.Name = "appetizer2"
+        Me.appetizer2.Size = New System.Drawing.Size(198, 38)
+        Me.appetizer2.TabIndex = 52
+        Me.appetizer2.Text = "Boneless Wings"
+        Me.appetizer2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'appetizer3
+        '
+        Me.appetizer3.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer3.Font = New System.Drawing.Font("Lucida Sans Unicode", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer3.ForeColor = System.Drawing.Color.White
+        Me.appetizer3.Location = New System.Drawing.Point(499, 438)
+        Me.appetizer3.Name = "appetizer3"
+        Me.appetizer3.Size = New System.Drawing.Size(198, 38)
+        Me.appetizer3.TabIndex = 53
+        Me.appetizer3.Text = "Meatballs"
+        Me.appetizer3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'appetizer4
+        '
+        Me.appetizer4.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer4.Font = New System.Drawing.Font("Lucida Sans Unicode", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer4.ForeColor = System.Drawing.Color.White
+        Me.appetizer4.Location = New System.Drawing.Point(499, 555)
+        Me.appetizer4.Name = "appetizer4"
+        Me.appetizer4.Size = New System.Drawing.Size(198, 38)
+        Me.appetizer4.TabIndex = 54
+        Me.appetizer4.Text = "French Fries"
+        Me.appetizer4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'appetizer1d
+        '
+        Me.appetizer1d.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer1d.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer1d.ForeColor = System.Drawing.Color.White
+        Me.appetizer1d.Location = New System.Drawing.Point(552, 240)
+        Me.appetizer1d.Name = "appetizer1d"
+        Me.appetizer1d.Size = New System.Drawing.Size(354, 41)
+        Me.appetizer1d.TabIndex = 55
+        Me.appetizer1d.Text = "served with marinara sauce"
+        Me.appetizer1d.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'appetizer2d
+        '
+        Me.appetizer2d.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer2d.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer2d.ForeColor = System.Drawing.Color.White
+        Me.appetizer2d.Location = New System.Drawing.Point(553, 354)
+        Me.appetizer2d.Name = "appetizer2d"
+        Me.appetizer2d.Size = New System.Drawing.Size(354, 68)
+        Me.appetizer2d.TabIndex = 56
+        Me.appetizer2d.Text = "fried chicken tenders served with your choice of sauce (mild, medium, hot, parmes" &
+    "ean garlic, bbq, raspberry jalapeño, spicy garlic, lemon pepper)"
+        Me.appetizer2d.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'appetizer3d
+        '
+        Me.appetizer3d.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer3d.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer3d.ForeColor = System.Drawing.Color.White
+        Me.appetizer3d.Location = New System.Drawing.Point(552, 492)
+        Me.appetizer3d.Name = "appetizer3d"
+        Me.appetizer3d.Size = New System.Drawing.Size(354, 41)
+        Me.appetizer3d.TabIndex = 57
+        Me.appetizer3d.Text = "homemade served with marinara sauce"
+        Me.appetizer3d.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'appetizer4d
+        '
+        Me.appetizer4d.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer4d.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer4d.ForeColor = System.Drawing.Color.White
+        Me.appetizer4d.Location = New System.Drawing.Point(553, 593)
+        Me.appetizer4d.Name = "appetizer4d"
+        Me.appetizer4d.Size = New System.Drawing.Size(354, 41)
+        Me.appetizer4d.TabIndex = 58
+        Me.appetizer4d.Text = "crinkle cut seasoned fries, served with ketchup"
+        Me.appetizer4d.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Appetizers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.appetizer4d)
+        Me.Controls.Add(Me.appetizer3d)
+        Me.Controls.Add(Me.appetizer2d)
+        Me.Controls.Add(Me.appetizer1d)
+        Me.Controls.Add(Me.appetizer4)
+        Me.Controls.Add(Me.appetizer3)
+        Me.Controls.Add(Me.appetizer2)
+        Me.Controls.Add(Me.appetizer1)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.appetizer0)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cirosLogo)
@@ -250,4 +397,15 @@ Partial Class Appetizers
     Friend WithEvents saladLabel As Label
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents background As Label
+    Friend WithEvents appetizer0 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents appetizer1 As Label
+    Friend WithEvents appetizer2 As Label
+    Friend WithEvents appetizer3 As Label
+    Friend WithEvents appetizer4 As Label
+    Friend WithEvents appetizer1d As Label
+    Friend WithEvents appetizer2d As Label
+    Friend WithEvents appetizer3d As Label
+    Friend WithEvents appetizer4d As Label
 End Class
