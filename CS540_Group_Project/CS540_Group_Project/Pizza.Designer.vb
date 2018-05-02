@@ -38,6 +38,8 @@ Partial Class Pizza
         Me.saladLabel = New System.Windows.Forms.Label()
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
+        Me.specialyPizzas = New System.Windows.Forms.Label()
+        Me.redPies0 = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -205,12 +207,35 @@ Partial Class Pizza
         Me.background.Size = New System.Drawing.Size(1018, 691)
         Me.background.TabIndex = 32
         '
+        'specialyPizzas
+        '
+        Me.specialyPizzas.BackColor = System.Drawing.Color.Firebrick
+        Me.specialyPizzas.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.specialyPizzas.Location = New System.Drawing.Point(379, 86)
+        Me.specialyPizzas.Name = "specialyPizzas"
+        Me.specialyPizzas.Size = New System.Drawing.Size(568, 73)
+        Me.specialyPizzas.TabIndex = 48
+        Me.specialyPizzas.Text = "Specialty Pizzas"
+        '
+        'redPies0
+        '
+        Me.redPies0.BackColor = System.Drawing.Color.Firebrick
+        Me.redPies0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.redPies0.Location = New System.Drawing.Point(348, 192)
+        Me.redPies0.Name = "redPies0"
+        Me.redPies0.Size = New System.Drawing.Size(140, 38)
+        Me.redPies0.TabIndex = 49
+        Me.redPies0.Text = "RED PIES"
+        Me.redPies0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Pizza
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.redPies0)
+        Me.Controls.Add(Me.specialyPizzas)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cirosLogo)
@@ -250,4 +275,6 @@ Partial Class Pizza
     Friend WithEvents saladLabel As Label
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents background As Label
+    Friend WithEvents specialyPizzas As Label
+    Friend WithEvents redPies0 As Label
 End Class
