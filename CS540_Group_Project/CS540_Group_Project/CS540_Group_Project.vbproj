@@ -72,6 +72,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Appetizers.Designer.vb">
+      <DependentUpon>Appetizers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Appetizers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DessertsDrinks.Designer.vb">
+      <DependentUpon>DessertsDrinks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DessertsDrinks.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -94,8 +106,38 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Pizza.Designer.vb">
+      <DependentUpon>Pizza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salads.Designer.vb">
+      <DependentUpon>Salads.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salads.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignatureSubs.Designer.vb">
+      <DependentUpon>SignatureSubs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SignatureSubs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stromboli.Designer.vb">
+      <DependentUpon>Stromboli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stromboli.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Appetizers.resx">
+      <DependentUpon>Appetizers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DessertsDrinks.resx">
+      <DependentUpon>DessertsDrinks.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +146,18 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pizza.resx">
+      <DependentUpon>Pizza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salads.resx">
+      <DependentUpon>Salads.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignatureSubs.resx">
+      <DependentUpon>SignatureSubs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stromboli.resx">
+      <DependentUpon>Stromboli.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
