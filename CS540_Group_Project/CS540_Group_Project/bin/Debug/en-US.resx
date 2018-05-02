@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addSalad" xml:space="preserve">
+    <value>add roasted chicken for</value>
+  </data>
+  <data name="addSaladprice" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="app1price1" xml:space="preserve">
+    <value>(3) for 3.50</value>
+  </data>
+  <data name="app1price2" xml:space="preserve">
+    <value>(6) for 6.99</value>
+  </data>
+  <data name="app1price3" xml:space="preserve">
+    <value>(12) for 13.50</value>
+  </data>
+  <data name="app2price" xml:space="preserve">
+    <value>8.99</value>
+  </data>
+  <data name="app3price" xml:space="preserve">
+    <value>7.99</value>
+  </data>
+  <data name="app4price" xml:space="preserve">
+    <value>3.99</value>
+  </data>
+  <data name="appetizer0" xml:space="preserve">
+    <value>APPETIZERS</value>
+  </data>
+  <data name="appetizer1" xml:space="preserve">
+    <value>Garlic Knots</value>
+  </data>
+  <data name="appetizer1d" xml:space="preserve">
+    <value>served with marinara sauce</value>
+  </data>
+  <data name="appetizer2" xml:space="preserve">
+    <value>Boneless Wings</value>
+  </data>
+  <data name="appetizer2d" xml:space="preserve">
+    <value>fried chicken tenders served with your choice of sauce (mild, medium, hot, parmesean garlic, bbq, raspberry jalapeño, spicy garlic, lemon pepper)</value>
+  </data>
+  <data name="appetizer3" xml:space="preserve">
+    <value>Meatballs</value>
+  </data>
+  <data name="appetizer3d" xml:space="preserve">
+    <value>homemade served with marinara sauce</value>
+  </data>
+  <data name="appetizer4" xml:space="preserve">
+    <value>French Fries</value>
+  </data>
+  <data name="appetizer4d" xml:space="preserve">
+    <value>crinkle cut seasoned fries, served with ketchup</value>
+  </data>
+  <data name="cheese0" xml:space="preserve">
+    <value>CHEESE</value>
+  </data>
+  <data name="cheese1" xml:space="preserve">
+    <value>ricotta</value>
+  </data>
+  <data name="cheese1price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cheese2" xml:space="preserve">
+    <value>provolone</value>
+  </data>
+  <data name="cheese2price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cheese3" xml:space="preserve">
+    <value>bleu cheese</value>
+  </data>
+  <data name="cheese3price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cheese4" xml:space="preserve">
+    <value>extra mozzarella cheese</value>
+  </data>
+  <data name="cheese4price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cheese5" xml:space="preserve">
+    <value>goat cheese</value>
+  </data>
+  <data name="cheese5price" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="createPizza" xml:space="preserve">
+    <value>CREATE YOUR OWN PIE</value>
+  </data>
+  <data name="createPizzaprice1" xml:space="preserve">
+    <value>10 inch cheese pizza 9.99</value>
+  </data>
+  <data name="createPizzaprice2" xml:space="preserve">
+    <value>18 inch cheese pizza 18.99</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>FULL MENU SERVED FROM 11AM-9PM | FAST DELIVERY | PIZZA SERVED ALL DAY, EVERYDAY</value>
+  </data>
+  <data name="desser1price" xml:space="preserve">
+    <value>5.99</value>
+  </data>
+  <data name="dessert0" xml:space="preserve">
+    <value>DESSERTS</value>
+  </data>
+  <data name="dessert1" xml:space="preserve">
+    <value>Cheesecake</value>
+  </data>
+  <data name="dessert1d" xml:space="preserve">
+    <value>cream cheese filling, graham cracker crust</value>
+  </data>
+  <data name="dessert2" xml:space="preserve">
+    <value>Chocolate Mousse Pie</value>
+  </data>
+  <data name="dessert2d" xml:space="preserve">
+    <value>chocolate mousse, whipped cream, chocolate cookie crust</value>
+  </data>
+  <data name="dessert2price" xml:space="preserve">
+    <value>5.99</value>
+  </data>
+  <data name="dessert3" xml:space="preserve">
+    <value>Fudge Brownie</value>
+  </data>
+  <data name="dessert3price" xml:space="preserve">
+    <value>1.99</value>
+  </data>
+  <data name="dinner0" xml:space="preserve">
+    <value>DINNERS</value>
+  </data>
+  <data name="dinner0d" xml:space="preserve">
+    <value>all dinners are served with 2 garlic knots</value>
+  </data>
+  <data name="dinner1" xml:space="preserve">
+    <value>Chicken Parmesan</value>
+  </data>
+  <data name="dinner1d" xml:space="preserve">
+    <value>topped with mozzarella cheese, served with penne pasta, tossed in our homemade marinara sauce, fresh basil, parmesan cheese</value>
+  </data>
+  <data name="dinner1price" xml:space="preserve">
+    <value>11.99</value>
+  </data>
+  <data name="dinner2" xml:space="preserve">
+    <value>Meat Lasagna</value>
+  </data>
+  <data name="dinner2d" xml:space="preserve">
+    <value>prepared with our homemade meatball, sausage, ricotte, parmesan cheese, baked to perfection!</value>
+  </data>
+  <data name="dinner2price" xml:space="preserve">
+    <value>11.99</value>
+  </data>
+  <data name="dinner3" xml:space="preserve">
+    <value>Penne Pasta</value>
+  </data>
+  <data name="dinner3add" xml:space="preserve">
+    <value>add 2 meatballs for $3</value>
+  </data>
+  <data name="dinner3d" xml:space="preserve">
+    <value>homemade marinara sauce, fresh basil, parmesan cheese</value>
+  </data>
+  <data name="dinner3price" xml:space="preserve">
+    <value>8.99</value>
+  </data>
+  <data name="dinner4" xml:space="preserve">
+    <value>Bakes Penne Pasta with Sausage</value>
+  </data>
+  <data name="dinner4d" xml:space="preserve">
+    <value>homemade marinara sauce, fresh basil, ricotta, parmesan cheese topped with mozzarella</value>
+  </data>
+  <data name="dinner4price" xml:space="preserve">
+    <value>11.99</value>
+  </data>
+  <data name="drink0" xml:space="preserve">
+    <value>DRINKS</value>
+  </data>
+  <data name="drink1" xml:space="preserve">
+    <value>red bull</value>
+  </data>
+  <data name="drink1price" xml:space="preserve">
+    <value>3.99</value>
+  </data>
+  <data name="drink2" xml:space="preserve">
+    <value>zico coconut water</value>
+  </data>
+  <data name="drink2price" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="drink3" xml:space="preserve">
+    <value>bottled water</value>
+  </data>
+  <data name="drink3price" xml:space="preserve">
+    <value>2.29</value>
+  </data>
+  <data name="drink4" xml:space="preserve">
+    <value>20 oz soda</value>
+  </data>
+  <data name="drink4prince" xml:space="preserve">
+    <value>3.25</value>
+  </data>
+  <data name="drink5" xml:space="preserve">
+    <value>vitamin water</value>
+  </data>
+  <data name="drink5price" xml:space="preserve">
+    <value>3.29</value>
+  </data>
+  <data name="protein0" xml:space="preserve">
+    <value>PROTEIN</value>
+  </data>
+  <data name="protein1" xml:space="preserve">
+    <value>pepperoni</value>
+  </data>
+  <data name="protein1price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein2" xml:space="preserve">
+    <value>sausage</value>
+  </data>
+  <data name="protein2price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein3" xml:space="preserve">
+    <value>meatball</value>
+  </data>
+  <data name="protein3price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein4" xml:space="preserve">
+    <value>ham</value>
+  </data>
+  <data name="protein4price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein5" xml:space="preserve">
+    <value>bacon</value>
+  </data>
+  <data name="protein5price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein6" xml:space="preserve">
+    <value>roasted chicken</value>
+  </data>
+  <data name="protein6price" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="redPies0" xml:space="preserve">
+    <value>RED PIES</value>
+  </data>
+  <data name="redPies1" xml:space="preserve">
+    <value>Meat Lovers</value>
+  </data>
+  <data name="redPies1d" xml:space="preserve">
+    <value>mozzarella, pepperoni, sausage, bacon, ham, meatball</value>
+  </data>
+  <data name="redPies2" xml:space="preserve">
+    <value>Veggie Lovers</value>
+  </data>
+  <data name="redPies2d" xml:space="preserve">
+    <value>spinach, green pepper, tomato, mozzarella, mushroom, onion, olive, fresh garlic</value>
+  </data>
+  <data name="redPies3" xml:space="preserve">
+    <value>Hawaiian</value>
+  </data>
+  <data name="redPies3d" xml:space="preserve">
+    <value>pineapple, ham, bacon, mozzarella</value>
+  </data>
+  <data name="redPies4" xml:space="preserve">
+    <value>4 Cheese</value>
+  </data>
+  <data name="redPies4d" xml:space="preserve">
+    <value>parmesan, mozzarella, provolone, ricotta</value>
+  </data>
+  <data name="redPies5" xml:space="preserve">
+    <value>Ciro's Special</value>
+  </data>
+  <data name="redPies5d" xml:space="preserve">
+    <value>pepperoni, sausage, mushroom, green pepper, onion, extra cheese</value>
+  </data>
+  <data name="salad1" xml:space="preserve">
+    <value>Arugula</value>
+  </data>
+  <data name="salad1d" xml:space="preserve">
+    <value>golden raisin, candied walnut, cherry tomato, goat cheese</value>
+  </data>
+  <data name="salad1price" xml:space="preserve">
+    <value>5.99/10.00</value>
+  </data>
+  <data name="salad2" xml:space="preserve">
+    <value>Caesar</value>
+  </data>
+  <data name="salad2d" xml:space="preserve">
+    <value>hearts of romaine, croutons, shaved parmesean, classic caeser dressing</value>
+  </data>
+  <data name="salad2price" xml:space="preserve">
+    <value>4.99/7.99</value>
+  </data>
+  <data name="salad3" xml:space="preserve">
+    <value>Mixed Greens</value>
+  </data>
+  <data name="salad3d" xml:space="preserve">
+    <value>mixed greens, tomato, black olive, green pepper, onion</value>
+  </data>
+  <data name="salad3price" xml:space="preserve">
+    <value>4.99/7.99</value>
+  </data>
+  <data name="salads0" xml:space="preserve">
+    <value>SALADS</value>
+  </data>
+  <data name="saladSize" xml:space="preserve">
+    <value>(small/large)</value>
+  </data>
+  <data name="sauce0" xml:space="preserve">
+    <value>SAUCE</value>
+  </data>
+  <data name="sauce1" xml:space="preserve">
+    <value>red</value>
+  </data>
+  <data name="sauce2" xml:space="preserve">
+    <value>pesto</value>
+  </data>
+  <data name="sginatureSub1price" xml:space="preserve">
+    <value>7.99</value>
+  </data>
+  <data name="sginatureSub2price" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sginatureSub3price" xml:space="preserve">
+    <value />
+  </data>
+  <data name="signatureSub0" xml:space="preserve">
+    <value>SIGNATURE SUBS</value>
+  </data>
+  <data name="signatureSub1" xml:space="preserve">
+    <value>Cheesesteak</value>
+  </data>
+  <data name="signatureSub1d" xml:space="preserve">
+    <value>our cheesesteak includes premium grilled steak, melted white american cheese add mushrooms, onions, or hot peppers for $0.25 each to spice it up!</value>
+  </data>
+  <data name="signatureSub2" xml:space="preserve">
+    <value>Chicken Parmesan</value>
+  </data>
+  <data name="signatureSub2d" xml:space="preserve">
+    <value>homemade breaded chicken, mozzarella cheese, grated parmesean, marinara sauce</value>
+  </data>
+  <data name="signatureSub3" xml:space="preserve">
+    <value>Meatball Parmesan</value>
+  </data>
+  <data name="signatureSub3d" xml:space="preserve">
+    <value>our signature homemade meatball recipe, topped with mozzarella cheese, grated parmesean, marinara sauce</value>
+  </data>
+  <data name="specialtyPizzaprice1" xml:space="preserve">
+    <value>10 inch 11.99</value>
+  </data>
+  <data name="specialtyPizzaprice2" xml:space="preserve">
+    <value>18 inch 23.99</value>
+  </data>
+  <data name="specialtyPizzas" xml:space="preserve">
+    <value>SPECIALTY PIZZAS</value>
+  </data>
+  <data name="stromboli0" xml:space="preserve">
+    <value>STROMBOLI</value>
+  </data>
+  <data name="stromboli1" xml:space="preserve">
+    <value>Roni</value>
+  </data>
+  <data name="stromboli1d" xml:space="preserve">
+    <value>mozzarella, pepperoni</value>
+  </data>
+  <data name="stromboli2" xml:space="preserve">
+    <value>Veggie</value>
+  </data>
+  <data name="stromboli2d" xml:space="preserve">
+    <value>spinach, tomato, mushroom, garlic, mozzarella</value>
+  </data>
+  <data name="stromboli3" xml:space="preserve">
+    <value>Buffalo Chicken</value>
+  </data>
+  <data name="stromboli3d" xml:space="preserve">
+    <value>roasted chicken, mozzarella, bleu cheese, buffalo sauce</value>
+  </data>
+  <data name="stromboli4" xml:space="preserve">
+    <value>HOUSE BOLI</value>
+  </data>
+  <data name="stromboli4d" xml:space="preserve">
+    <value>sausage, pepperoni, bacon, pepper, onions, mozarella</value>
+  </data>
+  <data name="stromboli5" xml:space="preserve">
+    <value>Build Your Own Boli</value>
+  </data>
+  <data name="stromboli5d" xml:space="preserve">
+    <value>choose up to 4 toppings</value>
+  </data>
+  <data name="stromboliprice" xml:space="preserve">
+    <value>10.99</value>
+  </data>
+  <data name="surcharge" xml:space="preserve">
+    <value>We have implemented a 3% surcharge to help pay for the increase costs associated with new and ever growing state and local government mandates. If you have any questions about this charge please ask to speak to a manager. Thank you.</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>PIZZA BY THE SLICE | FULL BAR</value>
+  </data>
+  <data name="utensils" xml:space="preserve">
+    <value>PLATES, NAPKINS AND UTENSILS ARE AVAILABLE UPON REQUESTS</value>
+  </data>
+  <data name="veggie1" xml:space="preserve">
+    <value>jalapeño</value>
+  </data>
+  <data name="veggie10" xml:space="preserve">
+    <value>spinach</value>
+  </data>
+  <data name="veggie10price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie11" xml:space="preserve">
+    <value>basil</value>
+  </data>
+  <data name="veggie11price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie1price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie2" xml:space="preserve">
+    <value>pineapple</value>
+  </data>
+  <data name="veggie2price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie3" xml:space="preserve">
+    <value>green pepper</value>
+  </data>
+  <data name="veggie3price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie4" xml:space="preserve">
+    <value>onions</value>
+  </data>
+  <data name="veggie4price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie5" xml:space="preserve">
+    <value>banana pepper</value>
+  </data>
+  <data name="veggie5price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie6" xml:space="preserve">
+    <value>olive</value>
+  </data>
+  <data name="veggie6price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie7" xml:space="preserve">
+    <value>tomato</value>
+  </data>
+  <data name="veggie7price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie8" xml:space="preserve">
+    <value>mushroom</value>
+  </data>
+  <data name="veggie8price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie9" xml:space="preserve">
+    <value>garlic</value>
+  </data>
+  <data name="veggie9price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggies0" xml:space="preserve">
+    <value>VEGGIES</value>
+  </data>
+  <data name="whitePies0" xml:space="preserve">
+    <value>WHITE PIES</value>
+  </data>
+  <data name="whitePies1" xml:space="preserve">
+    <value>BBQ Chicken</value>
+  </data>
+  <data name="whitePies1d" xml:space="preserve">
+    <value>roasted chicken, red onion, bbq sauce</value>
+  </data>
+  <data name="whitePies2" xml:space="preserve">
+    <value>My Pie</value>
+  </data>
+  <data name="whitePies2d" xml:space="preserve">
+    <value>pepperoni, pesto sauce, mozzarella, ricotta</value>
+  </data>
+  <data name="whitePies3" xml:space="preserve">
+    <value>Spinach</value>
+  </data>
+  <data name="whitePies3d" xml:space="preserve">
+    <value>fresh garlic, spinach, parmesan, mozzarella, ricotta</value>
+  </data>
+  <data name="whitePies4" xml:space="preserve">
+    <value>Florentine</value>
+  </data>
+  <data name="whitePies4d" xml:space="preserve">
+    <value>fresh spinach, tomato, garlic, parmesan, ricotta, mozzarella</value>
+  </data>
+  <data name="whitePies5" xml:space="preserve">
+    <value>Buffalo Chicken</value>
+  </data>
+  <data name="whitePies5d" xml:space="preserve">
+    <value>roasted chicken, mozzarella, bleu cheese, buffalo ranch sauce</value>
+  </data>
+  <data name="whitePies6" xml:space="preserve">
+    <value>Margherita</value>
+  </data>
+  <data name="whitePies6d" xml:space="preserve">
+    <value>tomato, fresh garlic, basil, mozzarella</value>
+  </data>
+  <data name="whitePies7" xml:space="preserve">
+    <value>The Shroom</value>
+  </data>
+  <data name="whitePies7d" xml:space="preserve">
+    <value>mushroom, fresh garlic, mozzarella, ricotta cheese</value>
+  </data>
+  <data name="whitePies8" xml:space="preserve">
+    <value>CBR</value>
+  </data>
+  <data name="whitePies8d" xml:space="preserve">
+    <value>chicken, bacon, ranch dressing &amp; diced tomato</value>
+  </data>
+</root>
