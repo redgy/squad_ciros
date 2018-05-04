@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addSalad" xml:space="preserve">
+    <value>أضيفي دجاج مشوي</value>
+  </data>
+  <data name="addSaladprice" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="app1price1" xml:space="preserve">
+    <value>(3) for 3.50</value>
+  </data>
+  <data name="app1price2" xml:space="preserve">
+    <value>(6) for 6.99</value>
+  </data>
+  <data name="app1price3" xml:space="preserve">
+    <value>(12) for 13.50</value>
+  </data>
+  <data name="app2price" xml:space="preserve">
+    <value>8.99</value>
+  </data>
+  <data name="app3price" xml:space="preserve">
+    <value>7.99</value>
+  </data>
+  <data name="app4price" xml:space="preserve">
+    <value>3.99</value>
+  </data>
+  <data name="appetizer0" xml:space="preserve">
+    <value>مقبلات</value>
+  </data>
+  <data name="appetizer1" xml:space="preserve">
+    <value>عقد الثوم</value>
+  </data>
+  <data name="appetizer1d" xml:space="preserve">
+    <value>تقدم مع صلصة مارينارا</value>
+  </data>
+  <data name="appetizer2" xml:space="preserve">
+    <value>أجنحة العظم</value>
+  </data>
+  <data name="appetizer2d" xml:space="preserve">
+    <value>دجاج مقلي يقدم مع اختيارك من الصوص (معتدل ، متوسط ​​، حار ، بارميزان ، ثوم ، شواء ، توت العليق ، ثوم حار ، فلفل الليمون)</value>
+  </data>
+  <data name="appetizer3" xml:space="preserve">
+    <value>الكفتة</value>
+  </data>
+  <data name="appetizer3d" xml:space="preserve">
+    <value>محلية الصنع تقدم مع صلصة مارينارا</value>
+  </data>
+  <data name="appetizer4" xml:space="preserve">
+    <value>البطاطس المقلية</value>
+  </data>
+  <data name="appetizer4d" xml:space="preserve">
+    <value>قطع بطاطا مقلية ، تقدم مع الكاتشب</value>
+  </data>
+  <data name="cheese0" xml:space="preserve">
+    <value>جبن</value>
+  </data>
+  <data name="cheese1" xml:space="preserve">
+    <value>الريكوتا</value>
+  </data>
+  <data name="cheese1price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cheese2" xml:space="preserve">
+    <value>بروفولوني</value>
+  </data>
+  <data name="cheese2price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cheese3" xml:space="preserve">
+    <value>جبنة زرقاء</value>
+  </data>
+  <data name="cheese3price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cheese4" xml:space="preserve">
+    <value>جبنة موزاريلا إضافية</value>
+  </data>
+  <data name="cheese4price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cheese5" xml:space="preserve">
+    <value>جبن الماعز</value>
+  </data>
+  <data name="cheese5price" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="createPizza" xml:space="preserve">
+    <value>قم بإنشاء البيتزا الخاصة بك</value>
+  </data>
+  <data name="createPizzaprice1" xml:space="preserve">
+    <value>10 inch cheese pizza 9.99</value>
+  </data>
+  <data name="createPizzaprice2" xml:space="preserve">
+    <value>18 inch cheese pizza 18.99</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>قائمة كاملة من 11-9 | التسليم السريع | بيتزا خدمت كل يوم ، كل يوم
+</value>
+  </data>
+  <data name="desser1price" xml:space="preserve">
+    <value>5.99</value>
+  </data>
+  <data name="dessert0" xml:space="preserve">
+    <value>الحلوى</value>
+  </data>
+  <data name="dessert1" xml:space="preserve">
+    <value>تشيز كيك</value>
+  </data>
+  <data name="dessert1d" xml:space="preserve">
+    <value>ملء الجبن كريم ، قشرة غراهام التكسير</value>
+  </data>
+  <data name="dessert2" xml:space="preserve">
+    <value>شوكولاطة فطيرة موسى</value>
+  </data>
+  <data name="dessert2d" xml:space="preserve">
+    <value>موس الشوكولاتة ، كريمة مخفوقة ، قشرة كيك الشوكولا</value>
+  </data>
+  <data name="dessert2price" xml:space="preserve">
+    <value>5.99</value>
+  </data>
+  <data name="dessert3" xml:space="preserve">
+    <value>حلوى الكعكة</value>
+  </data>
+  <data name="dessert3price" xml:space="preserve">
+    <value>1.99</value>
+  </data>
+  <data name="dinner0" xml:space="preserve">
+    <value>العشاء</value>
+  </data>
+  <data name="dinner0d" xml:space="preserve">
+    <value>يتم تقديم جميع العشاء مع 2 عقدة الثوم</value>
+  </data>
+  <data name="dinner1" xml:space="preserve">
+    <value>بارميزان بالدجاج</value>
+  </data>
+  <data name="dinner1d" xml:space="preserve">
+    <value>تعلوها جبنة موتزاريلا ، تقدم مع مكرونة البينى ، مغطاة بصلصة مارينارا ، ريحان طازج ، جبنة بارميزان</value>
+  </data>
+  <data name="dinner1price" xml:space="preserve">
+    <value>11.99</value>
+  </data>
+  <data name="dinner2" xml:space="preserve">
+    <value>لحم لازانيا</value>
+  </data>
+  <data name="dinner2d" xml:space="preserve">
+    <value>أعدت مع اللحم المفروم لدينا محلية الصنع ، النقانق ، جبن الريكوتا ، جبن البارميزان ، خبز إلى الكمال!</value>
+  </data>
+  <data name="dinner2price" xml:space="preserve">
+    <value>11.99</value>
+  </data>
+  <data name="dinner3" xml:space="preserve">
+    <value>بيني باستا</value>
+  </data>
+  <data name="dinner3add" xml:space="preserve">
+    <value>add 2 meatballs for $3</value>
+  </data>
+  <data name="dinner3d" xml:space="preserve">
+    <value>صلصة مارينارا محلية الصنع ، ريحان طازج ، جبنة بارميزان</value>
+  </data>
+  <data name="dinner3price" xml:space="preserve">
+    <value>8.99</value>
+  </data>
+  <data name="dinner4" xml:space="preserve">
+    <value>خبز بيني باستا مع السجق</value>
+  </data>
+  <data name="dinner4d" xml:space="preserve">
+    <value>صلصة مارينارا محلية الصنع ، ريحان طازج ، جبنة ريكوتا ، جبنة بارميزان مغطاة بجبنة الموزاريلا</value>
+  </data>
+  <data name="dinner4price" xml:space="preserve">
+    <value>11.99</value>
+  </data>
+  <data name="drink0" xml:space="preserve">
+    <value>مشروبات</value>
+  </data>
+  <data name="drink1" xml:space="preserve">
+    <value>Red Bull</value>
+  </data>
+  <data name="drink1price" xml:space="preserve">
+    <value>3.99</value>
+  </data>
+  <data name="drink2" xml:space="preserve">
+    <value>Zico ماء جوز الهند</value>
+  </data>
+  <data name="drink2price" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="drink3" xml:space="preserve">
+    <value>مياه معبأة</value>
+  </data>
+  <data name="drink3price" xml:space="preserve">
+    <value>2.29</value>
+  </data>
+  <data name="drink4" xml:space="preserve">
+    <value>20 oz مشروب غازي</value>
+  </data>
+  <data name="drink4prince" xml:space="preserve">
+    <value>3.25</value>
+  </data>
+  <data name="drink5" xml:space="preserve">
+    <value>Vitamin Water</value>
+  </data>
+  <data name="drink5price" xml:space="preserve">
+    <value>3.29</value>
+  </data>
+  <data name="protein0" xml:space="preserve">
+    <value>بروتين</value>
+  </data>
+  <data name="protein1" xml:space="preserve">
+    <value>ببروني</value>
+  </data>
+  <data name="protein1price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein2" xml:space="preserve">
+    <value>سجق</value>
+  </data>
+  <data name="protein2price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein3" xml:space="preserve">
+    <value>اللحم المفروم</value>
+  </data>
+  <data name="protein3price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein4" xml:space="preserve">
+    <value>لحم خنزير</value>
+  </data>
+  <data name="protein4price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein5" xml:space="preserve">
+    <value>لحم خنزير مقدد</value>
+  </data>
+  <data name="protein5price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="protein6" xml:space="preserve">
+    <value>الدجاج المشوي</value>
+  </data>
+  <data name="protein6price" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="redPies0" xml:space="preserve">
+    <value>أحمر بيتزا</value>
+  </data>
+  <data name="redPies1" xml:space="preserve">
+    <value>عشاق اللحوم</value>
+  </data>
+  <data name="redPies1d" xml:space="preserve">
+    <value>موتزاريلا ، بيبيروني ، سجق ، لحم خنزير مقدد ، لحم الخنزير ، كرات اللحم</value>
+  </data>
+  <data name="redPies2" xml:space="preserve">
+    <value>عشاق الخضروات</value>
+  </data>
+  <data name="redPies2d" xml:space="preserve">
+    <value>سبانخ ، فلفل أخضر ، طماطم ، موزاريلا ، فطر ، بصل ، زيتون ، ثوم طازج</value>
+  </data>
+  <data name="redPies3" xml:space="preserve">
+    <value>هاواي</value>
+  </data>
+  <data name="redPies3d" xml:space="preserve">
+    <value>الأناناس ، لحم الخنزير ، لحم الخنزير المقدد ، جبن موزاريلا</value>
+  </data>
+  <data name="redPies4" xml:space="preserve">
+    <value>4 جبن</value>
+  </data>
+  <data name="redPies4d" xml:space="preserve">
+    <value>جبن بارميزان ، موزاريلا ، بروفولوني</value>
+  </data>
+  <data name="redPies5" xml:space="preserve">
+    <value>Ciro's خاص</value>
+  </data>
+  <data name="redPies5d" xml:space="preserve">
+    <value>بيبروني ، سجق ، فطر ، فلفل أخضر ، بصل ، جبنة إضافية</value>
+  </data>
+  <data name="salad1" xml:space="preserve">
+    <value>جرجير</value>
+  </data>
+  <data name="salad1d" xml:space="preserve">
+    <value>الزبيب الذهبي ، الجوز المسكر ، الطماطم الكرز ، جبن الماعز</value>
+  </data>
+  <data name="salad1price" xml:space="preserve">
+    <value>5.99/10.00</value>
+  </data>
+  <data name="salad2" xml:space="preserve">
+    <value>قيصر</value>
+  </data>
+  <data name="salad2d" xml:space="preserve">
+    <value>قلوب من رومين ، خبز محمص ، جبن بارميزان ، صلصة قيصر الكلاسيكية</value>
+  </data>
+  <data name="salad2price" xml:space="preserve">
+    <value>4.99/7.99</value>
+  </data>
+  <data name="salad3" xml:space="preserve">
+    <value>الخضر مختلطة</value>
+  </data>
+  <data name="salad3d" xml:space="preserve">
+    <value>خضار مشكلة ، طماطم ، زيتون أسود ، فلفل أخضر ، بصل</value>
+  </data>
+  <data name="salad3price" xml:space="preserve">
+    <value>4.99/7.99</value>
+  </data>
+  <data name="salads0" xml:space="preserve">
+    <value>سلطة</value>
+  </data>
+  <data name="saladSize" xml:space="preserve">
+    <value>(صغير كبير)</value>
+  </data>
+  <data name="sauce0" xml:space="preserve">
+    <value>صلصة</value>
+  </data>
+  <data name="sauce1" xml:space="preserve">
+    <value>أحمر</value>
+  </data>
+  <data name="sauce2" xml:space="preserve">
+    <value>بيستو</value>
+  </data>
+  <data name="sginatureSub1price" xml:space="preserve">
+    <value>7.99</value>
+  </data>
+  <data name="sginatureSub2price" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sginatureSub3price" xml:space="preserve">
+    <value />
+  </data>
+  <data name="signatureSub0" xml:space="preserve">
+    <value>رمل خاص</value>
+  </data>
+  <data name="signatureSub1" xml:space="preserve">
+    <value>الجبن</value>
+  </data>
+  <data name="signatureSub1d" xml:space="preserve">
+    <value>تشمل شرائح الجبن الخاصة بنا شرائح لحم مشوية ممتازة وجبن أمريكي أبيض مذاب أو إضافة عيش الغراب أو البصل أو الفلفل الحار مقابل 0.25 دولار لكل منها لتوابله!</value>
+  </data>
+  <data name="signatureSub2" xml:space="preserve">
+    <value>بارميزان بالدجاج</value>
+  </data>
+  <data name="signatureSub2d" xml:space="preserve">
+    <value>دجاج مخبوز منزلياً ، جبنة موزاريلا ، بارميزان مبشور ، صلصة مارينارا</value>
+  </data>
+  <data name="signatureSub3" xml:space="preserve">
+    <value>كرات لحم البارميزان</value>
+  </data>
+  <data name="signatureSub3d" xml:space="preserve">
+    <value>وصفة اللحم المميزة المصنوعة منزليًا مع جبنة الموتزاريلا والبارميزان المبشور وصلصة مارينارا</value>
+  </data>
+  <data name="specialtyPizzaprice1" xml:space="preserve">
+    <value>10 inch 11.99</value>
+  </data>
+  <data name="specialtyPizzaprice2" xml:space="preserve">
+    <value>18 inch 23.99</value>
+  </data>
+  <data name="specialtyPizzas" xml:space="preserve">
+    <value>تخصص بيتزا</value>
+  </data>
+  <data name="stromboli0" xml:space="preserve">
+    <value>سترومبولي</value>
+  </data>
+  <data name="stromboli1" xml:space="preserve">
+    <value>روني</value>
+  </data>
+  <data name="stromboli1d" xml:space="preserve">
+    <value>جبنة موتزاريلا ، بيبروني</value>
+  </data>
+  <data name="stromboli2" xml:space="preserve">
+    <value>الخضروات</value>
+  </data>
+  <data name="stromboli2d" xml:space="preserve">
+    <value>السبانخ ، الطماطم ، فطر ، الثوم ، جبن موزاريلا</value>
+  </data>
+  <data name="stromboli3" xml:space="preserve">
+    <value>الجاموس الدجاج</value>
+  </data>
+  <data name="stromboli3d" xml:space="preserve">
+    <value>دجاج مشوي ، جبنة موزاريلا ، جبنة زرقاء ، صوص بافالو</value>
+  </data>
+  <data name="stromboli4" xml:space="preserve">
+    <value>البيت بولي</value>
+  </data>
+  <data name="stromboli4d" xml:space="preserve">
+    <value>النقانق ، ببروني ، بيكون ، فلفل ، بصل ، موزاريلا
+</value>
+  </data>
+  <data name="stromboli5" xml:space="preserve">
+    <value>بناء بولي الخاص بك</value>
+  </data>
+  <data name="stromboli5d" xml:space="preserve">
+    <value>اختر حتى 4 طبقات</value>
+  </data>
+  <data name="stromboliprice" xml:space="preserve">
+    <value>10.99</value>
+  </data>
+  <data name="surcharge" xml:space="preserve">
+    <value>لقد قمنا بتطبيق ضريبة إضافية بنسبة 3٪ للمساعدة في دفع تكاليف الزيادة المرتبطة بولايات الحكومة المحلية والحكومات المحلية الجديدة والمتزايدة. لديّ أي أسئلة حول هذه الرسوم ، يرجى طلب التحدث إلى أحد المديرين. شكرا لكم</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>على الصفرة بيتزا |بار كامل</value>
+  </data>
+  <data name="utensils" xml:space="preserve">
+    <value>لوحات ، NAPKINS ، و أواني متاحة عند الطلب</value>
+  </data>
+  <data name="veggie1" xml:space="preserve">
+    <value>هالبينو</value>
+  </data>
+  <data name="veggie10" xml:space="preserve">
+    <value>سبانخ</value>
+  </data>
+  <data name="veggie10price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie11" xml:space="preserve">
+    <value>ريحان</value>
+  </data>
+  <data name="veggie11price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie1price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie2" xml:space="preserve">
+    <value>أناناس</value>
+  </data>
+  <data name="veggie2price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie3" xml:space="preserve">
+    <value>فلفل أخضر</value>
+  </data>
+  <data name="veggie3price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie4" xml:space="preserve">
+    <value>بصلة</value>
+  </data>
+  <data name="veggie4price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie5" xml:space="preserve">
+    <value>فلفل موز</value>
+  </data>
+  <data name="veggie5price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie6" xml:space="preserve">
+    <value>زيتون</value>
+  </data>
+  <data name="veggie6price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie7" xml:space="preserve">
+    <value>طماطم</value>
+  </data>
+  <data name="veggie7price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie8" xml:space="preserve">
+    <value>فطر</value>
+  </data>
+  <data name="veggie8price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggie9" xml:space="preserve">
+    <value>ثوم</value>
+  </data>
+  <data name="veggie9price" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veggies0" xml:space="preserve">
+    <value>الخضار</value>
+  </data>
+  <data name="whitePies0" xml:space="preserve">
+    <value> بيتزا أبيض</value>
+  </data>
+  <data name="whitePies1" xml:space="preserve">
+    <value>الدجاج شواء</value>
+  </data>
+  <data name="whitePies1d" xml:space="preserve">
+    <value>دجاج مشوي ، بصل أحمر ، صلصة باربيكيو</value>
+  </data>
+  <data name="whitePies2" xml:space="preserve">
+    <value>فطيرة بلدي</value>
+  </data>
+  <data name="whitePies2d" xml:space="preserve">
+    <value>بيبروني ، صلصة بيستو ، موزاريلا ، ريكوتا</value>
+  </data>
+  <data name="whitePies3" xml:space="preserve">
+    <value>سبانخ</value>
+  </data>
+  <data name="whitePies3d" xml:space="preserve">
+    <value>الثوم الطازج ، السبانخ ، جبن البارميزان ، جبن موزاريلا ، الريكوتا</value>
+  </data>
+  <data name="whitePies4" xml:space="preserve">
+    <value>مزهر</value>
+  </data>
+  <data name="whitePies4d" xml:space="preserve">
+    <value>سبانخ طازجة ، طماطم ، ثوم ، بارميزان ، ريكوتا ، موزاريلا</value>
+  </data>
+  <data name="whitePies5" xml:space="preserve">
+    <value>الجاموس الدجاج</value>
+  </data>
+  <data name="whitePies5d" xml:space="preserve">
+    <value>دجاج مشوي ، جبنة موتزاريلا ، جبنة بلو ، صلصة رانجلو رانش</value>
+  </data>
+  <data name="whitePies6" xml:space="preserve">
+    <value>مارغريتا</value>
+  </data>
+  <data name="whitePies6d" xml:space="preserve">
+    <value>طماطم ، ثوم طازج ، ريحان ، موزاريلا</value>
+  </data>
+  <data name="whitePies7" xml:space="preserve">
+    <value>المشروم</value>
+  </data>
+  <data name="whitePies7d" xml:space="preserve">
+    <value>فطر ، ثوم طازج ، جبنة موتزاريلا ، جبنة ريكوتا
+</value>
+  </data>
+  <data name="whitePies8" xml:space="preserve">
+    <value>CBR</value>
+  </data>
+  <data name="whitePies8d" xml:space="preserve">
+    <value>الدجاج ، لحم الخنزير المقدد ، صلصة رانش والطماطم مكعبات</value>
+  </data>
+</root>
