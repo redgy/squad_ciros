@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cirosLogo = New System.Windows.Forms.PictureBox()
@@ -38,7 +39,11 @@ Partial Class Form1
         Me.saladLabel = New System.Windows.Forms.Label()
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label2
@@ -62,9 +67,9 @@ Partial Class Form1
         Me.cirosLogo.BackColor = System.Drawing.Color.Firebrick
         Me.cirosLogo.BackgroundImage = Global.CS540_Group_Project.My.Resources.Resources.CIROS2
         Me.cirosLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.cirosLogo.Location = New System.Drawing.Point(9, 59)
+        Me.cirosLogo.Location = New System.Drawing.Point(74, 71)
         Me.cirosLogo.Name = "cirosLogo"
-        Me.cirosLogo.Size = New System.Drawing.Size(315, 146)
+        Me.cirosLogo.Size = New System.Drawing.Size(460, 257)
         Me.cirosLogo.TabIndex = 29
         Me.cirosLogo.TabStop = False
         '
@@ -205,12 +210,34 @@ Partial Class Form1
         Me.background.Size = New System.Drawing.Size(1018, 691)
         Me.background.TabIndex = 16
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(639, 47)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(309, 671)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 32
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(74, 352)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(460, 349)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 33
+        Me.PictureBox2.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cirosLogo)
@@ -228,8 +255,10 @@ Partial Class Form1
         Me.Controls.Add(Me.appetizerLabel)
         Me.Controls.Add(Me.background)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "CIRO'S"
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -250,4 +279,6 @@ Partial Class Form1
     Friend WithEvents saladLabel As Label
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents background As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
