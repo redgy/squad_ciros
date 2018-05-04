@@ -41,10 +41,10 @@ Partial Class Stromboli
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
+        Me.pizzaLabel = New System.Windows.Forms.Label()
+        Me.signatureSubLabel = New System.Windows.Forms.Label()
+        Me.saladLabel = New System.Windows.Forms.Label()
+        Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.stromboli1d = New System.Windows.Forms.Label()
         Me.stromboli2d = New System.Windows.Forms.Label()
         Me.stromboli3d = New System.Windows.Forms.Label()
@@ -257,49 +257,49 @@ Partial Class Stromboli
         Me.Label16.Text = "Stromboli"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label17
+        'pizzaLabel
         '
-        Me.Label17.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label17.Location = New System.Drawing.Point(313, 9)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(47, 23)
-        Me.Label17.TabIndex = 70
-        Me.Label17.Text = "Pizza"
-        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.pizzaLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pizzaLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.pizzaLabel.Location = New System.Drawing.Point(313, 9)
+        Me.pizzaLabel.Name = "pizzaLabel"
+        Me.pizzaLabel.Size = New System.Drawing.Size(47, 23)
+        Me.pizzaLabel.TabIndex = 70
+        Me.pizzaLabel.Text = "Pizza"
+        Me.pizzaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label18
+        'signatureSubLabel
         '
-        Me.Label18.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label18.Location = New System.Drawing.Point(184, 9)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(122, 23)
-        Me.Label18.TabIndex = 69
-        Me.Label18.Text = "Signature Subs"
-        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.signatureSubLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSubLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.signatureSubLabel.Location = New System.Drawing.Point(184, 9)
+        Me.signatureSubLabel.Name = "signatureSubLabel"
+        Me.signatureSubLabel.Size = New System.Drawing.Size(122, 23)
+        Me.signatureSubLabel.TabIndex = 69
+        Me.signatureSubLabel.Text = "Signature Subs"
+        Me.signatureSubLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label19
+        'saladLabel
         '
-        Me.Label19.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label19.Location = New System.Drawing.Point(122, 9)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(56, 23)
-        Me.Label19.TabIndex = 68
-        Me.Label19.Text = "Salads"
-        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.saladLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.saladLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.saladLabel.Location = New System.Drawing.Point(122, 9)
+        Me.saladLabel.Name = "saladLabel"
+        Me.saladLabel.Size = New System.Drawing.Size(56, 23)
+        Me.saladLabel.TabIndex = 68
+        Me.saladLabel.Text = "Salads"
+        Me.saladLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label20
+        'appetizerLabel
         '
-        Me.Label20.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label20.Location = New System.Drawing.Point(19, 9)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(97, 23)
-        Me.Label20.TabIndex = 67
-        Me.Label20.Text = "Appetizers"
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.appetizerLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizerLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.appetizerLabel.Location = New System.Drawing.Point(19, 9)
+        Me.appetizerLabel.Name = "appetizerLabel"
+        Me.appetizerLabel.Size = New System.Drawing.Size(97, 23)
+        Me.appetizerLabel.TabIndex = 67
+        Me.appetizerLabel.Text = "Appetizers"
+        Me.appetizerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'stromboli1d
         '
@@ -395,10 +395,10 @@ Partial Class Stromboli
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.Label17)
-        Me.Controls.Add(Me.Label18)
-        Me.Controls.Add(Me.Label19)
-        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.pizzaLabel)
+        Me.Controls.Add(Me.signatureSubLabel)
+        Me.Controls.Add(Me.saladLabel)
+        Me.Controls.Add(Me.appetizerLabel)
         Me.Controls.Add(Me.stromboli5)
         Me.Controls.Add(Me.stromboli4)
         Me.Controls.Add(Me.stromboli2)
@@ -434,10 +434,10 @@ Partial Class Stromboli
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents Label17 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label20 As Label
+    Friend WithEvents pizzaLabel As Label
+    Friend WithEvents signatureSubLabel As Label
+    Friend WithEvents saladLabel As Label
+    Friend WithEvents appetizerLabel As Label
     Friend WithEvents stromboli1d As Label
     Friend WithEvents stromboli2d As Label
     Friend WithEvents stromboli3d As Label

@@ -33,12 +33,32 @@ Partial Class DessertsDrinks
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
+        Me.pizzaLabel = New System.Windows.Forms.Label()
+        Me.signatureSubLabel = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.dessert0 = New System.Windows.Forms.Label()
+        Me.dessert1 = New System.Windows.Forms.Label()
+        Me.dessert2 = New System.Windows.Forms.Label()
+        Me.dessert3 = New System.Windows.Forms.Label()
+        Me.drink2 = New System.Windows.Forms.Label()
+        Me.drink3 = New System.Windows.Forms.Label()
+        Me.drink1 = New System.Windows.Forms.Label()
+        Me.drink5 = New System.Windows.Forms.Label()
+        Me.drink4 = New System.Windows.Forms.Label()
+        Me.drink0 = New System.Windows.Forms.Label()
+        Me.dessert1d = New System.Windows.Forms.Label()
+        Me.dessert2d = New System.Windows.Forms.Label()
+        Me.desser1price = New System.Windows.Forms.Label()
+        Me.dessert2price = New System.Windows.Forms.Label()
+        Me.dessert3price = New System.Windows.Forms.Label()
+        Me.drink1price = New System.Windows.Forms.Label()
+        Me.drink2price = New System.Windows.Forms.Label()
+        Me.drink3price = New System.Windows.Forms.Label()
+        Me.drink4price = New System.Windows.Forms.Label()
+        Me.drink5price = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -53,6 +73,7 @@ Partial Class DessertsDrinks
         'background
         '
         Me.background.BackColor = System.Drawing.Color.Firebrick
+        Me.background.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.background.Location = New System.Drawing.Point(-3, 44)
         Me.background.Name = "background"
         Me.background.Size = New System.Drawing.Size(1018, 691)
@@ -157,27 +178,27 @@ Partial Class DessertsDrinks
         Me.Label16.Text = "Stromboli"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label17
+        'pizzaLabel
         '
-        Me.Label17.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label17.Location = New System.Drawing.Point(313, 9)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(47, 23)
-        Me.Label17.TabIndex = 84
-        Me.Label17.Text = "Pizza"
-        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.pizzaLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pizzaLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.pizzaLabel.Location = New System.Drawing.Point(313, 9)
+        Me.pizzaLabel.Name = "pizzaLabel"
+        Me.pizzaLabel.Size = New System.Drawing.Size(47, 23)
+        Me.pizzaLabel.TabIndex = 84
+        Me.pizzaLabel.Text = "Pizza"
+        Me.pizzaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label18
+        'signatureSubLabel
         '
-        Me.Label18.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label18.Location = New System.Drawing.Point(184, 9)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(122, 23)
-        Me.Label18.TabIndex = 83
-        Me.Label18.Text = "Signature Subs"
-        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.signatureSubLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSubLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.signatureSubLabel.Location = New System.Drawing.Point(184, 9)
+        Me.signatureSubLabel.Name = "signatureSubLabel"
+        Me.signatureSubLabel.Size = New System.Drawing.Size(122, 23)
+        Me.signatureSubLabel.TabIndex = 83
+        Me.signatureSubLabel.Text = "Signature Subs"
+        Me.signatureSubLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label19
         '
@@ -217,12 +238,272 @@ Partial Class DessertsDrinks
         Me.Label7.Size = New System.Drawing.Size(1015, 2)
         Me.Label7.TabIndex = 94
         '
+        'dessert0
+        '
+        Me.dessert0.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert0.ForeColor = System.Drawing.Color.Black
+        Me.dessert0.Location = New System.Drawing.Point(15, 49)
+        Me.dessert0.Name = "dessert0"
+        Me.dessert0.Size = New System.Drawing.Size(436, 73)
+        Me.dessert0.TabIndex = 96
+        Me.dessert0.Text = "DESSERTS"
+        Me.dessert0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'dessert1
+        '
+        Me.dessert1.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert1.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert1.ForeColor = System.Drawing.Color.White
+        Me.dessert1.Location = New System.Drawing.Point(101, 180)
+        Me.dessert1.Name = "dessert1"
+        Me.dessert1.Size = New System.Drawing.Size(224, 38)
+        Me.dessert1.TabIndex = 98
+        Me.dessert1.Text = "Cheesecake"
+        Me.dessert1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'dessert2
+        '
+        Me.dessert2.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert2.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert2.ForeColor = System.Drawing.Color.White
+        Me.dessert2.Location = New System.Drawing.Point(101, 328)
+        Me.dessert2.Name = "dessert2"
+        Me.dessert2.Size = New System.Drawing.Size(224, 38)
+        Me.dessert2.TabIndex = 99
+        Me.dessert2.Text = "Chocolate Mousse Pie"
+        Me.dessert2.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'dessert3
+        '
+        Me.dessert3.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert3.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert3.ForeColor = System.Drawing.Color.White
+        Me.dessert3.Location = New System.Drawing.Point(99, 459)
+        Me.dessert3.Name = "dessert3"
+        Me.dessert3.Size = New System.Drawing.Size(224, 38)
+        Me.dessert3.TabIndex = 100
+        Me.dessert3.Text = "Fudge Brownie"
+        Me.dessert3.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'drink2
+        '
+        Me.drink2.BackColor = System.Drawing.Color.Firebrick
+        Me.drink2.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink2.ForeColor = System.Drawing.Color.White
+        Me.drink2.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.drink2.Location = New System.Drawing.Point(653, 235)
+        Me.drink2.Name = "drink2"
+        Me.drink2.Size = New System.Drawing.Size(224, 38)
+        Me.drink2.TabIndex = 101
+        Me.drink2.Text = "zico coconut water"
+        '
+        'drink3
+        '
+        Me.drink3.BackColor = System.Drawing.Color.Firebrick
+        Me.drink3.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink3.ForeColor = System.Drawing.Color.White
+        Me.drink3.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.drink3.Location = New System.Drawing.Point(653, 296)
+        Me.drink3.Name = "drink3"
+        Me.drink3.Size = New System.Drawing.Size(224, 38)
+        Me.drink3.TabIndex = 102
+        Me.drink3.Text = "bottled water"
+        '
+        'drink1
+        '
+        Me.drink1.BackColor = System.Drawing.Color.Firebrick
+        Me.drink1.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink1.ForeColor = System.Drawing.Color.White
+        Me.drink1.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.drink1.Location = New System.Drawing.Point(653, 180)
+        Me.drink1.Name = "drink1"
+        Me.drink1.Size = New System.Drawing.Size(224, 38)
+        Me.drink1.TabIndex = 103
+        Me.drink1.Text = "red bull"
+        '
+        'drink5
+        '
+        Me.drink5.BackColor = System.Drawing.Color.Firebrick
+        Me.drink5.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink5.ForeColor = System.Drawing.Color.White
+        Me.drink5.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.drink5.Location = New System.Drawing.Point(653, 427)
+        Me.drink5.Name = "drink5"
+        Me.drink5.Size = New System.Drawing.Size(224, 38)
+        Me.drink5.TabIndex = 104
+        Me.drink5.Text = "vitain water"
+        '
+        'drink4
+        '
+        Me.drink4.BackColor = System.Drawing.Color.Firebrick
+        Me.drink4.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink4.ForeColor = System.Drawing.Color.White
+        Me.drink4.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.drink4.Location = New System.Drawing.Point(653, 361)
+        Me.drink4.Name = "drink4"
+        Me.drink4.Size = New System.Drawing.Size(224, 38)
+        Me.drink4.TabIndex = 105
+        Me.drink4.Text = "20 oz soda"
+        '
+        'drink0
+        '
+        Me.drink0.BackColor = System.Drawing.Color.Firebrick
+        Me.drink0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink0.ForeColor = System.Drawing.Color.Black
+        Me.drink0.Location = New System.Drawing.Point(540, 49)
+        Me.drink0.Name = "drink0"
+        Me.drink0.Size = New System.Drawing.Size(456, 73)
+        Me.drink0.TabIndex = 106
+        Me.drink0.Text = "DRINKS"
+        Me.drink0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'dessert1d
+        '
+        Me.dessert1d.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert1d.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert1d.ForeColor = System.Drawing.Color.White
+        Me.dessert1d.Location = New System.Drawing.Point(102, 205)
+        Me.dessert1d.Name = "dessert1d"
+        Me.dessert1d.Size = New System.Drawing.Size(224, 64)
+        Me.dessert1d.TabIndex = 107
+        Me.dessert1d.Text = "cream cheese filling, graham cracker crust"
+        Me.dessert1d.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'dessert2d
+        '
+        Me.dessert2d.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert2d.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert2d.ForeColor = System.Drawing.Color.White
+        Me.dessert2d.Location = New System.Drawing.Point(101, 355)
+        Me.dessert2d.Name = "dessert2d"
+        Me.dessert2d.Size = New System.Drawing.Size(224, 61)
+        Me.dessert2d.TabIndex = 108
+        Me.dessert2d.Text = "chocolate mousse, whipped cream, chocolate cookie crust"
+        Me.dessert2d.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'desser1price
+        '
+        Me.desser1price.BackColor = System.Drawing.Color.Firebrick
+        Me.desser1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.desser1price.ForeColor = System.Drawing.Color.White
+        Me.desser1price.Location = New System.Drawing.Point(102, 243)
+        Me.desser1price.Name = "desser1price"
+        Me.desser1price.Size = New System.Drawing.Size(224, 26)
+        Me.desser1price.TabIndex = 109
+        Me.desser1price.Text = "$5.99"
+        Me.desser1price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'dessert2price
+        '
+        Me.dessert2price.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert2price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert2price.ForeColor = System.Drawing.Color.White
+        Me.dessert2price.Location = New System.Drawing.Point(100, 393)
+        Me.dessert2price.Name = "dessert2price"
+        Me.dessert2price.Size = New System.Drawing.Size(224, 23)
+        Me.dessert2price.TabIndex = 110
+        Me.dessert2price.Text = "$5.99"
+        Me.dessert2price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'dessert3price
+        '
+        Me.dessert3price.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert3price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert3price.ForeColor = System.Drawing.Color.White
+        Me.dessert3price.Location = New System.Drawing.Point(99, 485)
+        Me.dessert3price.Name = "dessert3price"
+        Me.dessert3price.Size = New System.Drawing.Size(224, 45)
+        Me.dessert3price.TabIndex = 111
+        Me.dessert3price.Text = "$1.99"
+        Me.dessert3price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'drink1price
+        '
+        Me.drink1price.BackColor = System.Drawing.Color.Firebrick
+        Me.drink1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink1price.ForeColor = System.Drawing.Color.White
+        Me.drink1price.Location = New System.Drawing.Point(883, 184)
+        Me.drink1price.Name = "drink1price"
+        Me.drink1price.Size = New System.Drawing.Size(90, 27)
+        Me.drink1price.TabIndex = 112
+        Me.drink1price.Text = "$3.99"
+        Me.drink1price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'drink2price
+        '
+        Me.drink2price.BackColor = System.Drawing.Color.Firebrick
+        Me.drink2price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink2price.ForeColor = System.Drawing.Color.White
+        Me.drink2price.Location = New System.Drawing.Point(883, 239)
+        Me.drink2price.Name = "drink2price"
+        Me.drink2price.Size = New System.Drawing.Size(90, 27)
+        Me.drink2price.TabIndex = 113
+        Me.drink2price.Text = "$3"
+        Me.drink2price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'drink3price
+        '
+        Me.drink3price.BackColor = System.Drawing.Color.Firebrick
+        Me.drink3price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink3price.ForeColor = System.Drawing.Color.White
+        Me.drink3price.Location = New System.Drawing.Point(883, 296)
+        Me.drink3price.Name = "drink3price"
+        Me.drink3price.Size = New System.Drawing.Size(90, 27)
+        Me.drink3price.TabIndex = 114
+        Me.drink3price.Text = "$2.29"
+        Me.drink3price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'drink4price
+        '
+        Me.drink4price.BackColor = System.Drawing.Color.Firebrick
+        Me.drink4price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink4price.ForeColor = System.Drawing.Color.White
+        Me.drink4price.Location = New System.Drawing.Point(883, 361)
+        Me.drink4price.Name = "drink4price"
+        Me.drink4price.Size = New System.Drawing.Size(90, 27)
+        Me.drink4price.TabIndex = 115
+        Me.drink4price.Text = "$3.25"
+        Me.drink4price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'drink5price
+        '
+        Me.drink5price.BackColor = System.Drawing.Color.Firebrick
+        Me.drink5price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.drink5price.ForeColor = System.Drawing.Color.White
+        Me.drink5price.Location = New System.Drawing.Point(883, 427)
+        Me.drink5price.Name = "drink5price"
+        Me.drink5price.Size = New System.Drawing.Size(90, 27)
+        Me.drink5price.TabIndex = 116
+        Me.drink5price.Text = "$3.29"
+        Me.drink5price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
         'DessertsDrinks
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.drink5price)
+        Me.Controls.Add(Me.drink4price)
+        Me.Controls.Add(Me.drink3price)
+        Me.Controls.Add(Me.drink2price)
+        Me.Controls.Add(Me.drink1price)
+        Me.Controls.Add(Me.dessert3price)
+        Me.Controls.Add(Me.dessert2price)
+        Me.Controls.Add(Me.desser1price)
+        Me.Controls.Add(Me.dessert2d)
+        Me.Controls.Add(Me.dessert1d)
+        Me.Controls.Add(Me.drink0)
+        Me.Controls.Add(Me.drink4)
+        Me.Controls.Add(Me.drink5)
+        Me.Controls.Add(Me.drink1)
+        Me.Controls.Add(Me.drink3)
+        Me.Controls.Add(Me.drink2)
+        Me.Controls.Add(Me.dessert3)
+        Me.Controls.Add(Me.dessert2)
+        Me.Controls.Add(Me.dessert1)
+        Me.Controls.Add(Me.dessert0)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.dinnersLabel)
@@ -233,8 +514,8 @@ Partial Class DessertsDrinks
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.Label17)
-        Me.Controls.Add(Me.Label18)
+        Me.Controls.Add(Me.pizzaLabel)
+        Me.Controls.Add(Me.signatureSubLabel)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.cirosLogo)
@@ -258,10 +539,30 @@ Partial Class DessertsDrinks
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents Label17 As Label
-    Friend WithEvents Label18 As Label
+    Friend WithEvents pizzaLabel As Label
+    Friend WithEvents signatureSubLabel As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
+    Friend WithEvents dessert0 As Label
+    Friend WithEvents dessert1 As Label
+    Friend WithEvents dessert2 As Label
+    Friend WithEvents dessert3 As Label
+    Friend WithEvents drink2 As Label
+    Friend WithEvents drink3 As Label
+    Friend WithEvents drink1 As Label
+    Friend WithEvents drink5 As Label
+    Friend WithEvents drink4 As Label
+    Friend WithEvents drink0 As Label
+    Friend WithEvents dessert1d As Label
+    Friend WithEvents dessert2d As Label
+    Friend WithEvents desser1price As Label
+    Friend WithEvents dessert2price As Label
+    Friend WithEvents dessert3price As Label
+    Friend WithEvents drink1price As Label
+    Friend WithEvents drink2price As Label
+    Friend WithEvents drink3price As Label
+    Friend WithEvents drink4price As Label
+    Friend WithEvents drink5price As Label
 End Class
