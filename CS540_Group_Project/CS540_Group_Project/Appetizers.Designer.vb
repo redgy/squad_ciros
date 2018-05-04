@@ -208,7 +208,7 @@ Partial Class Appetizers
         Me.appetizer0.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.appetizer0.Location = New System.Drawing.Point(455, 61)
+        Me.appetizer0.Location = New System.Drawing.Point(264, 61)
         Me.appetizer0.Name = "appetizer0"
         Me.appetizer0.Size = New System.Drawing.Size(495, 92)
         Me.appetizer0.TabIndex = 48
