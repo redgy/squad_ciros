@@ -38,6 +38,18 @@ Partial Class Salads
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
         Me.cirosLogo = New System.Windows.Forms.PictureBox()
+        Me.appetizer0 = New System.Windows.Forms.Label()
+        Me.salad1price = New System.Windows.Forms.Label()
+        Me.salad1d = New System.Windows.Forms.Label()
+        Me.salad1 = New System.Windows.Forms.Label()
+        Me.addSalad = New System.Windows.Forms.Label()
+        Me.addSaladprice = New System.Windows.Forms.Label()
+        Me.salad2price = New System.Windows.Forms.Label()
+        Me.salad2d = New System.Windows.Forms.Label()
+        Me.salad2 = New System.Windows.Forms.Label()
+        Me.salad3price = New System.Windows.Forms.Label()
+        Me.salad3d = New System.Windows.Forms.Label()
+        Me.salad3 = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -205,12 +217,168 @@ Partial Class Salads
         Me.cirosLogo.TabIndex = 60
         Me.cirosLogo.TabStop = False
         '
+        'appetizer0
+        '
+        Me.appetizer0.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.appetizer0.Location = New System.Drawing.Point(175, 54)
+        Me.appetizer0.Name = "appetizer0"
+        Me.appetizer0.Size = New System.Drawing.Size(685, 73)
+        Me.appetizer0.TabIndex = 61
+        Me.appetizer0.Text = "SALADS"
+        Me.appetizer0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'salad1price
+        '
+        Me.salad1price.BackColor = System.Drawing.Color.Firebrick
+        Me.salad1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad1price.ForeColor = System.Drawing.Color.White
+        Me.salad1price.Location = New System.Drawing.Point(562, 223)
+        Me.salad1price.Name = "salad1price"
+        Me.salad1price.Size = New System.Drawing.Size(143, 24)
+        Me.salad1price.TabIndex = 67
+        Me.salad1price.Text = "$5.99/$10.99"
+        Me.salad1price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'salad1d
+        '
+        Me.salad1d.BackColor = System.Drawing.Color.Firebrick
+        Me.salad1d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad1d.ForeColor = System.Drawing.Color.White
+        Me.salad1d.Location = New System.Drawing.Point(331, 257)
+        Me.salad1d.Name = "salad1d"
+        Me.salad1d.Size = New System.Drawing.Size(416, 52)
+        Me.salad1d.TabIndex = 66
+        Me.salad1d.Text = "golden raisin, candied walnut, cherry tomato, goat cheese"
+        Me.salad1d.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'salad1
+        '
+        Me.salad1.BackColor = System.Drawing.Color.Firebrick
+        Me.salad1.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad1.ForeColor = System.Drawing.Color.White
+        Me.salad1.Location = New System.Drawing.Point(292, 219)
+        Me.salad1.Name = "salad1"
+        Me.salad1.Size = New System.Drawing.Size(278, 38)
+        Me.salad1.TabIndex = 65
+        Me.salad1.Text = "Arugula"
+        Me.salad1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'addSalad
+        '
+        Me.addSalad.BackColor = System.Drawing.Color.Firebrick
+        Me.addSalad.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addSalad.ForeColor = System.Drawing.Color.White
+        Me.addSalad.Location = New System.Drawing.Point(382, 136)
+        Me.addSalad.Name = "addSalad"
+        Me.addSalad.Size = New System.Drawing.Size(239, 27)
+        Me.addSalad.TabIndex = 68
+        Me.addSalad.Text = "add roasted chicken for"
+        Me.addSalad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'addSaladprice
+        '
+        Me.addSaladprice.BackColor = System.Drawing.Color.Firebrick
+        Me.addSaladprice.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addSaladprice.ForeColor = System.Drawing.Color.White
+        Me.addSaladprice.Location = New System.Drawing.Point(614, 138)
+        Me.addSaladprice.Name = "addSaladprice"
+        Me.addSaladprice.Size = New System.Drawing.Size(61, 24)
+        Me.addSaladprice.TabIndex = 69
+        Me.addSaladprice.Text = "$3"
+        Me.addSaladprice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'salad2price
+        '
+        Me.salad2price.BackColor = System.Drawing.Color.Firebrick
+        Me.salad2price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad2price.ForeColor = System.Drawing.Color.White
+        Me.salad2price.Location = New System.Drawing.Point(562, 364)
+        Me.salad2price.Name = "salad2price"
+        Me.salad2price.Size = New System.Drawing.Size(143, 24)
+        Me.salad2price.TabIndex = 72
+        Me.salad2price.Text = "$4.99/$7.99"
+        Me.salad2price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'salad2d
+        '
+        Me.salad2d.BackColor = System.Drawing.Color.Firebrick
+        Me.salad2d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad2d.ForeColor = System.Drawing.Color.White
+        Me.salad2d.Location = New System.Drawing.Point(331, 398)
+        Me.salad2d.Name = "salad2d"
+        Me.salad2d.Size = New System.Drawing.Size(416, 52)
+        Me.salad2d.TabIndex = 71
+        Me.salad2d.Text = "hearts of romaine, croutons, shaved parmesean, classic caeser dressing"
+        Me.salad2d.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'salad2
+        '
+        Me.salad2.BackColor = System.Drawing.Color.Firebrick
+        Me.salad2.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad2.ForeColor = System.Drawing.Color.White
+        Me.salad2.Location = New System.Drawing.Point(292, 360)
+        Me.salad2.Name = "salad2"
+        Me.salad2.Size = New System.Drawing.Size(278, 38)
+        Me.salad2.TabIndex = 70
+        Me.salad2.Text = "Caesar"
+        Me.salad2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'salad3price
+        '
+        Me.salad3price.BackColor = System.Drawing.Color.Firebrick
+        Me.salad3price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad3price.ForeColor = System.Drawing.Color.White
+        Me.salad3price.Location = New System.Drawing.Point(562, 507)
+        Me.salad3price.Name = "salad3price"
+        Me.salad3price.Size = New System.Drawing.Size(143, 24)
+        Me.salad3price.TabIndex = 75
+        Me.salad3price.Text = "$4.99/$7.99"
+        Me.salad3price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'salad3d
+        '
+        Me.salad3d.BackColor = System.Drawing.Color.Firebrick
+        Me.salad3d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad3d.ForeColor = System.Drawing.Color.White
+        Me.salad3d.Location = New System.Drawing.Point(331, 541)
+        Me.salad3d.Name = "salad3d"
+        Me.salad3d.Size = New System.Drawing.Size(416, 52)
+        Me.salad3d.TabIndex = 74
+        Me.salad3d.Text = "mixed greens, tomato, black olive, green pepper, onion"
+        Me.salad3d.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'salad3
+        '
+        Me.salad3.BackColor = System.Drawing.Color.Firebrick
+        Me.salad3.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salad3.ForeColor = System.Drawing.Color.White
+        Me.salad3.Location = New System.Drawing.Point(292, 503)
+        Me.salad3.Name = "salad3"
+        Me.salad3.Size = New System.Drawing.Size(278, 38)
+        Me.salad3.TabIndex = 73
+        Me.salad3.Text = "Mixed Greens"
+        Me.salad3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'Salads
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.salad3price)
+        Me.Controls.Add(Me.salad3d)
+        Me.Controls.Add(Me.salad3)
+        Me.Controls.Add(Me.salad2price)
+        Me.Controls.Add(Me.salad2d)
+        Me.Controls.Add(Me.salad2)
+        Me.Controls.Add(Me.addSaladprice)
+        Me.Controls.Add(Me.addSalad)
+        Me.Controls.Add(Me.salad1price)
+        Me.Controls.Add(Me.salad1d)
+        Me.Controls.Add(Me.salad1)
+        Me.Controls.Add(Me.appetizer0)
         Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -250,4 +418,16 @@ Partial Class Salads
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents background As Label
     Friend WithEvents cirosLogo As PictureBox
+    Friend WithEvents appetizer0 As Label
+    Friend WithEvents salad1price As Label
+    Friend WithEvents salad1d As Label
+    Friend WithEvents salad1 As Label
+    Friend WithEvents addSalad As Label
+    Friend WithEvents addSaladprice As Label
+    Friend WithEvents salad2price As Label
+    Friend WithEvents salad2d As Label
+    Friend WithEvents salad2 As Label
+    Friend WithEvents salad3price As Label
+    Friend WithEvents salad3d As Label
+    Friend WithEvents salad3 As Label
 End Class

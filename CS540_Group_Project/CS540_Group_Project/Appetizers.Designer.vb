@@ -47,12 +47,12 @@ Partial Class Appetizers
         Me.appetizer3d = New System.Windows.Forms.Label()
         Me.appetizer4d = New System.Windows.Forms.Label()
         Me.cirosLogo = New System.Windows.Forms.PictureBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.app1price1 = New System.Windows.Forms.Label()
+        Me.app1price2 = New System.Windows.Forms.Label()
+        Me.app1price3 = New System.Windows.Forms.Label()
+        Me.app2price = New System.Windows.Forms.Label()
+        Me.app3price = New System.Windows.Forms.Label()
+        Me.app4price = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -226,7 +226,7 @@ Partial Class Appetizers
         Me.appetizer1.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer1.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer1.ForeColor = System.Drawing.Color.White
-        Me.appetizer1.Location = New System.Drawing.Point(66, 209)
+        Me.appetizer1.Location = New System.Drawing.Point(63, 209)
         Me.appetizer1.Name = "appetizer1"
         Me.appetizer1.Size = New System.Drawing.Size(278, 38)
         Me.appetizer1.TabIndex = 51
@@ -238,7 +238,7 @@ Partial Class Appetizers
         Me.appetizer2.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer2.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer2.ForeColor = System.Drawing.Color.White
-        Me.appetizer2.Location = New System.Drawing.Point(65, 487)
+        Me.appetizer2.Location = New System.Drawing.Point(62, 487)
         Me.appetizer2.Name = "appetizer2"
         Me.appetizer2.Size = New System.Drawing.Size(291, 38)
         Me.appetizer2.TabIndex = 52
@@ -250,7 +250,7 @@ Partial Class Appetizers
         Me.appetizer3.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer3.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer3.ForeColor = System.Drawing.Color.White
-        Me.appetizer3.Location = New System.Drawing.Point(573, 209)
+        Me.appetizer3.Location = New System.Drawing.Point(563, 209)
         Me.appetizer3.Name = "appetizer3"
         Me.appetizer3.Size = New System.Drawing.Size(278, 38)
         Me.appetizer3.TabIndex = 53
@@ -262,7 +262,7 @@ Partial Class Appetizers
         Me.appetizer4.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer4.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer4.ForeColor = System.Drawing.Color.White
-        Me.appetizer4.Location = New System.Drawing.Point(573, 501)
+        Me.appetizer4.Location = New System.Drawing.Point(563, 501)
         Me.appetizer4.Name = "appetizer4"
         Me.appetizer4.Size = New System.Drawing.Size(278, 38)
         Me.appetizer4.TabIndex = 54
@@ -274,7 +274,7 @@ Partial Class Appetizers
         Me.appetizer1d.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer1d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer1d.ForeColor = System.Drawing.Color.White
-        Me.appetizer1d.Location = New System.Drawing.Point(105, 247)
+        Me.appetizer1d.Location = New System.Drawing.Point(102, 247)
         Me.appetizer1d.Name = "appetizer1d"
         Me.appetizer1d.Size = New System.Drawing.Size(416, 27)
         Me.appetizer1d.TabIndex = 55
@@ -286,7 +286,7 @@ Partial Class Appetizers
         Me.appetizer2d.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer2d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer2d.ForeColor = System.Drawing.Color.White
-        Me.appetizer2d.Location = New System.Drawing.Point(104, 525)
+        Me.appetizer2d.Location = New System.Drawing.Point(101, 525)
         Me.appetizer2d.Name = "appetizer2d"
         Me.appetizer2d.Size = New System.Drawing.Size(417, 84)
         Me.appetizer2d.TabIndex = 56
@@ -299,7 +299,7 @@ Partial Class Appetizers
         Me.appetizer3d.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer3d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer3d.ForeColor = System.Drawing.Color.White
-        Me.appetizer3d.Location = New System.Drawing.Point(612, 247)
+        Me.appetizer3d.Location = New System.Drawing.Point(602, 247)
         Me.appetizer3d.Name = "appetizer3d"
         Me.appetizer3d.Size = New System.Drawing.Size(416, 27)
         Me.appetizer3d.TabIndex = 57
@@ -311,7 +311,7 @@ Partial Class Appetizers
         Me.appetizer4d.BackColor = System.Drawing.Color.Firebrick
         Me.appetizer4d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizer4d.ForeColor = System.Drawing.Color.White
-        Me.appetizer4d.Location = New System.Drawing.Point(612, 539)
+        Me.appetizer4d.Location = New System.Drawing.Point(602, 539)
         Me.appetizer4d.Name = "appetizer4d"
         Me.appetizer4d.Size = New System.Drawing.Size(416, 50)
         Me.appetizer4d.TabIndex = 58
@@ -329,77 +329,77 @@ Partial Class Appetizers
         Me.cirosLogo.TabIndex = 59
         Me.cirosLogo.TabStop = False
         '
-        'Label3
+        'app1price1
         '
-        Me.Label3.BackColor = System.Drawing.Color.Firebrick
-        Me.Label3.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(375, 197)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(147, 24)
-        Me.Label3.TabIndex = 60
-        Me.Label3.Text = "(3) for $3.50"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.app1price1.BackColor = System.Drawing.Color.Firebrick
+        Me.app1price1.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.app1price1.ForeColor = System.Drawing.Color.White
+        Me.app1price1.Location = New System.Drawing.Point(102, 274)
+        Me.app1price1.Name = "app1price1"
+        Me.app1price1.Size = New System.Drawing.Size(130, 24)
+        Me.app1price1.TabIndex = 60
+        Me.app1price1.Text = "(3) for $3.50"
+        Me.app1price1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label4
+        'app1price2
         '
-        Me.Label4.BackColor = System.Drawing.Color.Firebrick
-        Me.Label4.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(375, 231)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(157, 24)
-        Me.Label4.TabIndex = 61
-        Me.Label4.Text = "(6) for $6.99"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.app1price2.BackColor = System.Drawing.Color.Firebrick
+        Me.app1price2.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.app1price2.ForeColor = System.Drawing.Color.White
+        Me.app1price2.Location = New System.Drawing.Point(238, 274)
+        Me.app1price2.Name = "app1price2"
+        Me.app1price2.Size = New System.Drawing.Size(137, 24)
+        Me.app1price2.TabIndex = 61
+        Me.app1price2.Text = "(6) for $6.99"
+        Me.app1price2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label5
+        'app1price3
         '
-        Me.Label5.BackColor = System.Drawing.Color.Firebrick
-        Me.Label5.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(375, 264)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(165, 24)
-        Me.Label5.TabIndex = 62
-        Me.Label5.Text = "(12) for $13.50"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.app1price3.BackColor = System.Drawing.Color.Firebrick
+        Me.app1price3.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.app1price3.ForeColor = System.Drawing.Color.White
+        Me.app1price3.Location = New System.Drawing.Point(371, 274)
+        Me.app1price3.Name = "app1price3"
+        Me.app1price3.Size = New System.Drawing.Size(165, 24)
+        Me.app1price3.TabIndex = 62
+        Me.app1price3.Text = "(12) for $13.50"
+        Me.app1price3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label6
+        'app2price
         '
-        Me.Label6.BackColor = System.Drawing.Color.Firebrick
-        Me.Label6.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(374, 491)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(108, 24)
-        Me.Label6.TabIndex = 63
-        Me.Label6.Text = "$8.99"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.app2price.BackColor = System.Drawing.Color.Firebrick
+        Me.app2price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.app2price.ForeColor = System.Drawing.Color.White
+        Me.app2price.Location = New System.Drawing.Point(371, 491)
+        Me.app2price.Name = "app2price"
+        Me.app2price.Size = New System.Drawing.Size(108, 24)
+        Me.app2price.TabIndex = 63
+        Me.app2price.Text = "$8.99"
+        Me.app2price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label7
+        'app3price
         '
-        Me.Label7.BackColor = System.Drawing.Color.Firebrick
-        Me.Label7.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(843, 213)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(108, 24)
-        Me.Label7.TabIndex = 64
-        Me.Label7.Text = "$7.99"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.app3price.BackColor = System.Drawing.Color.Firebrick
+        Me.app3price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.app3price.ForeColor = System.Drawing.Color.White
+        Me.app3price.Location = New System.Drawing.Point(833, 213)
+        Me.app3price.Name = "app3price"
+        Me.app3price.Size = New System.Drawing.Size(108, 24)
+        Me.app3price.TabIndex = 64
+        Me.app3price.Text = "$7.99"
+        Me.app3price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label8
+        'app4price
         '
-        Me.Label8.BackColor = System.Drawing.Color.Firebrick
-        Me.Label8.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(843, 505)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(108, 24)
-        Me.Label8.TabIndex = 65
-        Me.Label8.Text = "$3.99"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.app4price.BackColor = System.Drawing.Color.Firebrick
+        Me.app4price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.app4price.ForeColor = System.Drawing.Color.White
+        Me.app4price.Location = New System.Drawing.Point(833, 505)
+        Me.app4price.Name = "app4price"
+        Me.app4price.Size = New System.Drawing.Size(108, 24)
+        Me.app4price.TabIndex = 65
+        Me.app4price.Text = "$3.99"
+        Me.app4price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Appetizers
         '
@@ -407,12 +407,12 @@ Partial Class Appetizers
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.app4price)
+        Me.Controls.Add(Me.app3price)
+        Me.Controls.Add(Me.app2price)
+        Me.Controls.Add(Me.app1price3)
+        Me.Controls.Add(Me.app1price2)
+        Me.Controls.Add(Me.app1price1)
         Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.appetizer4d)
         Me.Controls.Add(Me.appetizer3d)
@@ -470,10 +470,10 @@ Partial Class Appetizers
     Friend WithEvents appetizer3d As Label
     Friend WithEvents appetizer4d As Label
     Friend WithEvents cirosLogo As PictureBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
+    Friend WithEvents app1price1 As Label
+    Friend WithEvents app1price2 As Label
+    Friend WithEvents app1price3 As Label
+    Friend WithEvents app2price As Label
+    Friend WithEvents app3price As Label
+    Friend WithEvents app4price As Label
 End Class
