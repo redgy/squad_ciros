@@ -41,6 +41,7 @@ Partial Class Form1
         Me.background = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -76,16 +77,16 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.BackColor = System.Drawing.Color.Firebrick
-        Me.Label12.Location = New System.Drawing.Point(583, -7)
+        Me.Label12.Location = New System.Drawing.Point(668, -1)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(3, 68)
+        Me.Label12.Size = New System.Drawing.Size(3, 50)
         Me.Label12.TabIndex = 28
         '
         'saLabel
         '
-        Me.saLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.saLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.saLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.saLabel.Location = New System.Drawing.Point(942, 8)
+        Me.saLabel.Location = New System.Drawing.Point(953, 9)
         Me.saLabel.Name = "saLabel"
         Me.saLabel.Size = New System.Drawing.Size(53, 23)
         Me.saLabel.TabIndex = 27
@@ -94,9 +95,9 @@ Partial Class Form1
         '
         'chineseLabel
         '
-        Me.chineseLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chineseLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chineseLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.chineseLabel.Location = New System.Drawing.Point(883, 8)
+        Me.chineseLabel.Location = New System.Drawing.Point(905, 9)
         Me.chineseLabel.Name = "chineseLabel"
         Me.chineseLabel.Size = New System.Drawing.Size(53, 23)
         Me.chineseLabel.TabIndex = 26
@@ -105,9 +106,9 @@ Partial Class Form1
         '
         'frenchLabel
         '
-        Me.frenchLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.frenchLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.frenchLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.frenchLabel.Location = New System.Drawing.Point(784, 8)
+        Me.frenchLabel.Location = New System.Drawing.Point(823, 9)
         Me.frenchLabel.Name = "frenchLabel"
         Me.frenchLabel.Size = New System.Drawing.Size(93, 23)
         Me.frenchLabel.TabIndex = 25
@@ -116,9 +117,9 @@ Partial Class Form1
         '
         'spanishLabel
         '
-        Me.spanishLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.spanishLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.spanishLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.spanishLabel.Location = New System.Drawing.Point(683, 8)
+        Me.spanishLabel.Location = New System.Drawing.Point(741, 9)
         Me.spanishLabel.Name = "spanishLabel"
         Me.spanishLabel.Size = New System.Drawing.Size(95, 23)
         Me.spanishLabel.TabIndex = 24
@@ -127,9 +128,9 @@ Partial Class Form1
         '
         'englishLabel
         '
-        Me.englishLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.englishLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.englishLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.englishLabel.Location = New System.Drawing.Point(592, 8)
+        Me.englishLabel.Location = New System.Drawing.Point(669, 9)
         Me.englishLabel.Name = "englishLabel"
         Me.englishLabel.Size = New System.Drawing.Size(85, 23)
         Me.englishLabel.TabIndex = 23
@@ -140,7 +141,7 @@ Partial Class Form1
         '
         Me.dessertDrinkLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dessertDrinkLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.dessertDrinkLabel.Location = New System.Drawing.Point(443, 9)
+        Me.dessertDrinkLabel.Location = New System.Drawing.Point(529, 9)
         Me.dessertDrinkLabel.Name = "dessertDrinkLabel"
         Me.dessertDrinkLabel.Size = New System.Drawing.Size(133, 23)
         Me.dessertDrinkLabel.TabIndex = 22
@@ -151,7 +152,7 @@ Partial Class Form1
         '
         Me.stromboliLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboliLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.stromboliLabel.Location = New System.Drawing.Point(349, 9)
+        Me.stromboliLabel.Location = New System.Drawing.Point(365, 9)
         Me.stromboliLabel.Name = "stromboliLabel"
         Me.stromboliLabel.Size = New System.Drawing.Size(96, 23)
         Me.stromboliLabel.TabIndex = 21
@@ -162,7 +163,7 @@ Partial Class Form1
         '
         Me.pizzaLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pizzaLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.pizzaLabel.Location = New System.Drawing.Point(296, 9)
+        Me.pizzaLabel.Location = New System.Drawing.Point(313, 9)
         Me.pizzaLabel.Name = "pizzaLabel"
         Me.pizzaLabel.Size = New System.Drawing.Size(47, 23)
         Me.pizzaLabel.TabIndex = 20
@@ -173,7 +174,7 @@ Partial Class Form1
         '
         Me.signatureSubLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.signatureSubLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.signatureSubLabel.Location = New System.Drawing.Point(167, 9)
+        Me.signatureSubLabel.Location = New System.Drawing.Point(184, 9)
         Me.signatureSubLabel.Name = "signatureSubLabel"
         Me.signatureSubLabel.Size = New System.Drawing.Size(122, 23)
         Me.signatureSubLabel.TabIndex = 19
@@ -184,7 +185,7 @@ Partial Class Form1
         '
         Me.saladLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.saladLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.saladLabel.Location = New System.Drawing.Point(105, 9)
+        Me.saladLabel.Location = New System.Drawing.Point(122, 9)
         Me.saladLabel.Name = "saladLabel"
         Me.saladLabel.Size = New System.Drawing.Size(56, 23)
         Me.saladLabel.TabIndex = 18
@@ -195,7 +196,7 @@ Partial Class Form1
         '
         Me.appetizerLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.appetizerLabel.ForeColor = System.Drawing.Color.Firebrick
-        Me.appetizerLabel.Location = New System.Drawing.Point(2, 9)
+        Me.appetizerLabel.Location = New System.Drawing.Point(19, 9)
         Me.appetizerLabel.Name = "appetizerLabel"
         Me.appetizerLabel.Size = New System.Drawing.Size(97, 23)
         Me.appetizerLabel.TabIndex = 17
@@ -230,12 +231,24 @@ Partial Class Form1
         Me.PictureBox2.TabIndex = 33
         Me.PictureBox2.TabStop = False
         '
+        'Label3
+        '
+        Me.Label3.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Firebrick
+        Me.Label3.Location = New System.Drawing.Point(462, 9)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(72, 23)
+        Me.Label3.TabIndex = 34
+        Me.Label3.Text = "Dinners"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
@@ -281,4 +294,5 @@ Partial Class Form1
     Friend WithEvents background As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label3 As Label
 End Class

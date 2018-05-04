@@ -38,7 +38,7 @@ Partial Class Salads
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
         Me.cirosLogo = New System.Windows.Forms.PictureBox()
-        Me.appetizer0 = New System.Windows.Forms.Label()
+        Me.salads0 = New System.Windows.Forms.Label()
         Me.salad1price = New System.Windows.Forms.Label()
         Me.salad1d = New System.Windows.Forms.Label()
         Me.salad1 = New System.Windows.Forms.Label()
@@ -217,17 +217,17 @@ Partial Class Salads
         Me.cirosLogo.TabIndex = 60
         Me.cirosLogo.TabStop = False
         '
-        'appetizer0
+        'salads0
         '
-        Me.appetizer0.BackColor = System.Drawing.Color.Firebrick
-        Me.appetizer0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.appetizer0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.appetizer0.Location = New System.Drawing.Point(175, 54)
-        Me.appetizer0.Name = "appetizer0"
-        Me.appetizer0.Size = New System.Drawing.Size(685, 73)
-        Me.appetizer0.TabIndex = 61
-        Me.appetizer0.Text = "SALADS"
-        Me.appetizer0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.salads0.BackColor = System.Drawing.Color.Firebrick
+        Me.salads0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salads0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.salads0.Location = New System.Drawing.Point(175, 54)
+        Me.salads0.Name = "salads0"
+        Me.salads0.Size = New System.Drawing.Size(685, 73)
+        Me.salads0.TabIndex = 61
+        Me.salads0.Text = "SALADS"
+        Me.salads0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'salad1price
         '
@@ -378,7 +378,7 @@ Partial Class Salads
         Me.Controls.Add(Me.salad1price)
         Me.Controls.Add(Me.salad1d)
         Me.Controls.Add(Me.salad1)
-        Me.Controls.Add(Me.appetizer0)
+        Me.Controls.Add(Me.salads0)
         Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -418,7 +418,7 @@ Partial Class Salads
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents background As Label
     Friend WithEvents cirosLogo As PictureBox
-    Friend WithEvents appetizer0 As Label
+    Friend WithEvents salads0 As Label
     Friend WithEvents salad1price As Label
     Friend WithEvents salad1d As Label
     Friend WithEvents salad1 As Label
