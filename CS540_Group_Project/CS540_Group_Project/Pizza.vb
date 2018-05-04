@@ -28,4 +28,60 @@
         f.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+
+    End Sub
+
+    Private Sub redPies1d_Click(sender As Object, e As EventArgs) Handles redPies1d.Click
+
+    End Sub
+
+    Private Sub redPies2_Click(sender As Object, e As EventArgs) Handles redPies2.Click
+
+    End Sub
+
+    Private Sub redPies1_Click(sender As Object, e As EventArgs) Handles redPies1.Click
+
+    End Sub
+
+    Private Sub redPies3_Click(sender As Object, e As EventArgs) Handles redPies3.Click
+
+    End Sub
+
+    Private Sub redPies2d_Click(sender As Object, e As EventArgs) Handles redPies2d.Click
+
+    End Sub
+
+    Private Sub redPies3d_Click(sender As Object, e As EventArgs) Handles redPies3d.Click
+
+    End Sub
+
+    Private Sub redPies4_Click(sender As Object, e As EventArgs) Handles redPies4.Click
+
+    End Sub
+
+    Private Sub redPies4d_Click(sender As Object, e As EventArgs) Handles redPies4d.Click
+
+    End Sub
+
+    Private Sub redPies5_Click(sender As Object, e As EventArgs) Handles redPies5.Click
+
+    End Sub
+
+    Private Sub redPies5d_Click(sender As Object, e As EventArgs) Handles redPies5d.Click
+
+    End Sub
+
+    Private Sub whitePies8d_Click(sender As Object, e As EventArgs) Handles whitePies8d.Click
+
+    End Sub
+
+    Private Sub whitePies3d_Click(sender As Object, e As EventArgs) Handles whitePies3d.Click
+
+    End Sub
+
+    Private Sub whitePies8_Click(sender As Object, e As EventArgs) Handles whitePies8.Click
+
+    End Sub
 End Class

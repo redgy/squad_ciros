@@ -24,7 +24,6 @@ Partial Class Appetizers
     Private Sub InitializeComponent()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.cirosLogo = New System.Windows.Forms.PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.saLabel = New System.Windows.Forms.Label()
         Me.chineseLabel = New System.Windows.Forms.Label()
@@ -39,8 +38,6 @@ Partial Class Appetizers
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
         Me.appetizer0 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.appetizer1 = New System.Windows.Forms.Label()
         Me.appetizer2 = New System.Windows.Forms.Label()
         Me.appetizer3 = New System.Windows.Forms.Label()
@@ -49,6 +46,7 @@ Partial Class Appetizers
         Me.appetizer2d = New System.Windows.Forms.Label()
         Me.appetizer3d = New System.Windows.Forms.Label()
         Me.appetizer4d = New System.Windows.Forms.Label()
+        Me.cirosLogo = New System.Windows.Forms.PictureBox()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -67,17 +65,6 @@ Partial Class Appetizers
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(1012, 2)
         Me.Label1.TabIndex = 46
-        '
-        'cirosLogo
-        '
-        Me.cirosLogo.BackColor = System.Drawing.Color.Firebrick
-        Me.cirosLogo.BackgroundImage = Global.CS540_Group_Project.My.Resources.Resources.CIROS2
-        Me.cirosLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.cirosLogo.Location = New System.Drawing.Point(9, 59)
-        Me.cirosLogo.Name = "cirosLogo"
-        Me.cirosLogo.Size = New System.Drawing.Size(315, 146)
-        Me.cirosLogo.TabIndex = 45
-        Me.cirosLogo.TabStop = False
         '
         'Label12
         '
@@ -228,22 +215,6 @@ Partial Class Appetizers
         Me.appetizer0.Text = "APPETIZERS"
         Me.appetizer0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label3
-        '
-        Me.Label3.BackColor = System.Drawing.Color.DarkRed
-        Me.Label3.Location = New System.Drawing.Point(340, 42)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(3, 180)
-        Me.Label3.TabIndex = 49
-        '
-        'Label4
-        '
-        Me.Label4.BackColor = System.Drawing.Color.DarkRed
-        Me.Label4.Location = New System.Drawing.Point(-3, 219)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(346, 3)
-        Me.Label4.TabIndex = 50
-        '
         'appetizer1
         '
         Me.appetizer1.BackColor = System.Drawing.Color.Firebrick
@@ -341,12 +312,24 @@ Partial Class Appetizers
         Me.appetizer4d.Text = "crinkle cut seasoned fries, served with ketchup"
         Me.appetizer4d.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'cirosLogo
+        '
+        Me.cirosLogo.BackColor = System.Drawing.Color.Firebrick
+        Me.cirosLogo.BackgroundImage = Global.CS540_Group_Project.My.Resources.Resources.CIROS2
+        Me.cirosLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.cirosLogo.Location = New System.Drawing.Point(911, 679)
+        Me.cirosLogo.Name = "cirosLogo"
+        Me.cirosLogo.Size = New System.Drawing.Size(94, 48)
+        Me.cirosLogo.TabIndex = 59
+        Me.cirosLogo.TabStop = False
+        '
         'Appetizers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.appetizer4d)
         Me.Controls.Add(Me.appetizer3d)
         Me.Controls.Add(Me.appetizer2d)
@@ -355,12 +338,9 @@ Partial Class Appetizers
         Me.Controls.Add(Me.appetizer3)
         Me.Controls.Add(Me.appetizer2)
         Me.Controls.Add(Me.appetizer1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.appetizer0)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.saLabel)
         Me.Controls.Add(Me.chineseLabel)
@@ -383,7 +363,6 @@ Partial Class Appetizers
 
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents cirosLogo As PictureBox
     Friend WithEvents Label12 As Label
     Friend WithEvents saLabel As Label
     Friend WithEvents chineseLabel As Label
@@ -398,8 +377,6 @@ Partial Class Appetizers
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents background As Label
     Friend WithEvents appetizer0 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents appetizer1 As Label
     Friend WithEvents appetizer2 As Label
     Friend WithEvents appetizer3 As Label
@@ -408,4 +385,5 @@ Partial Class Appetizers
     Friend WithEvents appetizer2d As Label
     Friend WithEvents appetizer3d As Label
     Friend WithEvents appetizer4d As Label
+    Friend WithEvents cirosLogo As PictureBox
 End Class
