@@ -271,11 +271,13 @@ Partial Class Pizza
         '
         Me.specialyPizzas.BackColor = System.Drawing.Color.Firebrick
         Me.specialyPizzas.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.specialyPizzas.Location = New System.Drawing.Point(233, 61)
+        Me.specialyPizzas.ForeColor = System.Drawing.Color.Black
+        Me.specialyPizzas.Location = New System.Drawing.Point(230, 54)
         Me.specialyPizzas.Name = "specialyPizzas"
         Me.specialyPizzas.Size = New System.Drawing.Size(568, 73)
         Me.specialyPizzas.TabIndex = 48
         Me.specialyPizzas.Text = "Specialty Pizzas"
+        Me.specialyPizzas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'redPies0
         '
@@ -710,7 +712,7 @@ Partial Class Pizza
         Me.protein0.BackColor = System.Drawing.Color.Firebrick
         Me.protein0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein0.ForeColor = System.Drawing.Color.White
-        Me.protein0.Location = New System.Drawing.Point(683, 553)
+        Me.protein0.Location = New System.Drawing.Point(707, 570)
         Me.protein0.Name = "protein0"
         Me.protein0.Size = New System.Drawing.Size(140, 38)
         Me.protein0.TabIndex = 84
@@ -938,7 +940,7 @@ Partial Class Pizza
         Me.Label24.BackColor = System.Drawing.Color.Firebrick
         Me.Label24.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.White
-        Me.Label24.Location = New System.Drawing.Point(698, 590)
+        Me.Label24.Location = New System.Drawing.Point(699, 608)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(140, 23)
         Me.Label24.TabIndex = 103
@@ -950,7 +952,7 @@ Partial Class Pizza
         Me.Label25.BackColor = System.Drawing.Color.Firebrick
         Me.Label25.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.White
-        Me.Label25.Location = New System.Drawing.Point(709, 613)
+        Me.Label25.Location = New System.Drawing.Point(708, 637)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(140, 23)
         Me.Label25.TabIndex = 104
@@ -962,7 +964,7 @@ Partial Class Pizza
         Me.Label26.BackColor = System.Drawing.Color.Firebrick
         Me.Label26.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.White
-        Me.Label26.Location = New System.Drawing.Point(709, 636)
+        Me.Label26.Location = New System.Drawing.Point(709, 660)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(140, 23)
         Me.Label26.TabIndex = 105
@@ -974,7 +976,7 @@ Partial Class Pizza
         Me.Label27.BackColor = System.Drawing.Color.Firebrick
         Me.Label27.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.White
-        Me.Label27.Location = New System.Drawing.Point(698, 659)
+        Me.Label27.Location = New System.Drawing.Point(708, 683)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(140, 23)
         Me.Label27.TabIndex = 106
@@ -986,7 +988,7 @@ Partial Class Pizza
         Me.Label28.BackColor = System.Drawing.Color.Firebrick
         Me.Label28.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.Color.White
-        Me.Label28.Location = New System.Drawing.Point(816, 595)
+        Me.Label28.Location = New System.Drawing.Point(855, 612)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(140, 23)
         Me.Label28.TabIndex = 107
@@ -998,7 +1000,7 @@ Partial Class Pizza
         Me.Label29.BackColor = System.Drawing.Color.Firebrick
         Me.Label29.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.White
-        Me.Label29.Location = New System.Drawing.Point(830, 635)
+        Me.Label29.Location = New System.Drawing.Point(875, 637)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(140, 23)
         Me.Label29.TabIndex = 108
