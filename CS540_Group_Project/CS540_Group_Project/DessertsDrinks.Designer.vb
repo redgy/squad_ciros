@@ -24,7 +24,6 @@ Partial Class DessertsDrinks
     Private Sub InitializeComponent()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.cirosLogo = New System.Windows.Forms.PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.saLabel = New System.Windows.Forms.Label()
         Me.chineseLabel = New System.Windows.Forms.Label()
@@ -38,6 +37,7 @@ Partial Class DessertsDrinks
         Me.saladLabel = New System.Windows.Forms.Label()
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
+        Me.cirosLogo = New System.Windows.Forms.PictureBox()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -56,17 +56,6 @@ Partial Class DessertsDrinks
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(1012, 2)
         Me.Label1.TabIndex = 46
-        '
-        'cirosLogo
-        '
-        Me.cirosLogo.BackColor = System.Drawing.Color.Firebrick
-        Me.cirosLogo.BackgroundImage = Global.CS540_Group_Project.My.Resources.Resources.CIROS2
-        Me.cirosLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.cirosLogo.Location = New System.Drawing.Point(9, 59)
-        Me.cirosLogo.Name = "cirosLogo"
-        Me.cirosLogo.Size = New System.Drawing.Size(315, 146)
-        Me.cirosLogo.TabIndex = 45
-        Me.cirosLogo.TabStop = False
         '
         'Label12
         '
@@ -205,15 +194,26 @@ Partial Class DessertsDrinks
         Me.background.Size = New System.Drawing.Size(1018, 691)
         Me.background.TabIndex = 32
         '
+        'cirosLogo
+        '
+        Me.cirosLogo.BackColor = System.Drawing.Color.Firebrick
+        Me.cirosLogo.BackgroundImage = Global.CS540_Group_Project.My.Resources.Resources.CIROS2
+        Me.cirosLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.cirosLogo.Location = New System.Drawing.Point(911, 679)
+        Me.cirosLogo.Name = "cirosLogo"
+        Me.cirosLogo.Size = New System.Drawing.Size(94, 48)
+        Me.cirosLogo.TabIndex = 60
+        Me.cirosLogo.TabStop = False
+        '
         'DessertsDrinks
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.saLabel)
         Me.Controls.Add(Me.chineseLabel)
@@ -236,7 +236,6 @@ Partial Class DessertsDrinks
 
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents cirosLogo As PictureBox
     Friend WithEvents Label12 As Label
     Friend WithEvents saLabel As Label
     Friend WithEvents chineseLabel As Label
@@ -250,4 +249,5 @@ Partial Class DessertsDrinks
     Friend WithEvents saladLabel As Label
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents background As Label
+    Friend WithEvents cirosLogo As PictureBox
 End Class
