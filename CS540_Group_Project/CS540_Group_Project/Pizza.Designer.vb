@@ -586,7 +586,7 @@ Partial Class Pizza
         'sauce0
         '
         Me.sauce0.BackColor = System.Drawing.Color.Firebrick
-        Me.sauce0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.sauce0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.sauce0.ForeColor = System.Drawing.Color.White
         Me.sauce0.Location = New System.Drawing.Point(700, 217)
         Me.sauce0.Name = "sauce0"
@@ -598,7 +598,7 @@ Partial Class Pizza
         'veggies0
         '
         Me.veggies0.BackColor = System.Drawing.Color.Firebrick
-        Me.veggies0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.veggies0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggies0.ForeColor = System.Drawing.Color.White
         Me.veggies0.Location = New System.Drawing.Point(699, 423)
         Me.veggies0.Name = "veggies0"
@@ -610,7 +610,7 @@ Partial Class Pizza
         'protein0
         '
         Me.protein0.BackColor = System.Drawing.Color.Firebrick
-        Me.protein0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.protein0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein0.ForeColor = System.Drawing.Color.White
         Me.protein0.Location = New System.Drawing.Point(695, 598)
         Me.protein0.Name = "protein0"
@@ -622,7 +622,7 @@ Partial Class Pizza
         'cheese0
         '
         Me.cheese0.BackColor = System.Drawing.Color.Firebrick
-        Me.cheese0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cheese0.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cheese0.ForeColor = System.Drawing.Color.White
         Me.cheese0.Location = New System.Drawing.Point(698, 287)
         Me.cheese0.Name = "cheese0"

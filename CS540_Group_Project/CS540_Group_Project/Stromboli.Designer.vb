@@ -25,12 +25,12 @@ Partial Class Stromboli
         Me.Label2 = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
         Me.cirosLogo = New System.Windows.Forms.PictureBox()
-        Me.specialtyPizzas = New System.Windows.Forms.Label()
-        Me.redPies1 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
+        Me.stromboli0 = New System.Windows.Forms.Label()
+        Me.stromboli1 = New System.Windows.Forms.Label()
+        Me.stromboli3 = New System.Windows.Forms.Label()
+        Me.stromboli2 = New System.Windows.Forms.Label()
+        Me.stromboli4 = New System.Windows.Forms.Label()
+        Me.stromboli5 = New System.Windows.Forms.Label()
         Me.dinnersLabel = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -45,6 +45,11 @@ Partial Class Stromboli
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
+        Me.stromboli1d = New System.Windows.Forms.Label()
+        Me.stromboli2d = New System.Windows.Forms.Label()
+        Me.stromboli3d = New System.Windows.Forms.Label()
+        Me.stromboli4d = New System.Windows.Forms.Label()
+        Me.stromboli5d = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -75,77 +80,77 @@ Partial Class Stromboli
         Me.cirosLogo.TabIndex = 60
         Me.cirosLogo.TabStop = False
         '
-        'specialtyPizzas
+        'stromboli0
         '
-        Me.specialtyPizzas.BackColor = System.Drawing.Color.Firebrick
-        Me.specialtyPizzas.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.specialtyPizzas.ForeColor = System.Drawing.Color.Black
-        Me.specialtyPizzas.Location = New System.Drawing.Point(175, 54)
-        Me.specialtyPizzas.Name = "specialtyPizzas"
-        Me.specialtyPizzas.Size = New System.Drawing.Size(685, 73)
-        Me.specialtyPizzas.TabIndex = 61
-        Me.specialtyPizzas.Text = "STROMBOLI"
-        Me.specialtyPizzas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.stromboli0.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli0.ForeColor = System.Drawing.Color.Black
+        Me.stromboli0.Location = New System.Drawing.Point(175, 54)
+        Me.stromboli0.Name = "stromboli0"
+        Me.stromboli0.Size = New System.Drawing.Size(685, 73)
+        Me.stromboli0.TabIndex = 61
+        Me.stromboli0.Text = "STROMBOLI"
+        Me.stromboli0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'redPies1
+        'stromboli1
         '
-        Me.redPies1.BackColor = System.Drawing.Color.Firebrick
-        Me.redPies1.Font = New System.Drawing.Font("Lucida Sans Unicode", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.redPies1.ForeColor = System.Drawing.Color.White
-        Me.redPies1.Location = New System.Drawing.Point(65, 236)
-        Me.redPies1.Name = "redPies1"
-        Me.redPies1.Size = New System.Drawing.Size(140, 38)
-        Me.redPies1.TabIndex = 62
-        Me.redPies1.Text = "Roni"
-        Me.redPies1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.stromboli1.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli1.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli1.ForeColor = System.Drawing.Color.White
+        Me.stromboli1.Location = New System.Drawing.Point(104, 197)
+        Me.stromboli1.Name = "stromboli1"
+        Me.stromboli1.Size = New System.Drawing.Size(140, 38)
+        Me.stromboli1.TabIndex = 62
+        Me.stromboli1.Text = "Roni"
+        Me.stromboli1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label3
+        'stromboli3
         '
-        Me.Label3.BackColor = System.Drawing.Color.Firebrick
-        Me.Label3.Font = New System.Drawing.Font("Lucida Sans Unicode", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(771, 201)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(140, 38)
-        Me.Label3.TabIndex = 63
-        Me.Label3.Text = "Veggie"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.stromboli3.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli3.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli3.ForeColor = System.Drawing.Color.White
+        Me.stromboli3.Location = New System.Drawing.Point(691, 197)
+        Me.stromboli3.Name = "stromboli3"
+        Me.stromboli3.Size = New System.Drawing.Size(225, 38)
+        Me.stromboli3.TabIndex = 63
+        Me.stromboli3.Text = "Buffalo Chicken"
+        Me.stromboli3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label4
+        'stromboli2
         '
-        Me.Label4.BackColor = System.Drawing.Color.Firebrick
-        Me.Label4.Font = New System.Drawing.Font("Lucida Sans Unicode", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(65, 425)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(140, 38)
-        Me.Label4.TabIndex = 64
-        Me.Label4.Text = "Buffalo Chicken"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.stromboli2.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli2.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli2.ForeColor = System.Drawing.Color.White
+        Me.stromboli2.Location = New System.Drawing.Point(104, 414)
+        Me.stromboli2.Name = "stromboli2"
+        Me.stromboli2.Size = New System.Drawing.Size(140, 38)
+        Me.stromboli2.TabIndex = 64
+        Me.stromboli2.Text = "Veggie"
+        Me.stromboli2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label5
+        'stromboli4
         '
-        Me.Label5.BackColor = System.Drawing.Color.Firebrick
-        Me.Label5.Font = New System.Drawing.Font("Lucida Sans Unicode", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(755, 425)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(140, 38)
-        Me.Label5.TabIndex = 65
-        Me.Label5.Text = "HOUSE BOLI"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.stromboli4.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli4.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli4.ForeColor = System.Drawing.Color.White
+        Me.stromboli4.Location = New System.Drawing.Point(391, 247)
+        Me.stromboli4.Name = "stromboli4"
+        Me.stromboli4.Size = New System.Drawing.Size(241, 38)
+        Me.stromboli4.TabIndex = 65
+        Me.stromboli4.Text = "HOUSE BOLI"
+        Me.stromboli4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label6
+        'stromboli5
         '
-        Me.Label6.BackColor = System.Drawing.Color.Firebrick
-        Me.Label6.Font = New System.Drawing.Font("Lucida Sans Unicode", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(348, 201)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(329, 38)
-        Me.Label6.TabIndex = 66
-        Me.Label6.Text = "Build Your Own Boli"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.stromboli5.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli5.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli5.ForeColor = System.Drawing.Color.White
+        Me.stromboli5.Location = New System.Drawing.Point(629, 414)
+        Me.stromboli5.Name = "stromboli5"
+        Me.stromboli5.Size = New System.Drawing.Size(329, 38)
+        Me.stromboli5.TabIndex = 66
+        Me.stromboli5.Text = "Build Your Own Boli"
+        Me.stromboli5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'dinnersLabel
         '
@@ -295,12 +300,77 @@ Partial Class Stromboli
         Me.Label20.Text = "Appetizers"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'stromboli1d
+        '
+        Me.stromboli1d.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli1d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli1d.ForeColor = System.Drawing.Color.White
+        Me.stromboli1d.Location = New System.Drawing.Point(64, 247)
+        Me.stromboli1d.Name = "stromboli1d"
+        Me.stromboli1d.Size = New System.Drawing.Size(224, 38)
+        Me.stromboli1d.TabIndex = 81
+        Me.stromboli1d.Text = "mozzarella, pepperoni"
+        Me.stromboli1d.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'stromboli2d
+        '
+        Me.stromboli2d.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli2d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli2d.ForeColor = System.Drawing.Color.White
+        Me.stromboli2d.Location = New System.Drawing.Point(35, 462)
+        Me.stromboli2d.Name = "stromboli2d"
+        Me.stromboli2d.Size = New System.Drawing.Size(298, 103)
+        Me.stromboli2d.TabIndex = 82
+        Me.stromboli2d.Text = "spinach, tomato, mushroom, garlic, mozzarella"
+        Me.stromboli2d.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'stromboli3d
+        '
+        Me.stromboli3d.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli3d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli3d.ForeColor = System.Drawing.Color.White
+        Me.stromboli3d.Location = New System.Drawing.Point(668, 247)
+        Me.stromboli3d.Name = "stromboli3d"
+        Me.stromboli3d.Size = New System.Drawing.Size(271, 103)
+        Me.stromboli3d.TabIndex = 83
+        Me.stromboli3d.Text = "roasted chicken, mozzarella, bleu cheese, buffalo sauce"
+        Me.stromboli3d.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'stromboli4d
+        '
+        Me.stromboli4d.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli4d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli4d.ForeColor = System.Drawing.Color.White
+        Me.stromboli4d.Location = New System.Drawing.Point(364, 296)
+        Me.stromboli4d.Name = "stromboli4d"
+        Me.stromboli4d.Size = New System.Drawing.Size(307, 84)
+        Me.stromboli4d.TabIndex = 84
+        Me.stromboli4d.Text = "sausage, pepperoni, bacon, pepper, onions, mozarella"
+        Me.stromboli4d.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'stromboli5d
+        '
+        Me.stromboli5d.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboli5d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboli5d.ForeColor = System.Drawing.Color.White
+        Me.stromboli5d.Location = New System.Drawing.Point(681, 462)
+        Me.stromboli5d.Name = "stromboli5d"
+        Me.stromboli5d.Size = New System.Drawing.Size(224, 103)
+        Me.stromboli5d.TabIndex = 85
+        Me.stromboli5d.Text = "choose up to 4 toppings"
+        Me.stromboli5d.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
         'Stromboli
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.stromboli5d)
+        Me.Controls.Add(Me.stromboli4d)
+        Me.Controls.Add(Me.stromboli3d)
+        Me.Controls.Add(Me.stromboli2d)
+        Me.Controls.Add(Me.stromboli1d)
         Me.Controls.Add(Me.dinnersLabel)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label8)
@@ -315,12 +385,12 @@ Partial Class Stromboli
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label20)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.redPies1)
-        Me.Controls.Add(Me.specialtyPizzas)
+        Me.Controls.Add(Me.stromboli5)
+        Me.Controls.Add(Me.stromboli4)
+        Me.Controls.Add(Me.stromboli2)
+        Me.Controls.Add(Me.stromboli3)
+        Me.Controls.Add(Me.stromboli1)
+        Me.Controls.Add(Me.stromboli0)
         Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.background)
@@ -334,12 +404,12 @@ Partial Class Stromboli
     Friend WithEvents Label2 As Label
     Friend WithEvents background As Label
     Friend WithEvents cirosLogo As PictureBox
-    Friend WithEvents specialtyPizzas As Label
-    Friend WithEvents redPies1 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
+    Friend WithEvents stromboli0 As Label
+    Friend WithEvents stromboli1 As Label
+    Friend WithEvents stromboli3 As Label
+    Friend WithEvents stromboli2 As Label
+    Friend WithEvents stromboli4 As Label
+    Friend WithEvents stromboli5 As Label
     Friend WithEvents dinnersLabel As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
@@ -354,4 +424,9 @@ Partial Class Stromboli
     Friend WithEvents Label18 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
+    Friend WithEvents stromboli1d As Label
+    Friend WithEvents stromboli2d As Label
+    Friend WithEvents stromboli3d As Label
+    Friend WithEvents stromboli4d As Label
+    Friend WithEvents stromboli5d As Label
 End Class
