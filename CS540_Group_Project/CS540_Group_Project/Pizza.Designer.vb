@@ -59,8 +59,8 @@ Partial Class Pizza
         Me.createPizza = New System.Windows.Forms.Label()
         Me.specialtyPizzaprice1 = New System.Windows.Forms.Label()
         Me.specialtyPizzaprice2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.createPizzaprice1 = New System.Windows.Forms.Label()
+        Me.createPizzaprice2 = New System.Windows.Forms.Label()
         Me.sauce0 = New System.Windows.Forms.Label()
         Me.veggies0 = New System.Windows.Forms.Label()
         Me.protein0 = New System.Windows.Forms.Label()
@@ -528,7 +528,7 @@ Partial Class Pizza
         Me.createPizza.BackColor = System.Drawing.Color.Firebrick
         Me.createPizza.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.createPizza.ForeColor = System.Drawing.Color.White
-        Me.createPizza.Location = New System.Drawing.Point(719, 149)
+        Me.createPizza.Location = New System.Drawing.Point(701, 149)
         Me.createPizza.Name = "createPizza"
         Me.createPizza.Size = New System.Drawing.Size(237, 38)
         Me.createPizza.TabIndex = 77
@@ -544,7 +544,7 @@ Partial Class Pizza
         Me.specialtyPizzaprice1.Name = "specialtyPizzaprice1"
         Me.specialtyPizzaprice1.Size = New System.Drawing.Size(140, 28)
         Me.specialtyPizzaprice1.TabIndex = 78
-        Me.specialtyPizzaprice1.Text = "10 inch 11.99"
+        Me.specialtyPizzaprice1.Text = "10 inch $11.99"
         Me.specialtyPizzaprice1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'specialtyPizzaprice2
@@ -552,36 +552,36 @@ Partial Class Pizza
         Me.specialtyPizzaprice2.BackColor = System.Drawing.Color.Firebrick
         Me.specialtyPizzaprice2.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.specialtyPizzaprice2.ForeColor = System.Drawing.Color.White
-        Me.specialtyPizzaprice2.Location = New System.Drawing.Point(47, 100)
+        Me.specialtyPizzaprice2.Location = New System.Drawing.Point(47, 105)
         Me.specialtyPizzaprice2.Name = "specialtyPizzaprice2"
         Me.specialtyPizzaprice2.Size = New System.Drawing.Size(140, 22)
         Me.specialtyPizzaprice2.TabIndex = 79
-        Me.specialtyPizzaprice2.Text = "18 inch 23.99"
+        Me.specialtyPizzaprice2.Text = "18 inch $23.99"
         Me.specialtyPizzaprice2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label3
+        'createPizzaprice1
         '
-        Me.Label3.BackColor = System.Drawing.Color.Firebrick
-        Me.Label3.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(629, 184)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(185, 23)
-        Me.Label3.TabIndex = 80
-        Me.Label3.Text = "10 inch CHEESE PIZZA 9.99"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.createPizzaprice1.BackColor = System.Drawing.Color.Firebrick
+        Me.createPizzaprice1.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.createPizzaprice1.ForeColor = System.Drawing.Color.White
+        Me.createPizzaprice1.Location = New System.Drawing.Point(619, 184)
+        Me.createPizzaprice1.Name = "createPizzaprice1"
+        Me.createPizzaprice1.Size = New System.Drawing.Size(195, 23)
+        Me.createPizzaprice1.TabIndex = 80
+        Me.createPizzaprice1.Text = "10 inch CHEESE PIZZA $9.99"
+        Me.createPizzaprice1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label4
+        'createPizzaprice2
         '
-        Me.Label4.BackColor = System.Drawing.Color.Firebrick
-        Me.Label4.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(820, 184)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(185, 23)
-        Me.Label4.TabIndex = 81
-        Me.Label4.Text = "18 inch cheese pizza 18.99"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.createPizzaprice2.BackColor = System.Drawing.Color.Firebrick
+        Me.createPizzaprice2.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.createPizzaprice2.ForeColor = System.Drawing.Color.White
+        Me.createPizzaprice2.Location = New System.Drawing.Point(820, 184)
+        Me.createPizzaprice2.Name = "createPizzaprice2"
+        Me.createPizzaprice2.Size = New System.Drawing.Size(189, 23)
+        Me.createPizzaprice2.TabIndex = 81
+        Me.createPizzaprice2.Text = "18 inch cheese pizza $18.99"
+        Me.createPizzaprice2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'sauce0
         '
@@ -1387,8 +1387,8 @@ Partial Class Pizza
         Me.Controls.Add(Me.protein0)
         Me.Controls.Add(Me.veggies0)
         Me.Controls.Add(Me.sauce0)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.createPizzaprice2)
+        Me.Controls.Add(Me.createPizzaprice1)
         Me.Controls.Add(Me.specialtyPizzaprice2)
         Me.Controls.Add(Me.specialtyPizzaprice1)
         Me.Controls.Add(Me.createPizza)
@@ -1468,8 +1468,8 @@ Partial Class Pizza
     Friend WithEvents createPizza As Label
     Friend WithEvents specialtyPizzaprice1 As Label
     Friend WithEvents specialtyPizzaprice2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
+    Friend WithEvents createPizzaprice1 As Label
+    Friend WithEvents createPizzaprice2 As Label
     Friend WithEvents sauce0 As Label
     Friend WithEvents veggies0 As Label
     Friend WithEvents protein0 As Label
