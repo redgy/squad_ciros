@@ -639,4 +639,22 @@
   <data name="appetizersLabel" xml:space="preserve">
     <value>Appetizers</value>
   </data>
+  <data name="dessertsDrinksLabel" xml:space="preserve">
+    <value>Desserts/Drinks</value>
+  </data>
+  <data name="dinnersLabel" xml:space="preserve">
+    <value>Dinners</value>
+  </data>
+  <data name="pizzaLabel" xml:space="preserve">
+    <value>Pizza</value>
+  </data>
+  <data name="saladsLabel" xml:space="preserve">
+    <value>Salads</value>
+  </data>
+  <data name="signatureSubsLabel" xml:space="preserve">
+    <value>Signature Subs</value>
+  </data>
+  <data name="stromboliLabel" xml:space="preserve">
+    <value>Stromboli</value>
+  </data>
 </root>
