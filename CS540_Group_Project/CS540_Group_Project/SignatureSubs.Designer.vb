@@ -38,6 +38,7 @@ Partial Class SignatureSubs
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
         Me.cirosLogo = New System.Windows.Forms.PictureBox()
+        Me.appetizer0 = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -205,12 +206,25 @@ Partial Class SignatureSubs
         Me.cirosLogo.TabIndex = 60
         Me.cirosLogo.TabStop = False
         '
+        'appetizer0
+        '
+        Me.appetizer0.BackColor = System.Drawing.Color.Firebrick
+        Me.appetizer0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizer0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.appetizer0.Location = New System.Drawing.Point(175, 54)
+        Me.appetizer0.Name = "appetizer0"
+        Me.appetizer0.Size = New System.Drawing.Size(685, 73)
+        Me.appetizer0.TabIndex = 62
+        Me.appetizer0.Text = "SALADS"
+        Me.appetizer0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'SignatureSubs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.appetizer0)
         Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -250,4 +264,5 @@ Partial Class SignatureSubs
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents background As Label
     Friend WithEvents cirosLogo As PictureBox
+    Friend WithEvents appetizer0 As Label
 End Class
