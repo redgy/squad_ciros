@@ -50,6 +50,7 @@ Partial Class Stromboli
         Me.stromboli3d = New System.Windows.Forms.Label()
         Me.stromboli4d = New System.Windows.Forms.Label()
         Me.stromboli5d = New System.Windows.Forms.Label()
+        Me.stromboliprice = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -97,7 +98,7 @@ Partial Class Stromboli
         Me.stromboli1.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli1.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli1.ForeColor = System.Drawing.Color.White
-        Me.stromboli1.Location = New System.Drawing.Point(104, 197)
+        Me.stromboli1.Location = New System.Drawing.Point(137, 197)
         Me.stromboli1.Name = "stromboli1"
         Me.stromboli1.Size = New System.Drawing.Size(140, 38)
         Me.stromboli1.TabIndex = 62
@@ -109,7 +110,7 @@ Partial Class Stromboli
         Me.stromboli3.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli3.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli3.ForeColor = System.Drawing.Color.White
-        Me.stromboli3.Location = New System.Drawing.Point(691, 197)
+        Me.stromboli3.Location = New System.Drawing.Point(714, 197)
         Me.stromboli3.Name = "stromboli3"
         Me.stromboli3.Size = New System.Drawing.Size(225, 38)
         Me.stromboli3.TabIndex = 63
@@ -121,7 +122,7 @@ Partial Class Stromboli
         Me.stromboli2.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli2.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli2.ForeColor = System.Drawing.Color.White
-        Me.stromboli2.Location = New System.Drawing.Point(104, 414)
+        Me.stromboli2.Location = New System.Drawing.Point(137, 414)
         Me.stromboli2.Name = "stromboli2"
         Me.stromboli2.Size = New System.Drawing.Size(140, 38)
         Me.stromboli2.TabIndex = 64
@@ -133,7 +134,7 @@ Partial Class Stromboli
         Me.stromboli4.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli4.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli4.ForeColor = System.Drawing.Color.White
-        Me.stromboli4.Location = New System.Drawing.Point(391, 247)
+        Me.stromboli4.Location = New System.Drawing.Point(403, 247)
         Me.stromboli4.Name = "stromboli4"
         Me.stromboli4.Size = New System.Drawing.Size(241, 38)
         Me.stromboli4.TabIndex = 65
@@ -145,9 +146,9 @@ Partial Class Stromboli
         Me.stromboli5.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli5.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli5.ForeColor = System.Drawing.Color.White
-        Me.stromboli5.Location = New System.Drawing.Point(629, 414)
+        Me.stromboli5.Location = New System.Drawing.Point(658, 414)
         Me.stromboli5.Name = "stromboli5"
-        Me.stromboli5.Size = New System.Drawing.Size(329, 38)
+        Me.stromboli5.Size = New System.Drawing.Size(347, 61)
         Me.stromboli5.TabIndex = 66
         Me.stromboli5.Text = "Build Your Own Boli"
         Me.stromboli5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -305,7 +306,7 @@ Partial Class Stromboli
         Me.stromboli1d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli1d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli1d.ForeColor = System.Drawing.Color.White
-        Me.stromboli1d.Location = New System.Drawing.Point(64, 247)
+        Me.stromboli1d.Location = New System.Drawing.Point(82, 247)
         Me.stromboli1d.Name = "stromboli1d"
         Me.stromboli1d.Size = New System.Drawing.Size(224, 38)
         Me.stromboli1d.TabIndex = 81
@@ -317,7 +318,7 @@ Partial Class Stromboli
         Me.stromboli2d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli2d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli2d.ForeColor = System.Drawing.Color.White
-        Me.stromboli2d.Location = New System.Drawing.Point(35, 462)
+        Me.stromboli2d.Location = New System.Drawing.Point(82, 462)
         Me.stromboli2d.Name = "stromboli2d"
         Me.stromboli2d.Size = New System.Drawing.Size(298, 103)
         Me.stromboli2d.TabIndex = 82
@@ -329,7 +330,7 @@ Partial Class Stromboli
         Me.stromboli3d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli3d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli3d.ForeColor = System.Drawing.Color.White
-        Me.stromboli3d.Location = New System.Drawing.Point(668, 247)
+        Me.stromboli3d.Location = New System.Drawing.Point(696, 247)
         Me.stromboli3d.Name = "stromboli3d"
         Me.stromboli3d.Size = New System.Drawing.Size(271, 103)
         Me.stromboli3d.TabIndex = 83
@@ -341,7 +342,7 @@ Partial Class Stromboli
         Me.stromboli4d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli4d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli4d.ForeColor = System.Drawing.Color.White
-        Me.stromboli4d.Location = New System.Drawing.Point(364, 296)
+        Me.stromboli4d.Location = New System.Drawing.Point(373, 296)
         Me.stromboli4d.Name = "stromboli4d"
         Me.stromboli4d.Size = New System.Drawing.Size(307, 84)
         Me.stromboli4d.TabIndex = 84
@@ -353,12 +354,24 @@ Partial Class Stromboli
         Me.stromboli5d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli5d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli5d.ForeColor = System.Drawing.Color.White
-        Me.stromboli5d.Location = New System.Drawing.Point(681, 462)
+        Me.stromboli5d.Location = New System.Drawing.Point(734, 462)
         Me.stromboli5d.Name = "stromboli5d"
         Me.stromboli5d.Size = New System.Drawing.Size(224, 103)
         Me.stromboli5d.TabIndex = 85
         Me.stromboli5d.Text = "choose up to 4 toppings"
         Me.stromboli5d.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'stromboliprice
+        '
+        Me.stromboliprice.BackColor = System.Drawing.Color.Firebrick
+        Me.stromboliprice.Font = New System.Drawing.Font("Lucida Sans Unicode", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboliprice.ForeColor = System.Drawing.Color.White
+        Me.stromboliprice.Location = New System.Drawing.Point(373, 137)
+        Me.stromboliprice.Name = "stromboliprice"
+        Me.stromboliprice.Size = New System.Drawing.Size(307, 25)
+        Me.stromboliprice.TabIndex = 86
+        Me.stromboliprice.Text = "$10.99"
+        Me.stromboliprice.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Stromboli
         '
@@ -366,6 +379,7 @@ Partial Class Stromboli
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.stromboliprice)
         Me.Controls.Add(Me.stromboli5d)
         Me.Controls.Add(Me.stromboli4d)
         Me.Controls.Add(Me.stromboli3d)
@@ -429,4 +443,5 @@ Partial Class Stromboli
     Friend WithEvents stromboli3d As Label
     Friend WithEvents stromboli4d As Label
     Friend WithEvents stromboli5d As Label
+    Friend WithEvents stromboliprice As Label
 End Class
