@@ -84,4 +84,28 @@
     Private Sub whitePies8_Click(sender As Object, e As EventArgs) Handles whitePies8.Click
 
     End Sub
+
+    Private Sub veggie10_Click(sender As Object, e As EventArgs) Handles veggie10.Click
+
+    End Sub
+
+    Private Sub Label27_Click(sender As Object, e As EventArgs) Handles Label27.Click
+
+    End Sub
+
+    Private Sub specialtyPizzaprice2_Click(sender As Object, e As EventArgs) Handles specialtyPizzaprice2.Click
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Private Sub Label17_Click(sender As Object, e As EventArgs) Handles veggie11price.Click
+
+    End Sub
+
+    Private Sub protein1price_Click(sender As Object, e As EventArgs) Handles protein1price.Click
+
+    End Sub
 End Class
