@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="addSalad" xml:space="preserve">
-    <value>ajouter du poulet rôti pour</value>
+    <value>加烤雞肉</value>
   </data>
   <data name="addSaladprice" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="app1price1" xml:space="preserve">
-    <value>(3) for 3.50</value>
+    <value>(3) 個 3.50</value>
   </data>
   <data name="app1price2" xml:space="preserve">
-    <value>(6) for 6.99</value>
+    <value>(6) 個 6.99</value>
   </data>
   <data name="app1price3" xml:space="preserve">
-    <value>(12) for 13.50</value>
+    <value>(12) 個 13.50</value>
   </data>
   <data name="app2price" xml:space="preserve">
     <value>8.99</value>
@@ -142,401 +142,390 @@
     <value>3.99</value>
   </data>
   <data name="appetizer0" xml:space="preserve">
-    <value>APÉRITIFS</value>
+    <value>開胃菜</value>
   </data>
   <data name="appetizer1" xml:space="preserve">
-    <value>Noeud D'ail</value>
+    <value>大蒜結</value>
   </data>
   <data name="appetizer1d" xml:space="preserve">
-    <value>servi avec sauce marinara</value>
+    <value>配上瑪麗娜醬</value>
   </data>
   <data name="appetizer2" xml:space="preserve">
-    <value>Ailes Désossées</value>
+    <value>無骨的翅膀</value>
   </data>
   <data name="appetizer2d" xml:space="preserve">
-    <value>tendres de poulet frits servis avec votre choix de sauce (doux, moyen, chaud, ail parmesan, barbecue, 
-framboise jalapeno, ail épicé, poivre citron)</value>
+    <value>炸雞招標配上你最喜歡的醬汁 (溫和, 中味, 辣, 巴馬干酪大蒜, 燒烤, 覆盆子辣椒, 辣大蒜, 檸檬胡椒)</value>
   </data>
   <data name="appetizer3" xml:space="preserve">
-    <value>Boulettes de Viande</value>
+    <value>肉丸</value>
   </data>
   <data name="appetizer3d" xml:space="preserve">
-    <value>fait maison avec sauce marinara</value>
+    <value>自製配醬汁</value>
   </data>
   <data name="appetizer4" xml:space="preserve">
-    <value>Frites</value>
+    <value>薯條</value>
   </data>
   <data name="appetizer4d" xml:space="preserve">
-    <value>frites coupées frites assaisonnées, 
-servi avec du ketchup</value>
+    <value>皺切薯條, 配番茄醬</value>
   </data>
   <data name="cheese0" xml:space="preserve">
-    <value>FROMAGE</value>
+    <value>起司</value>
   </data>
   <data name="cheese1" xml:space="preserve">
-    <value>ricotta</value>
+    <value>凝乳</value>
   </data>
   <data name="cheese1price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese2" xml:space="preserve">
-    <value>provolone</value>
+    <value>波蘿伏洛乾酪</value>
   </data>
   <data name="cheese2price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese3" xml:space="preserve">
-    <value>fromage bleu</value>
+    <value>布盧奶酪</value>
   </data>
   <data name="cheese3price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese4" xml:space="preserve">
-    <value>fromage mozzarella supplémentaire</value>
+    <value>加奶酪</value>
   </data>
   <data name="cheese4price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese5" xml:space="preserve">
-    <value>fromage de chèvre</value>
+    <value>山羊奶酪</value>
   </data>
   <data name="cheese5price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="createPizza" xml:space="preserve">
-    <value>CRÉEZ VOTRE PROPRE TARTE</value>
+    <value>創建你自己的派</value>
   </data>
   <data name="createPizzaprice1" xml:space="preserve">
-    <value>10 inch cheese pizza 9.99</value>
+    <value>十英寸披薩 9.99</value>
   </data>
   <data name="createPizzaprice2" xml:space="preserve">
-    <value>18 inch cheese pizza 18.99</value>
+    <value>十八英寸披薩18.99</value>
   </data>
   <data name="description" xml:space="preserve">
-    <value>MENU COMPLET SERVI DE | 
-LIVRAISON RAPIDE | 
-PIZZA SERVI TOUT LE JOUR</value>
+    <value>完整的菜單服務從上午十一點到晚上九點 | 交貨快
+ | 披薩每天服務</value>
   </data>
   <data name="desser1price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert0" xml:space="preserve">
-    <value>DESSERTS</value>
+    <value>甜點</value>
   </data>
   <data name="dessert1" xml:space="preserve">
-    <value>Flan au Fromage</value>
+    <value>乳酪蛋糕</value>
   </data>
   <data name="dessert1d" xml:space="preserve">
-    <value>garniture au fromage à la crème, croûte de biscuit graham</value>
+    <value>奶油芝士餡, 餅乾地殼</value>
   </data>
   <data name="dessert2" xml:space="preserve">
-    <value>Tarte au chocolat et à la mousse</value>
+    <value>巧克力慕斯派</value>
   </data>
   <data name="dessert2d" xml:space="preserve">
-    <value>mousse au chocolat, crème fouettée, croûte de biscuits au chocolat</value>
+    <value>巧克力慕斯, 鮮奶油, 巧克力餅乾</value>
   </data>
   <data name="dessert2price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert3" xml:space="preserve">
-    <value>Brownie au fudge</value>
+    <value>福吉布朗尼</value>
   </data>
   <data name="dessert3price" xml:space="preserve">
     <value>1.99</value>
   </data>
   <data name="dinner0" xml:space="preserve">
-    <value>DINERS</value>
+    <value>晚餐</value>
   </data>
   <data name="dinner0d" xml:space="preserve">
-    <value>tous les dîners servis avec 2 nœuds d'ail</value>
+    <value>晚餐加兩個大蒜結</value>
   </data>
   <data name="dinner1" xml:space="preserve">
-    <value>Poulet au Parmesan</value>
+    <value>雞巴馬干酪</value>
   </data>
   <data name="dinner1d" xml:space="preserve">
-    <value>garni de fromage mozzarella, servi avec des penne, dans notre sauce marinara maison, basilic frais, fromage parmesan</value>
+    <value>配上奶酪, 配上通心粉面食, 自製的瑪麗娜醬汁, 新鮮羅勒, 帕爾馬干酪</value>
   </data>
   <data name="dinner1price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="dinner2" xml:space="preserve">
-    <value>Lasagne à la viande</value>
+    <value>肉烤寬麵條</value>
   </data>
   <data name="dinner2d" xml:space="preserve">
-    <value>préparé avec notre boulette de viande maison, ricotta saucisse, parmesan, cuit à la perfection!</value>
+    <value>加我們的自製肉丸, 香腸, 奶酪, 帕爾馬干酪, 烤到完美!</value>
   </data>
   <data name="dinner2price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="dinner3" xml:space="preserve">
-    <value>Penne Pâtes</value>
+    <value>意大利管面
+</value>
   </data>
   <data name="dinner3add" xml:space="preserve">
-    <value>add 2 meatballs for $3</value>
+    <value>加兩個肉丸 $3</value>
   </data>
   <data name="dinner3d" xml:space="preserve">
-    <value>sauce marinara maison, basilic frais, fromage parmesan</value>
+    <value>自製意大利西紅柿醬, 新鮮羅勒, 帕爾馬干酪</value>
   </data>
   <data name="dinner3price" xml:space="preserve">
     <value>8.99</value>
   </data>
   <data name="dinner4" xml:space="preserve">
-    <value>Penne au Four avec Saucisse</value>
+    <value>烤通心粉加香腸</value>
   </data>
   <data name="dinner4d" xml:space="preserve">
-    <value>sauce marinara maison, basilic frais, fromage parmesan garni de mozzarella</value>
+    <value>自製意大利西紅柿醬, 新鮮羅勒, 凝乳, 帕爾馬干酪加上奶酪</value>
   </data>
   <data name="dinner4price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="drink0" xml:space="preserve">
-    <value>BOISSONS</value>
+    <value>飲料</value>
   </data>
   <data name="drink1" xml:space="preserve">
-    <value>Red Bull</value>
+    <value>紅牛</value>
   </data>
   <data name="drink1price" xml:space="preserve">
     <value>3.99</value>
   </data>
   <data name="drink2" xml:space="preserve">
-    <value>Zico L'eau de Noix de Coco</value>
+    <value>椰子水</value>
   </data>
   <data name="drink2price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="drink3" xml:space="preserve">
-    <value>Eau en Bouteille</value>
+    <value>瓶裝水</value>
   </data>
   <data name="drink3price" xml:space="preserve">
     <value>2.29</value>
   </data>
   <data name="drink4" xml:space="preserve">
-    <value>20 oz soda</value>
+    <value>二十盎司氣水</value>
   </data>
   <data name="drink4prince" xml:space="preserve">
     <value>3.25</value>
   </data>
   <data name="drink5" xml:space="preserve">
-    <value>vitamin water</value>
+    <value>維生素水</value>
   </data>
   <data name="drink5price" xml:space="preserve">
     <value>3.29</value>
   </data>
   <data name="protein0" xml:space="preserve">
-    <value>PROTÉINE</value>
+    <value>蛋白</value>
   </data>
   <data name="protein1" xml:space="preserve">
-    <value>pepperoni</value>
+    <value>意大利辣味香腸</value>
   </data>
   <data name="protein1price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein2" xml:space="preserve">
-    <value>saucisse</value>
+    <value>香腸</value>
   </data>
   <data name="protein2price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein3" xml:space="preserve">
-    <value>boulette de viande</value>
+    <value>肉丸</value>
   </data>
   <data name="protein3price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein4" xml:space="preserve">
-    <value>jambon</value>
+    <value>火腿</value>
   </data>
   <data name="protein4price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein5" xml:space="preserve">
-    <value>bacon</value>
+    <value>培根</value>
   </data>
   <data name="protein5price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein6" xml:space="preserve">
-    <value>poulet grillé</value>
+    <value>烤雞</value>
   </data>
   <data name="protein6price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="redPies0" xml:space="preserve">
-    <value>PATES ROUGES</value>
+    <value>番茄餡餅</value>
   </data>
   <data name="redPies1" xml:space="preserve">
-    <value>Les amoureux de la Viande</value>
+    <value>肉愛好者</value>
   </data>
   <data name="redPies1d" xml:space="preserve">
-    <value>mozzarella, pepperoni, 
-saucisse, bacon, jambon, boulette de viande</value>
+    <value>奶酪, 意大利辣味香腸, 香腸, 培根, 火腿, 肉丸</value>
   </data>
   <data name="redPies2" xml:space="preserve">
-    <value>Amoureux des Végétariens</value>
+    <value>素食愛好者</value>
   </data>
   <data name="redPies2d" xml:space="preserve">
-    <value>épinard, poivre vert, tomate, mozzarella, champignon, oignon, olive, ail frais</value>
+    <value>菠菜, 青椒, 番茄, 奶酪, 蘑菇, 洋蔥, 橄欖, 新鮮大蒜</value>
   </data>
   <data name="redPies3" xml:space="preserve">
-    <value>Hawaïen</value>
+    <value>夏威夷</value>
   </data>
   <data name="redPies3d" xml:space="preserve">
-    <value>ananas, jambon, bacon, mozzarella</value>
+    <value>鳳梨, 火腿, 培根, 奶酪</value>
   </data>
   <data name="redPies4" xml:space="preserve">
-    <value>Quatre Fromages</value>
+    <value>四個奶酪</value>
   </data>
   <data name="redPies4d" xml:space="preserve">
-    <value>parmesan, mozzarella, provolone, ricotta</value>
+    <value>帕爾馬干酪, 奶酪, 波蘿伏洛乾酪, 凝乳</value>
   </data>
   <data name="redPies5" xml:space="preserve">
-    <value>La Spéciale de Ciro</value>
+    <value>Ciro's 的特別</value>
   </data>
   <data name="redPies5d" xml:space="preserve">
-    <value>pepperoni, saucisse, champignon, poivre vert, oignon, fromage supplémentaire</value>
+    <value>意大利辣味香腸, 香腸,  蘑菇, 青椒, 洋蔥, 加奶酪</value>
   </data>
   <data name="salad1" xml:space="preserve">
-    <value>Roquette</value>
+    <value>芝麻菜</value>
   </data>
   <data name="salad1d" xml:space="preserve">
-    <value>raisin doré, noix confite, tomate cerise, fromage de chèvre</value>
+    <value>金葡萄乾, 蜜餞核桃, 小番茄, 山羊奶酪</value>
   </data>
   <data name="salad1price" xml:space="preserve">
     <value>5.99/10.00</value>
   </data>
   <data name="salad2" xml:space="preserve">
-    <value>César
-</value>
+    <value>凱撒</value>
   </data>
   <data name="salad2d" xml:space="preserve">
-    <value>cœur de la romaine, croûtons, 
-parmesan rasé, vinaigrette césar classique</value>
+    <value>生菜, 麵包塊, 帕爾馬干酪, 凱撒醬</value>
   </data>
   <data name="salad2price" xml:space="preserve">
     <value>4.99/7.99</value>
   </data>
   <data name="salad3" xml:space="preserve">
-    <value>Verts Mélangés</value>
+    <value>沙拉</value>
   </data>
   <data name="salad3d" xml:space="preserve">
-    <value>verts mélangés, tomate, olive noire, poivre vert, 
-oignon</value>
+    <value>蔬菜, 番茄, 黑橄欖, 青椒, 洋蔥
+</value>
   </data>
   <data name="salad3price" xml:space="preserve">
     <value>4.99/7.99</value>
   </data>
   <data name="salads0" xml:space="preserve">
-    <value>SALADES</value>
+    <value>沙拉</value>
   </data>
   <data name="saladSize" xml:space="preserve">
-    <value>(petit/grand)</value>
+    <value>(小/大)</value>
   </data>
   <data name="sauce0" xml:space="preserve">
-    <value>SAUCE</value>
+    <value>醬</value>
   </data>
   <data name="sauce1" xml:space="preserve">
-    <value>rouge</value>
+    <value>番茄醬</value>
   </data>
   <data name="sauce2" xml:space="preserve">
-    <value>pesto</value>
+    <value>香草醬</value>
   </data>
   <data name="sginatureSub1price" xml:space="preserve">
     <value>7.99</value>
   </data>
-  <data name="sginatureSub2price" xml:space="preserve">
-    <value />
-  </data>
-  <data name="sginatureSub3price" xml:space="preserve">
-    <value />
-  </data>
   <data name="signatureSub0" xml:space="preserve">
-    <value>SANDWICHS SIGNATURE</value>
+    <value>三明治
+</value>
   </data>
   <data name="signatureSub1" xml:space="preserve">
-    <value>Steak au Fromage</value>
+    <value>奶酪牛排</value>
   </data>
   <data name="signatureSub1d" xml:space="preserve">
-    <value>notre cheesesteak comprend un steak grillé de qualité supérieure, fromage américain blanc fondu, ajouter des champignons, des oignons ou des piments pour $0.25 chacun pour pimenter!</value>
+    <value>我們的奶酪牛排包括烤牛排, 融化的美國奶酪 加蘑菇, 洋蔥, 或辣椒每個加0.25美分!</value>
   </data>
   <data name="signatureSub2" xml:space="preserve">
-    <value>Poulet au Parmesan</value>
+    <value>雞干酪</value>
   </data>
   <data name="signatureSub2d" xml:space="preserve">
-    <value>poulet pané maison, fromage mozzarella, 
-parmesan râpé, sauce marinara</value>
+    <value>自製雞肉, 奶酪, 帕爾馬干酪, 瑪麗娜醬</value>
   </data>
   <data name="signatureSub3" xml:space="preserve">
-    <value>Boulette de Viande au Parmesan</value>
+    <value>肉丸干酪</value>
   </data>
   <data name="signatureSub3d" xml:space="preserve">
-    <value>notre recette de boulettes de viande maison signature, garni de fromage mozzarella, 
-parmesan râpé, sauce marinara</value>
+    <value>我們的招牌肉丸配方, 配上奶酪, 干酪, 瑪麗娜醬</value>
   </data>
   <data name="specialtyPizzaprice1" xml:space="preserve">
-    <value>10 inch 11.99</value>
+    <value>10 英寸 11.99</value>
   </data>
   <data name="specialtyPizzaprice2" xml:space="preserve">
-    <value>18 inch 23.99</value>
+    <value>18 英寸 23.99</value>
   </data>
   <data name="specialtyPizzas" xml:space="preserve">
-    <value>PIZZAS SPÉCIALISÉES</value>
+    <value>特色披薩</value>
   </data>
   <data name="stromboli0" xml:space="preserve">
-    <value>STROMBOLI</value>
+    <value>斯特龍博利
+</value>
   </data>
   <data name="stromboli1" xml:space="preserve">
-    <value>Roni</value>
+    <value>意大利辣味香腸</value>
   </data>
   <data name="stromboli1d" xml:space="preserve">
-    <value>mozzarella, pepperoni</value>
+    <value>奶酪, 意大利辣味香腸</value>
   </data>
   <data name="stromboli2" xml:space="preserve">
-    <value>Des légumes</value>
+    <value>蔬菜</value>
   </data>
   <data name="stromboli2d" xml:space="preserve">
-    <value>épinard, tomate, champignon, ail, mozzarella</value>
+    <value>菠菜, 番茄, 蘑菇, 大蒜, 奶酪</value>
   </data>
   <data name="stromboli3" xml:space="preserve">
-    <value>Poulet Buffalo</value>
+    <value>水牛雞</value>
   </data>
   <data name="stromboli3d" xml:space="preserve">
-    <value>poulet rôti, mozzarella, fromage bleu, sauce au bison</value>
+    <value>烤雞, 奶酪, 布盧奶酪, 水牛醬</value>
   </data>
   <data name="stromboli4" xml:space="preserve">
-    <value>MAISON BOLI</value>
+    <value>家利辣味香腸</value>
   </data>
   <data name="stromboli4d" xml:space="preserve">
-    <value>saucisse, pepperoni, bacon, poivrons, oignons, mozzarella</value>
+    <value>香腸, 意大利辣味香腸, 培根, 胡椒, 洋蔥, 奶酪</value>
   </data>
   <data name="stromboli5" xml:space="preserve">
-    <value>Construisez votre propre Boli</value>
+    <value>自製利辣味香腸</value>
   </data>
   <data name="stromboli5d" xml:space="preserve">
-    <value>choisissez jusqu'à 4 garnitures</value>
+    <value>加上四個澆頭</value>
   </data>
   <data name="stromboliprice" xml:space="preserve">
     <value>10.99</value>
   </data>
   <data name="surcharge" xml:space="preserve">
-    <value>Nous avons mis en place une surtaxe de 3% pour aider à payer l'augmentation des coûts associés aux nouveaux mandats de l'État et des administrations locales, qui ne cessent de croître. Si vous avez des questions à propos de cette taxe s'il vous plaît demander à parler à un gestionnaire. Merci</value>
+    <value>我們已經實施了三成收費幫助支付增加的成本伴隨著新的和不斷增長的州和地方政府的要求. 如果您對此費用有任何疑問，請詢問經理. 謝謝.</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value />
+    <value>切片披薩 | 完整酒吧</value>
   </data>
   <data name="utensils" xml:space="preserve">
-    <value>PLAQUES, SERVIETTES ET USTENSILES SONT DISPONIBLES SUR DEMANDE</value>
+    <value>盤子, 餐巾, 和用具可根據要求提供</value>
   </data>
   <data name="veggie1" xml:space="preserve">
-    <value>ananas</value>
+    <value>辣椒</value>
   </data>
   <data name="veggie10" xml:space="preserve">
-    <value>épinard</value>
+    <value>菠菜</value>
   </data>
   <data name="veggie10price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie11" xml:space="preserve">
-    <value>basilic</value>
+    <value>羅勒</value>
   </data>
   <data name="veggie11price" xml:space="preserve">
     <value>2</value>
@@ -545,105 +534,108 @@ parmesan râpé, sauce marinara</value>
     <value>2</value>
   </data>
   <data name="veggie2" xml:space="preserve">
-    <value>pineapple</value>
+    <value>鳳梨</value>
   </data>
   <data name="veggie2price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie3" xml:space="preserve">
-    <value>poivre vert</value>
+    <value>青椒</value>
   </data>
   <data name="veggie3price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie4" xml:space="preserve">
-    <value>onions</value>
+    <value>洋蔥</value>
   </data>
   <data name="veggie4price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie5" xml:space="preserve">
-    <value>poivre de banane</value>
+    <value>香蕉胡椒</value>
   </data>
   <data name="veggie5price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie6" xml:space="preserve">
-    <value>olive</value>
+    <value>橄欖</value>
   </data>
   <data name="veggie6price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie7" xml:space="preserve">
-    <value>tomate</value>
+    <value>番茄</value>
   </data>
   <data name="veggie7price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie8" xml:space="preserve">
-    <value>champignon</value>
+    <value>蘑菇</value>
   </data>
   <data name="veggie8price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie9" xml:space="preserve">
-    <value>ail</value>
+    <value>大蒜</value>
   </data>
   <data name="veggie9price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggies0" xml:space="preserve">
-    <value>DES LÉGUMES</value>
+    <value>蔬菜</value>
   </data>
   <data name="whitePies0" xml:space="preserve">
-    <value>PÂTES BLANCHES</value>
+    <value>白汁餡餅</value>
   </data>
   <data name="whitePies1" xml:space="preserve">
-    <value>Poulet BBQ</value>
+    <value>燒烤雞</value>
   </data>
   <data name="whitePies1d" xml:space="preserve">
-    <value>poulet grillé, oignon rouge, sauce barbecue</value>
+    <value>烤雞, 紅洋蔥, 烤肉醬</value>
   </data>
   <data name="whitePies2" xml:space="preserve">
-    <value>Ma tarte</value>
+    <value>我的餡餅</value>
   </data>
   <data name="whitePies2d" xml:space="preserve">
-    <value>pepperoni, sauce pesto, mozzarella, ricotta</value>
+    <value>意大利辣味香腸, 香草醬, 奶酪, 凝乳</value>
   </data>
   <data name="whitePies3" xml:space="preserve">
-    <value>Épinard</value>
+    <value>菠菜</value>
   </data>
   <data name="whitePies3d" xml:space="preserve">
-    <value>ail frais, épinard, parmesan, mozzarella, ricotta</value>
+    <value>新鮮大蒜, 菠菜, 帕爾馬干酪, 奶酪, 凝乳</value>
   </data>
   <data name="whitePies4" xml:space="preserve">
-    <value>Florentin</value>
+    <value>佛羅倫薩</value>
   </data>
   <data name="whitePies4d" xml:space="preserve">
-    <value>épinards frais, tomate, ail, parmesan, ricotta, mozzarella</value>
+    <value>新鮮菠菜, 番茄, 大蒜, 帕爾馬干酪, 凝乳, 奶酪</value>
   </data>
   <data name="whitePies5" xml:space="preserve">
-    <value>Poulet Buffalo</value>
+    <value>水牛雞</value>
   </data>
   <data name="whitePies5d" xml:space="preserve">
-    <value>poulet grillé, mozzarella, fromage bleu, sauce de ranch buffle </value>
+    <value>烤雞, 奶酪, 布盧奶酪, 水牛牧場醬</value>
   </data>
   <data name="whitePies6" xml:space="preserve">
-    <value>Margherita</value>
+    <value>瑪格麗塔</value>
   </data>
   <data name="whitePies6d" xml:space="preserve">
-    <value>tomate, ail frais, basilic, mozzarella</value>
+    <value>番茄, 新鮮大蒜, 羅勒, 奶酪</value>
   </data>
   <data name="whitePies7" xml:space="preserve">
-    <value>Le Champignon</value>
+    <value>蘑菇</value>
   </data>
   <data name="whitePies7d" xml:space="preserve">
-    <value>mushroom, ail frais, mozzarella, fromage ricotta</value>
+    <value>蘑菇, 新鮮大蒜, 奶酪, 凝乳</value>
   </data>
   <data name="whitePies8" xml:space="preserve">
-    <value>CBR</value>
+    <value>雞, 培根, 和牧場醬</value>
   </data>
   <data name="whitePies8d" xml:space="preserve">
-    <value>poulet, bacon, vinaigrette ranch &amp; tomate en dé</value>
+    <value>雞, 培根, 牧場醬和番茄</value>
+  </data>
+  <data name="appetizersLabel" xml:space="preserve">
+    <value>開胃菜</value>
   </data>
 </root>

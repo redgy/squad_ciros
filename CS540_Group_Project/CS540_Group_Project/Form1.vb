@@ -19,27 +19,44 @@ Public Class Form1
         Me.Hide()
     End Sub
 
+
+    ''' Main refresh method '''
+    Private Sub myRefresh()
+        appetizerLabel.Text = resx_curr.GetString("appetizersLabel")
+
+    End Sub
+
+
+    ''' Language button clicks '''
     Private Sub englishLabel_Click(sender As Object, e As EventArgs) Handles englishLabel.Click
         resx_curr = resx_enUS
+        myRefresh()
     End Sub
 
     Private Sub spanishLabel_Click(sender As Object, e As EventArgs) Handles spanishLabel.Click
         resx_curr = resx_esMX
+        myRefresh()
     End Sub
 
     Private Sub frenchLabel_Click(sender As Object, e As EventArgs) Handles frenchLabel.Click
         resx_curr = resx_frFR
+        myRefresh()
     End Sub
 
     Private Sub chineseLabel_Click(sender As Object, e As EventArgs) Handles chineseLabel.Click
         resx_curr = resx_zhCHT
+        myRefresh()
     End Sub
 
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
+        myRefresh()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         resx_curr = resx_enUS
+        myRefresh()
     End Sub
+
+
 End Class

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="addSalad" xml:space="preserve">
-    <value>add roasted chicken for</value>
+    <value>ajouter du poulet rôti pour</value>
   </data>
   <data name="addSaladprice" xml:space="preserve">
     <value>3</value>
@@ -142,34 +142,36 @@
     <value>3.99</value>
   </data>
   <data name="appetizer0" xml:space="preserve">
-    <value>APPETIZERS</value>
+    <value>APÉRITIFS</value>
   </data>
   <data name="appetizer1" xml:space="preserve">
-    <value>Garlic Knots</value>
+    <value>Noeud D'ail</value>
   </data>
   <data name="appetizer1d" xml:space="preserve">
-    <value>served with marinara sauce</value>
+    <value>servi avec sauce marinara</value>
   </data>
   <data name="appetizer2" xml:space="preserve">
-    <value>Boneless Wings</value>
+    <value>Ailes Désossées</value>
   </data>
   <data name="appetizer2d" xml:space="preserve">
-    <value>fried chicken tenders served with your choice of sauce (mild, medium, hot, parmesean garlic, bbq, raspberry jalapeño, spicy garlic, lemon pepper)</value>
+    <value>tendres de poulet frits servis avec votre choix de sauce (doux, moyen, chaud, ail parmesan, barbecue, 
+framboise jalapeno, ail épicé, poivre citron)</value>
   </data>
   <data name="appetizer3" xml:space="preserve">
-    <value>Meatballs</value>
+    <value>Boulettes de Viande</value>
   </data>
   <data name="appetizer3d" xml:space="preserve">
-    <value>homemade served with marinara sauce</value>
+    <value>fait maison avec sauce marinara</value>
   </data>
   <data name="appetizer4" xml:space="preserve">
-    <value>French Fries</value>
+    <value>Frites</value>
   </data>
   <data name="appetizer4d" xml:space="preserve">
-    <value>crinkle cut seasoned fries, served with ketchup</value>
+    <value>frites coupées frites assaisonnées, 
+servi avec du ketchup</value>
   </data>
   <data name="cheese0" xml:space="preserve">
-    <value>CHEESE</value>
+    <value>FROMAGE</value>
   </data>
   <data name="cheese1" xml:space="preserve">
     <value>ricotta</value>
@@ -184,25 +186,25 @@
     <value>2</value>
   </data>
   <data name="cheese3" xml:space="preserve">
-    <value>bleu cheese</value>
+    <value>fromage bleu</value>
   </data>
   <data name="cheese3price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese4" xml:space="preserve">
-    <value>extra mozzarella cheese</value>
+    <value>fromage mozzarella supplémentaire</value>
   </data>
   <data name="cheese4price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese5" xml:space="preserve">
-    <value>goat cheese</value>
+    <value>fromage de chèvre</value>
   </data>
   <data name="cheese5price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="createPizza" xml:space="preserve">
-    <value>CREATE YOUR OWN PIE</value>
+    <value>CRÉEZ VOTRE PROPRE TARTE</value>
   </data>
   <data name="createPizzaprice1" xml:space="preserve">
     <value>10 inch cheese pizza 9.99</value>
@@ -211,7 +213,9 @@
     <value>18 inch cheese pizza 18.99</value>
   </data>
   <data name="description" xml:space="preserve">
-    <value>FULL MENU SERVED FROM 11AM-9PM | FAST DELIVERY | PIZZA SERVED ALL DAY, EVERYDAY</value>
+    <value>MENU COMPLET SERVI DE | 
+LIVRAISON RAPIDE | 
+PIZZA SERVI TOUT LE JOUR</value>
   </data>
   <data name="desser1price" xml:space="preserve">
     <value>5.99</value>
@@ -220,88 +224,88 @@
     <value>DESSERTS</value>
   </data>
   <data name="dessert1" xml:space="preserve">
-    <value>Cheesecake</value>
+    <value>Flan au Fromage</value>
   </data>
   <data name="dessert1d" xml:space="preserve">
-    <value>cream cheese filling, graham cracker crust</value>
+    <value>garniture au fromage à la crème, croûte de biscuit graham</value>
   </data>
   <data name="dessert2" xml:space="preserve">
-    <value>Chocolate Mousse Pie</value>
+    <value>Tarte au chocolat et à la mousse</value>
   </data>
   <data name="dessert2d" xml:space="preserve">
-    <value>chocolate mousse, whipped cream, chocolate cookie crust</value>
+    <value>mousse au chocolat, crème fouettée, croûte de biscuits au chocolat</value>
   </data>
   <data name="dessert2price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert3" xml:space="preserve">
-    <value>Fudge Brownie</value>
+    <value>Brownie au fudge</value>
   </data>
   <data name="dessert3price" xml:space="preserve">
     <value>1.99</value>
   </data>
   <data name="dinner0" xml:space="preserve">
-    <value>DINNERS</value>
+    <value>DINERS</value>
   </data>
   <data name="dinner0d" xml:space="preserve">
-    <value>all dinners are served with 2 garlic knots</value>
+    <value>tous les dîners servis avec 2 nœuds d'ail</value>
   </data>
   <data name="dinner1" xml:space="preserve">
-    <value>Chicken Parmesan</value>
+    <value>Poulet au Parmesan</value>
   </data>
   <data name="dinner1d" xml:space="preserve">
-    <value>topped with mozzarella cheese, served with penne pasta, tossed in our homemade marinara sauce, fresh basil, parmesan cheese</value>
+    <value>garni de fromage mozzarella, servi avec des penne, dans notre sauce marinara maison, basilic frais, fromage parmesan</value>
   </data>
   <data name="dinner1price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="dinner2" xml:space="preserve">
-    <value>Meat Lasagna</value>
+    <value>Lasagne à la viande</value>
   </data>
   <data name="dinner2d" xml:space="preserve">
-    <value>prepared with our homemade meatball, sausage, ricotte, parmesan cheese, baked to perfection!</value>
+    <value>préparé avec notre boulette de viande maison, ricotta saucisse, parmesan, cuit à la perfection!</value>
   </data>
   <data name="dinner2price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="dinner3" xml:space="preserve">
-    <value>Penne Pasta</value>
+    <value>Penne Pâtes</value>
   </data>
   <data name="dinner3add" xml:space="preserve">
     <value>add 2 meatballs for $3</value>
   </data>
   <data name="dinner3d" xml:space="preserve">
-    <value>homemade marinara sauce, fresh basil, parmesan cheese</value>
+    <value>sauce marinara maison, basilic frais, fromage parmesan</value>
   </data>
   <data name="dinner3price" xml:space="preserve">
     <value>8.99</value>
   </data>
   <data name="dinner4" xml:space="preserve">
-    <value>Bakes Penne Pasta with Sausage</value>
+    <value>Penne au Four avec Saucisse</value>
   </data>
   <data name="dinner4d" xml:space="preserve">
-    <value>homemade marinara sauce, fresh basil, ricotta, parmesan cheese topped with mozzarella</value>
+    <value>sauce marinara maison, basilic frais, fromage parmesan garni de mozzarella</value>
   </data>
   <data name="dinner4price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="drink0" xml:space="preserve">
-    <value>DRINKS</value>
+    <value>BOISSONS</value>
   </data>
   <data name="drink1" xml:space="preserve">
-    <value>red bull</value>
+    <value>Red Bull</value>
   </data>
   <data name="drink1price" xml:space="preserve">
     <value>3.99</value>
   </data>
   <data name="drink2" xml:space="preserve">
-    <value>zico coconut water</value>
+    <value>Zico L'eau de Noix de Coco</value>
   </data>
   <data name="drink2price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="drink3" xml:space="preserve">
-    <value>bottled water</value>
+    <value>Eau en Bouteille</value>
   </data>
   <data name="drink3price" xml:space="preserve">
     <value>2.29</value>
@@ -319,7 +323,7 @@
     <value>3.29</value>
   </data>
   <data name="protein0" xml:space="preserve">
-    <value>PROTEIN</value>
+    <value>PROTÉINE</value>
   </data>
   <data name="protein1" xml:space="preserve">
     <value>pepperoni</value>
@@ -328,19 +332,19 @@
     <value>2</value>
   </data>
   <data name="protein2" xml:space="preserve">
-    <value>sausage</value>
+    <value>saucisse</value>
   </data>
   <data name="protein2price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein3" xml:space="preserve">
-    <value>meatball</value>
+    <value>boulette de viande</value>
   </data>
   <data name="protein3price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein4" xml:space="preserve">
-    <value>ham</value>
+    <value>jambon</value>
   </data>
   <data name="protein4price" xml:space="preserve">
     <value>2</value>
@@ -352,82 +356,86 @@
     <value>2</value>
   </data>
   <data name="protein6" xml:space="preserve">
-    <value>roasted chicken</value>
+    <value>poulet grillé</value>
   </data>
   <data name="protein6price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="redPies0" xml:space="preserve">
-    <value>RED PIES</value>
+    <value>PATES ROUGES</value>
   </data>
   <data name="redPies1" xml:space="preserve">
-    <value>Meat Lovers</value>
+    <value>Les amoureux de la Viande</value>
   </data>
   <data name="redPies1d" xml:space="preserve">
-    <value>mozzarella, pepperoni, sausage, bacon, ham, meatball</value>
+    <value>mozzarella, pepperoni, 
+saucisse, bacon, jambon, boulette de viande</value>
   </data>
   <data name="redPies2" xml:space="preserve">
-    <value>Veggie Lovers</value>
+    <value>Amoureux des Végétariens</value>
   </data>
   <data name="redPies2d" xml:space="preserve">
-    <value>spinach, green pepper, tomato, mozzarella, mushroom, onion, olive, fresh garlic</value>
+    <value>épinard, poivre vert, tomate, mozzarella, champignon, oignon, olive, ail frais</value>
   </data>
   <data name="redPies3" xml:space="preserve">
-    <value>Hawaiian</value>
+    <value>Hawaïen</value>
   </data>
   <data name="redPies3d" xml:space="preserve">
-    <value>pineapple, ham, bacon, mozzarella</value>
+    <value>ananas, jambon, bacon, mozzarella</value>
   </data>
   <data name="redPies4" xml:space="preserve">
-    <value>4 Cheese</value>
+    <value>Quatre Fromages</value>
   </data>
   <data name="redPies4d" xml:space="preserve">
     <value>parmesan, mozzarella, provolone, ricotta</value>
   </data>
   <data name="redPies5" xml:space="preserve">
-    <value>Ciro's Special</value>
+    <value>La Spéciale de Ciro</value>
   </data>
   <data name="redPies5d" xml:space="preserve">
-    <value>pepperoni, sausage, mushroom, green pepper, onion, extra cheese</value>
+    <value>pepperoni, saucisse, champignon, poivre vert, oignon, fromage supplémentaire</value>
   </data>
   <data name="salad1" xml:space="preserve">
-    <value>Arugula</value>
+    <value>Roquette</value>
   </data>
   <data name="salad1d" xml:space="preserve">
-    <value>golden raisin, candied walnut, cherry tomato, goat cheese</value>
+    <value>raisin doré, noix confite, tomate cerise, fromage de chèvre</value>
   </data>
   <data name="salad1price" xml:space="preserve">
     <value>5.99/10.00</value>
   </data>
   <data name="salad2" xml:space="preserve">
-    <value>Caesar</value>
+    <value>César
+</value>
   </data>
   <data name="salad2d" xml:space="preserve">
-    <value>hearts of romaine, croutons, shaved parmesean, classic caeser dressing</value>
+    <value>cœur de la romaine, croûtons, 
+parmesan rasé, vinaigrette césar classique</value>
   </data>
   <data name="salad2price" xml:space="preserve">
     <value>4.99/7.99</value>
   </data>
   <data name="salad3" xml:space="preserve">
-    <value>Mixed Greens</value>
+    <value>Verts Mélangés</value>
   </data>
   <data name="salad3d" xml:space="preserve">
-    <value>mixed greens, tomato, black olive, green pepper, onion</value>
+    <value>verts mélangés, tomate, olive noire, poivre vert, 
+oignon</value>
   </data>
   <data name="salad3price" xml:space="preserve">
     <value>4.99/7.99</value>
   </data>
   <data name="salads0" xml:space="preserve">
-    <value>SALADS</value>
+    <value>SALADES</value>
   </data>
   <data name="saladSize" xml:space="preserve">
-    <value>(small/large)</value>
+    <value>(petit/grand)</value>
   </data>
   <data name="sauce0" xml:space="preserve">
     <value>SAUCE</value>
   </data>
   <data name="sauce1" xml:space="preserve">
-    <value>red</value>
+    <value>rouge</value>
   </data>
   <data name="sauce2" xml:space="preserve">
     <value>pesto</value>
@@ -442,25 +450,27 @@
     <value />
   </data>
   <data name="signatureSub0" xml:space="preserve">
-    <value>SIGNATURE SUBS</value>
+    <value>SANDWICHS SIGNATURE</value>
   </data>
   <data name="signatureSub1" xml:space="preserve">
-    <value>Cheesesteak</value>
+    <value>Steak au Fromage</value>
   </data>
   <data name="signatureSub1d" xml:space="preserve">
-    <value>our cheesesteak includes premium grilled steak, melted white american cheese add mushrooms, onions, or hot peppers for $0.25 each to spice it up!</value>
+    <value>notre cheesesteak comprend un steak grillé de qualité supérieure, fromage américain blanc fondu, ajouter des champignons, des oignons ou des piments pour $0.25 chacun pour pimenter!</value>
   </data>
   <data name="signatureSub2" xml:space="preserve">
-    <value>Chicken Parmesan</value>
+    <value>Poulet au Parmesan</value>
   </data>
   <data name="signatureSub2d" xml:space="preserve">
-    <value>homemade breaded chicken, mozzarella cheese, grated parmesean, marinara sauce</value>
+    <value>poulet pané maison, fromage mozzarella, 
+parmesan râpé, sauce marinara</value>
   </data>
   <data name="signatureSub3" xml:space="preserve">
-    <value>Meatball Parmesan</value>
+    <value>Boulette de Viande au Parmesan</value>
   </data>
   <data name="signatureSub3d" xml:space="preserve">
-    <value>our signature homemade meatball recipe, topped with mozzarella cheese, grated parmesean, marinara sauce</value>
+    <value>notre recette de boulettes de viande maison signature, garni de fromage mozzarella, 
+parmesan râpé, sauce marinara</value>
   </data>
   <data name="specialtyPizzaprice1" xml:space="preserve">
     <value>10 inch 11.99</value>
@@ -469,7 +479,7 @@
     <value>18 inch 23.99</value>
   </data>
   <data name="specialtyPizzas" xml:space="preserve">
-    <value>SPECIALTY PIZZAS</value>
+    <value>PIZZAS SPÉCIALISÉES</value>
   </data>
   <data name="stromboli0" xml:space="preserve">
     <value>STROMBOLI</value>
@@ -481,52 +491,52 @@
     <value>mozzarella, pepperoni</value>
   </data>
   <data name="stromboli2" xml:space="preserve">
-    <value>Veggie</value>
+    <value>Des légumes</value>
   </data>
   <data name="stromboli2d" xml:space="preserve">
-    <value>spinach, tomato, mushroom, garlic, mozzarella</value>
+    <value>épinard, tomate, champignon, ail, mozzarella</value>
   </data>
   <data name="stromboli3" xml:space="preserve">
-    <value>Buffalo Chicken</value>
+    <value>Poulet Buffalo</value>
   </data>
   <data name="stromboli3d" xml:space="preserve">
-    <value>roasted chicken, mozzarella, bleu cheese, buffalo sauce</value>
+    <value>poulet rôti, mozzarella, fromage bleu, sauce au bison</value>
   </data>
   <data name="stromboli4" xml:space="preserve">
-    <value>HOUSE BOLI</value>
+    <value>MAISON BOLI</value>
   </data>
   <data name="stromboli4d" xml:space="preserve">
-    <value>sausage, pepperoni, bacon, pepper, onions, mozarella</value>
+    <value>saucisse, pepperoni, bacon, poivrons, oignons, mozzarella</value>
   </data>
   <data name="stromboli5" xml:space="preserve">
-    <value>Build Your Own Boli</value>
+    <value>Construisez votre propre Boli</value>
   </data>
   <data name="stromboli5d" xml:space="preserve">
-    <value>choose up to 4 toppings</value>
+    <value>choisissez jusqu'à 4 garnitures</value>
   </data>
   <data name="stromboliprice" xml:space="preserve">
     <value>10.99</value>
   </data>
   <data name="surcharge" xml:space="preserve">
-    <value>We have implemented a 3% surcharge to help pay for the increase costs associated with new and ever growing state and local government mandates. If you have any questions about this charge please ask to speak to a manager. Thank you.</value>
+    <value>Nous avons mis en place une surtaxe de 3% pour aider à payer l'augmentation des coûts associés aux nouveaux mandats de l'État et des administrations locales, qui ne cessent de croître. Si vous avez des questions à propos de cette taxe s'il vous plaît demander à parler à un gestionnaire. Merci</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>PIZZA BY THE SLICE | FULL BAR</value>
+    <value />
   </data>
   <data name="utensils" xml:space="preserve">
-    <value>PLATES, NAPKINS AND UTENSILS ARE AVAILABLE UPON REQUESTS</value>
+    <value>PLAQUES, SERVIETTES ET USTENSILES SONT DISPONIBLES SUR DEMANDE</value>
   </data>
   <data name="veggie1" xml:space="preserve">
-    <value>jalapeño</value>
+    <value>ananas</value>
   </data>
   <data name="veggie10" xml:space="preserve">
-    <value>spinach</value>
+    <value>épinard</value>
   </data>
   <data name="veggie10price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie11" xml:space="preserve">
-    <value>basil</value>
+    <value>basilic</value>
   </data>
   <data name="veggie11price" xml:space="preserve">
     <value>2</value>
@@ -541,7 +551,7 @@
     <value>2</value>
   </data>
   <data name="veggie3" xml:space="preserve">
-    <value>green pepper</value>
+    <value>poivre vert</value>
   </data>
   <data name="veggie3price" xml:space="preserve">
     <value>2</value>
@@ -553,7 +563,7 @@
     <value>2</value>
   </data>
   <data name="veggie5" xml:space="preserve">
-    <value>banana pepper</value>
+    <value>poivre de banane</value>
   </data>
   <data name="veggie5price" xml:space="preserve">
     <value>2</value>
@@ -565,75 +575,78 @@
     <value>2</value>
   </data>
   <data name="veggie7" xml:space="preserve">
-    <value>tomato</value>
+    <value>tomate</value>
   </data>
   <data name="veggie7price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie8" xml:space="preserve">
-    <value>mushroom</value>
+    <value>champignon</value>
   </data>
   <data name="veggie8price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie9" xml:space="preserve">
-    <value>garlic</value>
+    <value>ail</value>
   </data>
   <data name="veggie9price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggies0" xml:space="preserve">
-    <value>VEGGIES</value>
+    <value>DES LÉGUMES</value>
   </data>
   <data name="whitePies0" xml:space="preserve">
-    <value>WHITE PIES</value>
+    <value>PÂTES BLANCHES</value>
   </data>
   <data name="whitePies1" xml:space="preserve">
-    <value>BBQ Chicken</value>
+    <value>Poulet BBQ</value>
   </data>
   <data name="whitePies1d" xml:space="preserve">
-    <value>roasted chicken, red onion, bbq sauce</value>
+    <value>poulet grillé, oignon rouge, sauce barbecue</value>
   </data>
   <data name="whitePies2" xml:space="preserve">
-    <value>My Pie</value>
+    <value>Ma tarte</value>
   </data>
   <data name="whitePies2d" xml:space="preserve">
-    <value>pepperoni, pesto sauce, mozzarella, ricotta</value>
+    <value>pepperoni, sauce pesto, mozzarella, ricotta</value>
   </data>
   <data name="whitePies3" xml:space="preserve">
-    <value>Spinach</value>
+    <value>Épinard</value>
   </data>
   <data name="whitePies3d" xml:space="preserve">
-    <value>fresh garlic, spinach, parmesan, mozzarella, ricotta</value>
+    <value>ail frais, épinard, parmesan, mozzarella, ricotta</value>
   </data>
   <data name="whitePies4" xml:space="preserve">
-    <value>Florentine</value>
+    <value>Florentin</value>
   </data>
   <data name="whitePies4d" xml:space="preserve">
-    <value>fresh spinach, tomato, garlic, parmesan, ricotta, mozzarella</value>
+    <value>épinards frais, tomate, ail, parmesan, ricotta, mozzarella</value>
   </data>
   <data name="whitePies5" xml:space="preserve">
-    <value>Buffalo Chicken</value>
+    <value>Poulet Buffalo</value>
   </data>
   <data name="whitePies5d" xml:space="preserve">
-    <value>roasted chicken, mozzarella, bleu cheese, buffalo ranch sauce</value>
+    <value>poulet grillé, mozzarella, fromage bleu, sauce de ranch buffle </value>
   </data>
   <data name="whitePies6" xml:space="preserve">
     <value>Margherita</value>
   </data>
   <data name="whitePies6d" xml:space="preserve">
-    <value>tomato, fresh garlic, basil, mozzarella</value>
+    <value>tomate, ail frais, basilic, mozzarella</value>
   </data>
   <data name="whitePies7" xml:space="preserve">
-    <value>The Shroom</value>
+    <value>Le Champignon</value>
   </data>
   <data name="whitePies7d" xml:space="preserve">
-    <value>mushroom, fresh garlic, mozzarella, ricotta cheese</value>
+    <value>mushroom, ail frais, mozzarella, fromage ricotta</value>
   </data>
   <data name="whitePies8" xml:space="preserve">
     <value>CBR</value>
   </data>
   <data name="whitePies8d" xml:space="preserve">
-    <value>chicken, bacon, ranch dressing &amp; diced tomato</value>
+    <value>poulet, bacon, vinaigrette ranch &amp; tomate en dé</value>
+  </data>
+  <data name="appetizersLabel" xml:space="preserve">
+    <value>Apéritifs</value>
   </data>
 </root>

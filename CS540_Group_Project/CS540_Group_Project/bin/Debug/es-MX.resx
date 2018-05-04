@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="addSalad" xml:space="preserve">
-    <value>أضيفي دجاج مشوي</value>
+    <value>agregue pollo asado para</value>
   </data>
   <data name="addSaladprice" xml:space="preserve">
     <value>3</value>
@@ -142,67 +142,67 @@
     <value>3.99</value>
   </data>
   <data name="appetizer0" xml:space="preserve">
-    <value>مقبلات</value>
+    <value>APERITIVOS</value>
   </data>
   <data name="appetizer1" xml:space="preserve">
-    <value>عقد الثوم</value>
+    <value>Nudos de ajo</value>
   </data>
   <data name="appetizer1d" xml:space="preserve">
-    <value>تقدم مع صلصة مارينارا</value>
+    <value>servido con salsa marinara</value>
   </data>
   <data name="appetizer2" xml:space="preserve">
-    <value>أجنحة العظم</value>
+    <value>Alas deshuesadas</value>
   </data>
   <data name="appetizer2d" xml:space="preserve">
-    <value>دجاج مقلي يقدم مع اختيارك من الصوص (معتدل ، متوسط ​​، حار ، بارميزان ، ثوم ، شواء ، توت العليق ، ثوم حار ، فلفل الليمون)</value>
+    <value>ofertas de pollo frito servido con su elección de salsa (suave, medio, caliente, ajo Parmesean, barbacoa, jalapeño frambuesa, ajo picante, pimienta de limón)</value>
   </data>
   <data name="appetizer3" xml:space="preserve">
-    <value>الكفتة</value>
+    <value>Albóndigas</value>
   </data>
   <data name="appetizer3d" xml:space="preserve">
-    <value>محلية الصنع تقدم مع صلصة مارينارا</value>
+    <value>casero servido con salsa marinara</value>
   </data>
   <data name="appetizer4" xml:space="preserve">
-    <value>البطاطس المقلية</value>
+    <value>Papas fritas</value>
   </data>
   <data name="appetizer4d" xml:space="preserve">
-    <value>قطع بطاطا مقلية ، تقدم مع الكاتشب</value>
+    <value>papas fritas condimentadas, servidas con ketchup</value>
   </data>
   <data name="cheese0" xml:space="preserve">
-    <value>جبن</value>
+    <value>QUESO</value>
   </data>
   <data name="cheese1" xml:space="preserve">
-    <value>الريكوتا</value>
+    <value>ricotta</value>
   </data>
   <data name="cheese1price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese2" xml:space="preserve">
-    <value>بروفولوني</value>
+    <value>queso Provolone</value>
   </data>
   <data name="cheese2price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese3" xml:space="preserve">
-    <value>جبنة زرقاء</value>
+    <value>queso azul</value>
   </data>
   <data name="cheese3price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese4" xml:space="preserve">
-    <value>جبنة موزاريلا إضافية</value>
+    <value>queso mozzarella extra</value>
   </data>
   <data name="cheese4price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="cheese5" xml:space="preserve">
-    <value>جبن الماعز</value>
+    <value>queso de cabra</value>
   </data>
   <data name="cheese5price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="createPizza" xml:space="preserve">
-    <value>قم بإنشاء البيتزا الخاصة بك</value>
+    <value>CREE SU PROPIA EMPANADA</value>
   </data>
   <data name="createPizzaprice1" xml:space="preserve">
     <value>10 inch cheese pizza 9.99</value>
@@ -211,227 +211,226 @@
     <value>18 inch cheese pizza 18.99</value>
   </data>
   <data name="description" xml:space="preserve">
-    <value>قائمة كاملة من 11-9 | التسليم السريع | بيتزا خدمت كل يوم ، كل يوم
-</value>
+    <value>MENÚ COMPLETO SERVIDO DE 11 a.m.-9 p.m. ENTREGA RÁPIDA | PIZZA SERVIDA TODO EL DÍA, TODOS LOS DÍAS</value>
   </data>
   <data name="desser1price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert0" xml:space="preserve">
-    <value>الحلوى</value>
+    <value>POSTRES</value>
   </data>
   <data name="dessert1" xml:space="preserve">
-    <value>تشيز كيك</value>
+    <value>Tarta de queso</value>
   </data>
   <data name="dessert1d" xml:space="preserve">
-    <value>ملء الجبن كريم ، قشرة غراهام التكسير</value>
+    <value>relleno de crema de queso, corteza de Graham Cracker</value>
   </data>
   <data name="dessert2" xml:space="preserve">
-    <value>شوكولاطة فطيرة موسى</value>
+    <value>Pastel de mousse de chocolate</value>
   </data>
   <data name="dessert2d" xml:space="preserve">
-    <value>موس الشوكولاتة ، كريمة مخفوقة ، قشرة كيك الشوكولا</value>
+    <value>mousse de chocolate, crema batida, corteza de galleta de chocolate</value>
   </data>
   <data name="dessert2price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert3" xml:space="preserve">
-    <value>حلوى الكعكة</value>
+    <value>Fudge Brownie</value>
   </data>
   <data name="dessert3price" xml:space="preserve">
     <value>1.99</value>
   </data>
   <data name="dinner0" xml:space="preserve">
-    <value>العشاء</value>
+    <value>CENAS</value>
   </data>
   <data name="dinner0d" xml:space="preserve">
-    <value>يتم تقديم جميع العشاء مع 2 عقدة الثوم</value>
+    <value>all dinners are served with 2 garlic knots</value>
   </data>
   <data name="dinner1" xml:space="preserve">
-    <value>بارميزان بالدجاج</value>
+    <value>Pollo parmesano</value>
   </data>
   <data name="dinner1d" xml:space="preserve">
-    <value>تعلوها جبنة موتزاريلا ، تقدم مع مكرونة البينى ، مغطاة بصلصة مارينارا ، ريحان طازج ، جبنة بارميزان</value>
+    <value>topped with mozzarella cheese, served with penne pasta, tossed in our homemade marinara sauce, fresh basil, parmesan cheese</value>
   </data>
   <data name="dinner1price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="dinner2" xml:space="preserve">
-    <value>لحم لازانيا</value>
+    <value>Lasaña de carne</value>
   </data>
   <data name="dinner2d" xml:space="preserve">
-    <value>أعدت مع اللحم المفروم لدينا محلية الصنع ، النقانق ، جبن الريكوتا ، جبن البارميزان ، خبز إلى الكمال!</value>
+    <value>prepared with our homemade meatball, sausage, ricotte, parmesan cheese, baked to perfection!</value>
   </data>
   <data name="dinner2price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="dinner3" xml:space="preserve">
-    <value>بيني باستا</value>
+    <value>Pasta penne</value>
   </data>
   <data name="dinner3add" xml:space="preserve">
     <value>add 2 meatballs for $3</value>
   </data>
   <data name="dinner3d" xml:space="preserve">
-    <value>صلصة مارينارا محلية الصنع ، ريحان طازج ، جبنة بارميزان</value>
+    <value>homemade marinara sauce, fresh basil, parmesan cheese</value>
   </data>
   <data name="dinner3price" xml:space="preserve">
     <value>8.99</value>
   </data>
   <data name="dinner4" xml:space="preserve">
-    <value>خبز بيني باستا مع السجق</value>
+    <value>Hornea Penne Pasta con salchicha</value>
   </data>
   <data name="dinner4d" xml:space="preserve">
-    <value>صلصة مارينارا محلية الصنع ، ريحان طازج ، جبنة ريكوتا ، جبنة بارميزان مغطاة بجبنة الموزاريلا</value>
+    <value>homemade marinara sauce, fresh basil, ricotta, parmesan cheese topped with mozzarella</value>
   </data>
   <data name="dinner4price" xml:space="preserve">
     <value>11.99</value>
   </data>
   <data name="drink0" xml:space="preserve">
-    <value>مشروبات</value>
+    <value>BEBIDAS</value>
   </data>
   <data name="drink1" xml:space="preserve">
-    <value>Red Bull</value>
+    <value>Toro rojo</value>
   </data>
   <data name="drink1price" xml:space="preserve">
     <value>3.99</value>
   </data>
   <data name="drink2" xml:space="preserve">
-    <value>Zico ماء جوز الهند</value>
+    <value>zico agua de coco</value>
   </data>
   <data name="drink2price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="drink3" xml:space="preserve">
-    <value>مياه معبأة</value>
+    <value>agua embotellada</value>
   </data>
   <data name="drink3price" xml:space="preserve">
     <value>2.29</value>
   </data>
   <data name="drink4" xml:space="preserve">
-    <value>20 oz مشروب غازي</value>
+    <value>20 g de soda</value>
   </data>
   <data name="drink4prince" xml:space="preserve">
     <value>3.25</value>
   </data>
   <data name="drink5" xml:space="preserve">
-    <value>Vitamin Water</value>
+    <value>agua vitaminada</value>
   </data>
   <data name="drink5price" xml:space="preserve">
     <value>3.29</value>
   </data>
   <data name="protein0" xml:space="preserve">
-    <value>بروتين</value>
+    <value>PROTEÍNA</value>
   </data>
   <data name="protein1" xml:space="preserve">
-    <value>ببروني</value>
+    <value>pepperoni</value>
   </data>
   <data name="protein1price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein2" xml:space="preserve">
-    <value>سجق</value>
+    <value>salchicha</value>
   </data>
   <data name="protein2price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein3" xml:space="preserve">
-    <value>اللحم المفروم</value>
+    <value>albóndiga</value>
   </data>
   <data name="protein3price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein4" xml:space="preserve">
-    <value>لحم خنزير</value>
+    <value>jamón</value>
   </data>
   <data name="protein4price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein5" xml:space="preserve">
-    <value>لحم خنزير مقدد</value>
+    <value>tocino</value>
   </data>
   <data name="protein5price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="protein6" xml:space="preserve">
-    <value>الدجاج المشوي</value>
+    <value>pollo asado</value>
   </data>
   <data name="protein6price" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="redPies0" xml:space="preserve">
-    <value>أحمر بيتزا</value>
+    <value>PAPAS ROJAS</value>
   </data>
   <data name="redPies1" xml:space="preserve">
-    <value>عشاق اللحوم</value>
+    <value>Amantes de la carne</value>
   </data>
   <data name="redPies1d" xml:space="preserve">
-    <value>موتزاريلا ، بيبيروني ، سجق ، لحم خنزير مقدد ، لحم الخنزير ، كرات اللحم</value>
+    <value>mozzarella, salchichón, salchicha, tocino, jamón, albóndiga</value>
   </data>
   <data name="redPies2" xml:space="preserve">
-    <value>عشاق الخضروات</value>
+    <value>Amantes vegetarianos</value>
   </data>
   <data name="redPies2d" xml:space="preserve">
-    <value>سبانخ ، فلفل أخضر ، طماطم ، موزاريلا ، فطر ، بصل ، زيتون ، ثوم طازج</value>
+    <value>espinaca, pimiento verde, tomate, mozzarella, champiñón, cebolla, aceituna, ajo fresco</value>
   </data>
   <data name="redPies3" xml:space="preserve">
-    <value>هاواي</value>
+    <value>Hawaiano</value>
   </data>
   <data name="redPies3d" xml:space="preserve">
-    <value>الأناناس ، لحم الخنزير ، لحم الخنزير المقدد ، جبن موزاريلا</value>
+    <value>piña, jamón, tocino, mozzarella</value>
   </data>
   <data name="redPies4" xml:space="preserve">
-    <value>4 جبن</value>
+    <value>4 Queso</value>
   </data>
   <data name="redPies4d" xml:space="preserve">
-    <value>جبن بارميزان ، موزاريلا ، بروفولوني</value>
+    <value>parmesano, mozzarella, provolone, ricotta</value>
   </data>
   <data name="redPies5" xml:space="preserve">
-    <value>Ciro's خاص</value>
+    <value>Especial de Ciro</value>
   </data>
   <data name="redPies5d" xml:space="preserve">
-    <value>بيبروني ، سجق ، فطر ، فلفل أخضر ، بصل ، جبنة إضافية</value>
+    <value>salchichón, salchicha, champiñón, pimiento verde, cebolla, queso extra</value>
   </data>
   <data name="salad1" xml:space="preserve">
-    <value>جرجير</value>
+    <value>Rúcula</value>
   </data>
   <data name="salad1d" xml:space="preserve">
-    <value>الزبيب الذهبي ، الجوز المسكر ، الطماطم الكرز ، جبن الماعز</value>
+    <value>pasas doradas, nueces confitadas, tomate cherry, queso de cabra</value>
   </data>
   <data name="salad1price" xml:space="preserve">
     <value>5.99/10.00</value>
   </data>
   <data name="salad2" xml:space="preserve">
-    <value>قيصر</value>
+    <value>César</value>
   </data>
   <data name="salad2d" xml:space="preserve">
-    <value>قلوب من رومين ، خبز محمص ، جبن بارميزان ، صلصة قيصر الكلاسيكية</value>
+    <value>corazones de romaine, crutones, parmesean afeitado, aderezo caeser clásico</value>
   </data>
   <data name="salad2price" xml:space="preserve">
     <value>4.99/7.99</value>
   </data>
   <data name="salad3" xml:space="preserve">
-    <value>الخضر مختلطة</value>
+    <value>Verduras mixtas</value>
   </data>
   <data name="salad3d" xml:space="preserve">
-    <value>خضار مشكلة ، طماطم ، زيتون أسود ، فلفل أخضر ، بصل</value>
+    <value>verduras mixtas, tomate, aceituna negra, pimiento verde, cebolla</value>
   </data>
   <data name="salad3price" xml:space="preserve">
     <value>4.99/7.99</value>
   </data>
   <data name="salads0" xml:space="preserve">
-    <value>سلطة</value>
+    <value>ENSALADAS</value>
   </data>
   <data name="saladSize" xml:space="preserve">
-    <value>(صغير كبير)</value>
+    <value>(pequeño grande)</value>
   </data>
   <data name="sauce0" xml:space="preserve">
-    <value>صلصة</value>
+    <value>SALSA</value>
   </data>
   <data name="sauce1" xml:space="preserve">
-    <value>أحمر</value>
+    <value>rojo</value>
   </data>
   <data name="sauce2" xml:space="preserve">
-    <value>بيستو</value>
+    <value>pesto</value>
   </data>
   <data name="sginatureSub1price" xml:space="preserve">
     <value>7.99</value>
@@ -443,25 +442,25 @@
     <value />
   </data>
   <data name="signatureSub0" xml:space="preserve">
-    <value>رمل خاص</value>
+    <value>SIGNATURE SUBS</value>
   </data>
   <data name="signatureSub1" xml:space="preserve">
-    <value>الجبن</value>
+    <value>Filete de queso</value>
   </data>
   <data name="signatureSub1d" xml:space="preserve">
-    <value>تشمل شرائح الجبن الخاصة بنا شرائح لحم مشوية ممتازة وجبن أمريكي أبيض مذاب أو إضافة عيش الغراب أو البصل أو الفلفل الحار مقابل 0.25 دولار لكل منها لتوابله!</value>
+    <value>¡nuestro cheesesteak incluye bistec a la parrilla de primera calidad, queso americano blanco derretido, champiñones, cebollas o pimientos picantes por $ 0.25 cada uno para condimentarlo!</value>
   </data>
   <data name="signatureSub2" xml:space="preserve">
-    <value>بارميزان بالدجاج</value>
+    <value>Pollo parmesano</value>
   </data>
   <data name="signatureSub2d" xml:space="preserve">
-    <value>دجاج مخبوز منزلياً ، جبنة موزاريلا ، بارميزان مبشور ، صلصة مارينارا</value>
+    <value>pollo empanizado casero, queso mozzarella, parmesean rallado, salsa marinara</value>
   </data>
   <data name="signatureSub3" xml:space="preserve">
-    <value>كرات لحم البارميزان</value>
+    <value>Albóndigas de Parmesano</value>
   </data>
   <data name="signatureSub3d" xml:space="preserve">
-    <value>وصفة اللحم المميزة المصنوعة منزليًا مع جبنة الموتزاريلا والبارميزان المبشور وصلصة مارينارا</value>
+    <value>nuestra receta de albóndigas casera, cubierta con queso mozzarella, parmesean rallado, salsa marinara</value>
   </data>
   <data name="specialtyPizzaprice1" xml:space="preserve">
     <value>10 inch 11.99</value>
@@ -470,65 +469,64 @@
     <value>18 inch 23.99</value>
   </data>
   <data name="specialtyPizzas" xml:space="preserve">
-    <value>تخصص بيتزا</value>
+    <value>PIZZAS ESPECIALIZADAS</value>
   </data>
   <data name="stromboli0" xml:space="preserve">
-    <value>سترومبولي</value>
+    <value>STROMBOLI</value>
   </data>
   <data name="stromboli1" xml:space="preserve">
-    <value>روني</value>
+    <value>Roni</value>
   </data>
   <data name="stromboli1d" xml:space="preserve">
-    <value>جبنة موتزاريلا ، بيبروني</value>
+    <value>mozzarella, pepperoni</value>
   </data>
   <data name="stromboli2" xml:space="preserve">
-    <value>الخضروات</value>
+    <value>Vegetal</value>
   </data>
   <data name="stromboli2d" xml:space="preserve">
-    <value>السبانخ ، الطماطم ، فطر ، الثوم ، جبن موزاريلا</value>
+    <value>spinach, tomato, mushroom, garlic, mozzarella</value>
   </data>
   <data name="stromboli3" xml:space="preserve">
-    <value>الجاموس الدجاج</value>
+    <value>Pollo Buffalo</value>
   </data>
   <data name="stromboli3d" xml:space="preserve">
-    <value>دجاج مشوي ، جبنة موزاريلا ، جبنة زرقاء ، صوص بافالو</value>
+    <value>roasted chicken, mozzarella, bleu cheese, buffalo sauce</value>
   </data>
   <data name="stromboli4" xml:space="preserve">
-    <value>البيت بولي</value>
+    <value>CASA BOLI</value>
   </data>
   <data name="stromboli4d" xml:space="preserve">
-    <value>النقانق ، ببروني ، بيكون ، فلفل ، بصل ، موزاريلا
-</value>
+    <value>sausage, pepperoni, bacon, pepper, onions, mozarella</value>
   </data>
   <data name="stromboli5" xml:space="preserve">
-    <value>بناء بولي الخاص بك</value>
+    <value>Construye tu propio Stromboli</value>
   </data>
   <data name="stromboli5d" xml:space="preserve">
-    <value>اختر حتى 4 طبقات</value>
+    <value>choose up to 4 toppings</value>
   </data>
   <data name="stromboliprice" xml:space="preserve">
     <value>10.99</value>
   </data>
   <data name="surcharge" xml:space="preserve">
-    <value>لقد قمنا بتطبيق ضريبة إضافية بنسبة 3٪ للمساعدة في دفع تكاليف الزيادة المرتبطة بولايات الحكومة المحلية والحكومات المحلية الجديدة والمتزايدة. لديّ أي أسئلة حول هذه الرسوم ، يرجى طلب التحدث إلى أحد المديرين. شكرا لكم</value>
+    <value>Hemos implementado un recargo del 3% para ayudar a pagar los costos de aumento asociados con los mandatos nuevos y crecientes del gobierno estatal y local. Si tiene alguna pregunta sobre este cargo, solicite hablar con un gerente. Gracias.</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>على الصفرة بيتزا |بار كامل</value>
+    <value>PIZZA POR LA REBANADA | BARRA COMPLETA</value>
   </data>
   <data name="utensils" xml:space="preserve">
-    <value>لوحات ، NAPKINS ، و أواني متاحة عند الطلب</value>
+    <value>PLACAS, SERVILLETAS Y UTENSILIOS DISPONIBLES A PETICIÓN</value>
   </data>
   <data name="veggie1" xml:space="preserve">
-    <value>هالبينو</value>
+    <value>jalapeño</value>
   </data>
   <data name="veggie10" xml:space="preserve">
-    <value>سبانخ</value>
+    <value>Espinacas</value>
   </data>
   <data name="veggie10price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie11" xml:space="preserve">
-    <value>ريحان</value>
+    <value>albahaca</value>
   </data>
   <data name="veggie11price" xml:space="preserve">
     <value>2</value>
@@ -537,106 +535,108 @@
     <value>2</value>
   </data>
   <data name="veggie2" xml:space="preserve">
-    <value>أناناس</value>
+    <value>piña</value>
   </data>
   <data name="veggie2price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie3" xml:space="preserve">
-    <value>فلفل أخضر</value>
+    <value>pimiento verde</value>
   </data>
   <data name="veggie3price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie4" xml:space="preserve">
-    <value>بصلة</value>
+    <value>cebollas</value>
   </data>
   <data name="veggie4price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie5" xml:space="preserve">
-    <value>فلفل موز</value>
+    <value>pimienta de plátano</value>
   </data>
   <data name="veggie5price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie6" xml:space="preserve">
-    <value>زيتون</value>
+    <value>aceituna</value>
   </data>
   <data name="veggie6price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie7" xml:space="preserve">
-    <value>طماطم</value>
+    <value>tomate</value>
   </data>
   <data name="veggie7price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie8" xml:space="preserve">
-    <value>فطر</value>
+    <value>seta</value>
   </data>
   <data name="veggie8price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggie9" xml:space="preserve">
-    <value>ثوم</value>
+    <value>ajo</value>
   </data>
   <data name="veggie9price" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="veggies0" xml:space="preserve">
-    <value>الخضار</value>
+    <value>VEGETALES</value>
   </data>
   <data name="whitePies0" xml:space="preserve">
-    <value> بيتزا أبيض</value>
+    <value>PASTELES BLANCOS</value>
   </data>
   <data name="whitePies1" xml:space="preserve">
-    <value>الدجاج شواء</value>
+    <value>Pollo BBQ</value>
   </data>
   <data name="whitePies1d" xml:space="preserve">
-    <value>دجاج مشوي ، بصل أحمر ، صلصة باربيكيو</value>
+    <value>pollo asado, cebolla roja, salsa de barbacoa</value>
   </data>
   <data name="whitePies2" xml:space="preserve">
-    <value>فطيرة بلدي</value>
+    <value>Mi pastel</value>
   </data>
   <data name="whitePies2d" xml:space="preserve">
-    <value>بيبروني ، صلصة بيستو ، موزاريلا ، ريكوتا</value>
+    <value>pepperoni, salsa de pesto, mozzarella, ricotta</value>
   </data>
   <data name="whitePies3" xml:space="preserve">
-    <value>سبانخ</value>
+    <value>Espinacas</value>
   </data>
   <data name="whitePies3d" xml:space="preserve">
-    <value>الثوم الطازج ، السبانخ ، جبن البارميزان ، جبن موزاريلا ، الريكوتا</value>
+    <value>ajo fresco, espinacas, queso parmesano, mozzarella, ricotta</value>
   </data>
   <data name="whitePies4" xml:space="preserve">
-    <value>مزهر</value>
+    <value>Florentino</value>
   </data>
   <data name="whitePies4d" xml:space="preserve">
-    <value>سبانخ طازجة ، طماطم ، ثوم ، بارميزان ، ريكوتا ، موزاريلا</value>
+    <value>espinaca fresca, tomate, ajo, parmesano, ricota, mozzarella</value>
   </data>
   <data name="whitePies5" xml:space="preserve">
-    <value>الجاموس الدجاج</value>
+    <value>Pollo Buffalo</value>
   </data>
   <data name="whitePies5d" xml:space="preserve">
-    <value>دجاج مشوي ، جبنة موتزاريلا ، جبنة بلو ، صلصة رانجلو رانش</value>
+    <value>pollo asado, mozzarella, queso bleu, salsa de rancho de búfalo</value>
   </data>
   <data name="whitePies6" xml:space="preserve">
-    <value>مارغريتا</value>
+    <value>Margherita</value>
   </data>
   <data name="whitePies6d" xml:space="preserve">
-    <value>طماطم ، ثوم طازج ، ريحان ، موزاريلا</value>
+    <value>tomate, ajo fresco, albahaca, mozzarella</value>
   </data>
   <data name="whitePies7" xml:space="preserve">
-    <value>المشروم</value>
+    <value>El Shroom</value>
   </data>
   <data name="whitePies7d" xml:space="preserve">
-    <value>فطر ، ثوم طازج ، جبنة موتزاريلا ، جبنة ريكوتا
-</value>
+    <value>seta, ajo fresco, mozzarella, queso ricotta</value>
   </data>
   <data name="whitePies8" xml:space="preserve">
     <value>CBR</value>
   </data>
   <data name="whitePies8d" xml:space="preserve">
-    <value>الدجاج ، لحم الخنزير المقدد ، صلصة رانش والطماطم مكعبات</value>
+    <value>pollo, tocino, salsa de rancho y tomate cortado en cubitos</value>
+  </data>
+  <data name="appetizersLabel" xml:space="preserve">
+    <value>Aperitivos</value>
   </data>
 </root>
