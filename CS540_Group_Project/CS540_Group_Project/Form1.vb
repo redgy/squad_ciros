@@ -13,6 +13,8 @@ Public Class Form1
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
 
+
+    ''' Load form click methods '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
         Dim f As New Appetizers
         f.Show()
@@ -54,11 +56,19 @@ Public Class Form1
         Me.Hide()
     End Sub
 
+
+
     ''' Main refresh method '''
     Private Sub myRefresh()
         appetizerLabel.Text = resx_curr.GetString("appetizersLabel")
-
+        saladLabel.Text = resx_curr.GetString("saladsLabel")
+        signatureSubLabel.Text = resx_curr.GetString("signatureSubsLabel")
+        pizzaLabel.Text = resx_curr.GetString("pizzaLabel")
+        stromboliLabel.Text = resx_curr.GetString("stromboliLabel")
+        dinnersLabel.Text = resx_curr.GetString("dinnersLabel")
+        dessertDrinkLabel.Text = resx_curr.GetString("dessertsDrinksLabel")
     End Sub
+
 
 
     ''' Language button clicks '''
