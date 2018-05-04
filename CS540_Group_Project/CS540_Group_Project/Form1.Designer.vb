@@ -41,7 +41,7 @@ Partial Class Form1
         Me.background = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.dinnersLabel = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -60,7 +60,7 @@ Partial Class Form1
         Me.Label1.BackColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(-6, 42)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(1012, 2)
+        Me.Label1.Size = New System.Drawing.Size(1015, 2)
         Me.Label1.TabIndex = 30
         '
         'cirosLogo
@@ -231,16 +231,16 @@ Partial Class Form1
         Me.PictureBox2.TabIndex = 33
         Me.PictureBox2.TabStop = False
         '
-        'Label3
+        'dinnersLabel
         '
-        Me.Label3.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label3.Location = New System.Drawing.Point(462, 9)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(72, 23)
-        Me.Label3.TabIndex = 34
-        Me.Label3.Text = "Dinners"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.dinnersLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dinnersLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.dinnersLabel.Location = New System.Drawing.Point(462, 9)
+        Me.dinnersLabel.Name = "dinnersLabel"
+        Me.dinnersLabel.Size = New System.Drawing.Size(72, 23)
+        Me.dinnersLabel.TabIndex = 34
+        Me.dinnersLabel.Text = "Dinners"
+        Me.dinnersLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
@@ -248,7 +248,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.dinnersLabel)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
@@ -294,5 +294,5 @@ Partial Class Form1
     Friend WithEvents background As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Label3 As Label
+    Friend WithEvents dinnersLabel As Label
 End Class

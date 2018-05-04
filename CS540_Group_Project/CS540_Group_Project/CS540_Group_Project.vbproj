@@ -84,6 +84,12 @@
     <Compile Include="DessertsDrinks.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dinners.Designer.vb">
+      <DependentUpon>Dinners.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dinners.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DessertsDrinks.resx">
       <DependentUpon>DessertsDrinks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dinners.resx">
+      <DependentUpon>Dinners.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
