@@ -122,7 +122,7 @@ Partial Class Stromboli
         Me.stromboli2.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli2.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli2.ForeColor = System.Drawing.Color.White
-        Me.stromboli2.Location = New System.Drawing.Point(137, 414)
+        Me.stromboli2.Location = New System.Drawing.Point(137, 479)
         Me.stromboli2.Name = "stromboli2"
         Me.stromboli2.Size = New System.Drawing.Size(140, 38)
         Me.stromboli2.TabIndex = 64
@@ -134,7 +134,7 @@ Partial Class Stromboli
         Me.stromboli4.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli4.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli4.ForeColor = System.Drawing.Color.White
-        Me.stromboli4.Location = New System.Drawing.Point(403, 247)
+        Me.stromboli4.Location = New System.Drawing.Point(409, 312)
         Me.stromboli4.Name = "stromboli4"
         Me.stromboli4.Size = New System.Drawing.Size(241, 38)
         Me.stromboli4.TabIndex = 65
@@ -146,7 +146,7 @@ Partial Class Stromboli
         Me.stromboli5.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli5.Font = New System.Drawing.Font("Lucida Sans Unicode", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli5.ForeColor = System.Drawing.Color.White
-        Me.stromboli5.Location = New System.Drawing.Point(658, 414)
+        Me.stromboli5.Location = New System.Drawing.Point(662, 468)
         Me.stromboli5.Name = "stromboli5"
         Me.stromboli5.Size = New System.Drawing.Size(347, 61)
         Me.stromboli5.TabIndex = 66
@@ -306,7 +306,7 @@ Partial Class Stromboli
         Me.stromboli1d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli1d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli1d.ForeColor = System.Drawing.Color.White
-        Me.stromboli1d.Location = New System.Drawing.Point(82, 247)
+        Me.stromboli1d.Location = New System.Drawing.Point(94, 247)
         Me.stromboli1d.Name = "stromboli1d"
         Me.stromboli1d.Size = New System.Drawing.Size(224, 38)
         Me.stromboli1d.TabIndex = 81
@@ -318,7 +318,7 @@ Partial Class Stromboli
         Me.stromboli2d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli2d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli2d.ForeColor = System.Drawing.Color.White
-        Me.stromboli2d.Location = New System.Drawing.Point(82, 462)
+        Me.stromboli2d.Location = New System.Drawing.Point(76, 529)
         Me.stromboli2d.Name = "stromboli2d"
         Me.stromboli2d.Size = New System.Drawing.Size(298, 103)
         Me.stromboli2d.TabIndex = 82
@@ -342,7 +342,7 @@ Partial Class Stromboli
         Me.stromboli4d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli4d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli4d.ForeColor = System.Drawing.Color.White
-        Me.stromboli4d.Location = New System.Drawing.Point(373, 296)
+        Me.stromboli4d.Location = New System.Drawing.Point(374, 362)
         Me.stromboli4d.Name = "stromboli4d"
         Me.stromboli4d.Size = New System.Drawing.Size(307, 84)
         Me.stromboli4d.TabIndex = 84
@@ -354,7 +354,7 @@ Partial Class Stromboli
         Me.stromboli5d.BackColor = System.Drawing.Color.Firebrick
         Me.stromboli5d.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stromboli5d.ForeColor = System.Drawing.Color.White
-        Me.stromboli5d.Location = New System.Drawing.Point(734, 462)
+        Me.stromboli5d.Location = New System.Drawing.Point(734, 529)
         Me.stromboli5d.Name = "stromboli5d"
         Me.stromboli5d.Size = New System.Drawing.Size(224, 103)
         Me.stromboli5d.TabIndex = 85
