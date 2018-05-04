@@ -25,7 +25,7 @@ Partial Class SignatureSubs
         Me.Label2 = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Label()
         Me.cirosLogo = New System.Windows.Forms.PictureBox()
-        Me.appetizer0 = New System.Windows.Forms.Label()
+        Me.signatureSub0 = New System.Windows.Forms.Label()
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.saladLabel = New System.Windows.Forms.Label()
         Me.signatureSubLabel = New System.Windows.Forms.Label()
@@ -40,6 +40,13 @@ Partial Class SignatureSubs
         Me.saLabel = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.signatureSub3d = New System.Windows.Forms.Label()
+        Me.signatureSub3 = New System.Windows.Forms.Label()
+        Me.signatureSub2d = New System.Windows.Forms.Label()
+        Me.signatureSub2 = New System.Windows.Forms.Label()
+        Me.sginatureSub1price = New System.Windows.Forms.Label()
+        Me.signatureSub1d = New System.Windows.Forms.Label()
+        Me.signatureSub1 = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,17 +77,17 @@ Partial Class SignatureSubs
         Me.cirosLogo.TabIndex = 60
         Me.cirosLogo.TabStop = False
         '
-        'appetizer0
+        'signatureSub0
         '
-        Me.appetizer0.BackColor = System.Drawing.Color.Firebrick
-        Me.appetizer0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.appetizer0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.appetizer0.Location = New System.Drawing.Point(175, 54)
-        Me.appetizer0.Name = "appetizer0"
-        Me.appetizer0.Size = New System.Drawing.Size(685, 73)
-        Me.appetizer0.TabIndex = 62
-        Me.appetizer0.Text = "SIGNATURE SUBS"
-        Me.appetizer0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.signatureSub0.BackColor = System.Drawing.Color.Firebrick
+        Me.signatureSub0.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSub0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.signatureSub0.Location = New System.Drawing.Point(175, 54)
+        Me.signatureSub0.Name = "signatureSub0"
+        Me.signatureSub0.Size = New System.Drawing.Size(685, 73)
+        Me.signatureSub0.TabIndex = 62
+        Me.signatureSub0.Text = "SIGNATURE SUBS"
+        Me.signatureSub0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'appetizerLabel
         '
@@ -230,12 +237,105 @@ Partial Class SignatureSubs
         Me.Label1.Size = New System.Drawing.Size(1015, 2)
         Me.Label1.TabIndex = 89
         '
+        'signatureSub3d
+        '
+        Me.signatureSub3d.BackColor = System.Drawing.Color.Firebrick
+        Me.signatureSub3d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSub3d.ForeColor = System.Drawing.Color.White
+        Me.signatureSub3d.Location = New System.Drawing.Point(334, 577)
+        Me.signatureSub3d.Name = "signatureSub3d"
+        Me.signatureSub3d.Size = New System.Drawing.Size(416, 70)
+        Me.signatureSub3d.TabIndex = 98
+        Me.signatureSub3d.Text = "our signature homemade meatball recipe, topped with mozzarella cheese, grated par" &
+    "mesean, marinara sauce"
+        Me.signatureSub3d.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'signatureSub3
+        '
+        Me.signatureSub3.BackColor = System.Drawing.Color.Firebrick
+        Me.signatureSub3.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSub3.ForeColor = System.Drawing.Color.White
+        Me.signatureSub3.Location = New System.Drawing.Point(264, 539)
+        Me.signatureSub3.Name = "signatureSub3"
+        Me.signatureSub3.Size = New System.Drawing.Size(356, 38)
+        Me.signatureSub3.TabIndex = 97
+        Me.signatureSub3.Text = "Meatball Parmesan"
+        Me.signatureSub3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'signatureSub2d
+        '
+        Me.signatureSub2d.BackColor = System.Drawing.Color.Firebrick
+        Me.signatureSub2d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSub2d.ForeColor = System.Drawing.Color.White
+        Me.signatureSub2d.Location = New System.Drawing.Point(334, 430)
+        Me.signatureSub2d.Name = "signatureSub2d"
+        Me.signatureSub2d.Size = New System.Drawing.Size(416, 58)
+        Me.signatureSub2d.TabIndex = 95
+        Me.signatureSub2d.Text = "homemade breaded chicken, mozzarella cheese, grated parmesean, marinara sauce"
+        Me.signatureSub2d.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'signatureSub2
+        '
+        Me.signatureSub2.BackColor = System.Drawing.Color.Firebrick
+        Me.signatureSub2.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSub2.ForeColor = System.Drawing.Color.White
+        Me.signatureSub2.Location = New System.Drawing.Point(274, 394)
+        Me.signatureSub2.Name = "signatureSub2"
+        Me.signatureSub2.Size = New System.Drawing.Size(356, 38)
+        Me.signatureSub2.TabIndex = 94
+        Me.signatureSub2.Text = "Chicken Parmesean"
+        Me.signatureSub2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'sginatureSub1price
+        '
+        Me.sginatureSub1price.BackColor = System.Drawing.Color.Firebrick
+        Me.sginatureSub1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.sginatureSub1price.ForeColor = System.Drawing.Color.White
+        Me.sginatureSub1price.Location = New System.Drawing.Point(481, 136)
+        Me.sginatureSub1price.Name = "sginatureSub1price"
+        Me.sginatureSub1price.Size = New System.Drawing.Size(71, 24)
+        Me.sginatureSub1price.TabIndex = 93
+        Me.sginatureSub1price.Text = "$7.99"
+        Me.sginatureSub1price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'signatureSub1d
+        '
+        Me.signatureSub1d.BackColor = System.Drawing.Color.Firebrick
+        Me.signatureSub1d.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSub1d.ForeColor = System.Drawing.Color.White
+        Me.signatureSub1d.Location = New System.Drawing.Point(334, 242)
+        Me.signatureSub1d.Name = "signatureSub1d"
+        Me.signatureSub1d.Size = New System.Drawing.Size(416, 103)
+        Me.signatureSub1d.TabIndex = 91
+        Me.signatureSub1d.Text = "our cheesesteak includes premium grilled steak, melted white american cheese add " &
+    "mushrooms, onions, or hot peppers for $0.25 each to spice it up!"
+        Me.signatureSub1d.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'signatureSub1
+        '
+        Me.signatureSub1.BackColor = System.Drawing.Color.Firebrick
+        Me.signatureSub1.Font = New System.Drawing.Font("Lucida Sans Unicode", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSub1.ForeColor = System.Drawing.Color.White
+        Me.signatureSub1.Location = New System.Drawing.Point(274, 204)
+        Me.signatureSub1.Name = "signatureSub1"
+        Me.signatureSub1.Size = New System.Drawing.Size(278, 38)
+        Me.signatureSub1.TabIndex = 90
+        Me.signatureSub1.Text = "Cheesesteak"
+        Me.signatureSub1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'SignatureSubs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.signatureSub3d)
+        Me.Controls.Add(Me.signatureSub3)
+        Me.Controls.Add(Me.signatureSub2d)
+        Me.Controls.Add(Me.signatureSub2)
+        Me.Controls.Add(Me.sginatureSub1price)
+        Me.Controls.Add(Me.signatureSub1d)
+        Me.Controls.Add(Me.signatureSub1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.saLabel)
@@ -250,7 +350,7 @@ Partial Class SignatureSubs
         Me.Controls.Add(Me.signatureSubLabel)
         Me.Controls.Add(Me.saladLabel)
         Me.Controls.Add(Me.appetizerLabel)
-        Me.Controls.Add(Me.appetizer0)
+        Me.Controls.Add(Me.signatureSub0)
         Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.background)
@@ -264,7 +364,7 @@ Partial Class SignatureSubs
     Friend WithEvents Label2 As Label
     Friend WithEvents background As Label
     Friend WithEvents cirosLogo As PictureBox
-    Friend WithEvents appetizer0 As Label
+    Friend WithEvents signatureSub0 As Label
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents saladLabel As Label
     Friend WithEvents signatureSubLabel As Label
@@ -279,4 +379,11 @@ Partial Class SignatureSubs
     Friend WithEvents saLabel As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents signatureSub3d As Label
+    Friend WithEvents signatureSub3 As Label
+    Friend WithEvents signatureSub2d As Label
+    Friend WithEvents signatureSub2 As Label
+    Friend WithEvents sginatureSub1price As Label
+    Friend WithEvents signatureSub1d As Label
+    Friend WithEvents signatureSub1 As Label
 End Class
