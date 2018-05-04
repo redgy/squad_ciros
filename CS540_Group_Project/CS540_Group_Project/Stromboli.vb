@@ -28,4 +28,8 @@
         f.Show()
         Me.Hide()
     End Sub
+
+    Private Sub redPies1_Click(sender As Object, e As EventArgs) Handles redPies1.Click
+
+    End Sub
 End Class
