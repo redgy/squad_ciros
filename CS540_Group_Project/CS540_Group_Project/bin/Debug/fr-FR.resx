@@ -653,18 +653,18 @@ parmesan râpé, sauce marinara</value>
     <value>Dessert/Boisson</value>
   </data>
   <data name="dinnersLabel" xml:space="preserve">
-    <value>العشاء</value>
+    <value>Diner</value>
   </data>
   <data name="pizzaLabel" xml:space="preserve">
-    <value>بيتزا</value>
+    <value>Pizza</value>
   </data>
   <data name="saladsLabel" xml:space="preserve">
-    <value>سلطة</value>
+    <value>Salades</value>
   </data>
   <data name="signatureSubsLabel" xml:space="preserve">
-    <value>رمل خاص</value>
+    <value>Sandwichs Signature</value>
   </data>
   <data name="stromboliLabel" xml:space="preserve">
-    <value>سترومبولي</value>
+    <value>Stromboli</value>
   </data>
 </root>
