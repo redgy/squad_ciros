@@ -639,4 +639,25 @@
   <data name="appetizersLabel" xml:space="preserve">
     <value>Aperitivos</value>
   </data>
+  <data name="appetizersLabel1" xml:space="preserve">
+    <value>مقبلات</value>
+  </data>
+  <data name="dessertsDrinksLabel" xml:space="preserve">
+    <value>الحلوى/مشروبات</value>
+  </data>
+  <data name="dinnersLabel" xml:space="preserve">
+    <value>العشاء</value>
+  </data>
+  <data name="pizzaLabel" xml:space="preserve">
+    <value>بيتزا</value>
+  </data>
+  <data name="saladsLabel" xml:space="preserve">
+    <value>سلطة</value>
+  </data>
+  <data name="signatureSubsLabel" xml:space="preserve">
+    <value>رمل خاص</value>
+  </data>
+  <data name="stromboliLabel" xml:space="preserve">
+    <value>سترومبولي</value>
+  </data>
 </root>
