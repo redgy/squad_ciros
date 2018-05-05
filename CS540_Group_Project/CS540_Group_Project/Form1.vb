@@ -14,7 +14,17 @@ Public Class Form1
 
 
 
-    ''' Load form click methods '''
+
+
+
+
+
+
+
+
+    ''' --------------------- TEMPLATE CODE THAT IS THE SAME FOR EVERY FORM ----------------------- '''
+
+    ''' LOAD NEW FORMS METHODS '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
         Dim f As New Appetizers
         f.Show()
@@ -57,9 +67,8 @@ Public Class Form1
     End Sub
 
 
-
-    ''' Main refresh method '''
-    Private Sub myRefresh()
+    ''' SET LABEL TEXT METHOD: This method will change labels based off of resx file '''
+    Private Sub setLabelText()
         appetizerLabel.Text = resx_curr.GetString("appetizersLabel")
         saladLabel.Text = resx_curr.GetString("saladsLabel")
         signatureSubLabel.Text = resx_curr.GetString("signatureSubsLabel")
@@ -70,36 +79,35 @@ Public Class Form1
     End Sub
 
 
-
-    ''' Language button clicks '''
+    ''' LANGUAGE SELECTION BUTTON METHODS '''
     Private Sub englishLabel_Click(sender As Object, e As EventArgs) Handles englishLabel.Click
         resx_curr = resx_enUS
-        myRefresh()
+        setLabelText()
     End Sub
 
     Private Sub spanishLabel_Click(sender As Object, e As EventArgs) Handles spanishLabel.Click
         resx_curr = resx_esMX
-        myRefresh()
+        setLabelText()
     End Sub
 
     Private Sub frenchLabel_Click(sender As Object, e As EventArgs) Handles frenchLabel.Click
         resx_curr = resx_frFR
-        myRefresh()
+        setLabelText()
     End Sub
 
     Private Sub chineseLabel_Click(sender As Object, e As EventArgs) Handles chineseLabel.Click
         resx_curr = resx_zhCHT
-        myRefresh()
+        setLabelText()
     End Sub
 
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
-        myRefresh()
+        setLabelText()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         resx_curr = resx_enUS
-        myRefresh()
+        setLabelText()
     End Sub
 
 End Class

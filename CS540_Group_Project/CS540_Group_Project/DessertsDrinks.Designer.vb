@@ -31,12 +31,12 @@ Partial Class DessertsDrinks
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
+        Me.dessertDrinkLabel = New System.Windows.Forms.Label()
+        Me.stromboliLabel = New System.Windows.Forms.Label()
         Me.pizzaLabel = New System.Windows.Forms.Label()
         Me.signatureSubLabel = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
+        Me.saladLabel = New System.Windows.Forms.Label()
+        Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.dessert0 = New System.Windows.Forms.Label()
@@ -156,27 +156,27 @@ Partial Class DessertsDrinks
         Me.Label14.Text = "English"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label15
+        'dessertDrinkLabel
         '
-        Me.Label15.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label15.Location = New System.Drawing.Point(529, 9)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(133, 23)
-        Me.Label15.TabIndex = 86
-        Me.Label15.Text = "Desserts/Drinks"
-        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.dessertDrinkLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessertDrinkLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.dessertDrinkLabel.Location = New System.Drawing.Point(529, 9)
+        Me.dessertDrinkLabel.Name = "dessertDrinkLabel"
+        Me.dessertDrinkLabel.Size = New System.Drawing.Size(133, 23)
+        Me.dessertDrinkLabel.TabIndex = 86
+        Me.dessertDrinkLabel.Text = "Desserts/Drinks"
+        Me.dessertDrinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label16
+        'stromboliLabel
         '
-        Me.Label16.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label16.Location = New System.Drawing.Point(365, 9)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(96, 23)
-        Me.Label16.TabIndex = 85
-        Me.Label16.Text = "Stromboli"
-        Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.stromboliLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.stromboliLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.stromboliLabel.Location = New System.Drawing.Point(365, 9)
+        Me.stromboliLabel.Name = "stromboliLabel"
+        Me.stromboliLabel.Size = New System.Drawing.Size(96, 23)
+        Me.stromboliLabel.TabIndex = 85
+        Me.stromboliLabel.Text = "Stromboli"
+        Me.stromboliLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'pizzaLabel
         '
@@ -200,27 +200,27 @@ Partial Class DessertsDrinks
         Me.signatureSubLabel.Text = "Signature Subs"
         Me.signatureSubLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label19
+        'saladLabel
         '
-        Me.Label19.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label19.Location = New System.Drawing.Point(122, 9)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(56, 23)
-        Me.Label19.TabIndex = 82
-        Me.Label19.Text = "Salads"
-        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.saladLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.saladLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.saladLabel.Location = New System.Drawing.Point(122, 9)
+        Me.saladLabel.Name = "saladLabel"
+        Me.saladLabel.Size = New System.Drawing.Size(56, 23)
+        Me.saladLabel.TabIndex = 82
+        Me.saladLabel.Text = "Salads"
+        Me.saladLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label20
+        'appetizerLabel
         '
-        Me.Label20.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label20.Location = New System.Drawing.Point(19, 9)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(97, 23)
-        Me.Label20.TabIndex = 81
-        Me.Label20.Text = "Appetizers"
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.appetizerLabel.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.appetizerLabel.ForeColor = System.Drawing.Color.Firebrick
+        Me.appetizerLabel.Location = New System.Drawing.Point(19, 9)
+        Me.appetizerLabel.Name = "appetizerLabel"
+        Me.appetizerLabel.Size = New System.Drawing.Size(97, 23)
+        Me.appetizerLabel.TabIndex = 81
+        Me.appetizerLabel.Text = "Appetizers"
+        Me.appetizerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label8
         '
@@ -512,12 +512,12 @@ Partial Class DessertsDrinks
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.Label15)
-        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.dessertDrinkLabel)
+        Me.Controls.Add(Me.stromboliLabel)
         Me.Controls.Add(Me.pizzaLabel)
         Me.Controls.Add(Me.signatureSubLabel)
-        Me.Controls.Add(Me.Label19)
-        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.saladLabel)
+        Me.Controls.Add(Me.appetizerLabel)
         Me.Controls.Add(Me.cirosLogo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.background)
@@ -537,12 +537,12 @@ Partial Class DessertsDrinks
     Friend WithEvents Label11 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label16 As Label
+    Friend WithEvents dessertDrinkLabel As Label
+    Friend WithEvents stromboliLabel As Label
     Friend WithEvents pizzaLabel As Label
     Friend WithEvents signatureSubLabel As Label
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label20 As Label
+    Friend WithEvents saladLabel As Label
+    Friend WithEvents appetizerLabel As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents dessert0 As Label
