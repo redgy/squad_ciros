@@ -76,6 +76,42 @@ Public Class Form1
         stromboliLabel.Text = resx_curr.GetString("stromboliLabel")
         dinnersLabel.Text = resx_curr.GetString("dinnersLabel")
         dessertDrinkLabel.Text = resx_curr.GetString("dessertsDrinksLabel")
+
+        resizeFont(appetizerLabel)
+        resizeFont(saladLabel)
+        resizeFont(signatureSubLabel)
+        resizeFont(pizzaLabel)
+        resizeFont(stromboliLabel)
+        resizeFont(dinnersLabel)
+        resizeFont(dessertDrinkLabel)
+    End Sub
+
+
+    Private Sub resizeFont(resizeFontLabel As Label)
+        Dim f2 As Font
+        Dim g2 As Graphics
+        Dim s2 As SizeF
+        Dim word As String
+        Dim Factor_, FactorX, FactorY As Single
+
+        g2 = resizeFontLabel.CreateGraphics
+        word = resizeFontLabel.Text
+        s2 = g2.MeasureString(word, resizeFontLabel.Font)
+        g2.Dispose()
+
+        FactorX = resizeFontLabel.Width / s2.Width
+        FactorY = resizeFontLabel.Height / s2.Height
+
+        If FactorX > FactorY Then
+            Factor_ = FactorY
+        Else
+            Factor_ = FactorX
+        End If
+
+        f2 = resizeFontLabel.Font
+        resizeFontLabel.Font = New Font(f2.Name, f2.SizeInPoints * Factor_)
+        resizeFontLabel.Text = word
+        resizeFontLabel.TextAlign = ContentAlignment.MiddleCenter
     End Sub
 
 
