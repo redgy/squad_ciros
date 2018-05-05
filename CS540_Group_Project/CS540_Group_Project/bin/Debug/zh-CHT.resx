@@ -638,4 +638,20 @@
   <data name="appetizersLabel" xml:space="preserve">
     <value>開胃菜</value>
   </data>
+  <data name="dessertsDrinksLabel" xml:space="preserve">
+    <value>甜點/飲料</value>
+  </data>
+  <data name="dinnersLabel" xml:space="preserve">
+    <value>晚餐</value>
+  </data>
+  <data name="saladsLabel" xml:space="preserve">
+    <value>沙拉</value>
+  </data>
+  <data name="signatureSubsLabel" xml:space="preserve">
+    <value>三明治
+</value>
+  </data>
+  <data name="stromboliLabel" xml:space="preserve">
+    <value>斯特龍博利</value>
+  </data>
 </root>
