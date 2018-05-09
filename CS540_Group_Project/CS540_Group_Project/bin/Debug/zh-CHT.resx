@@ -124,13 +124,13 @@
     <value>3</value>
   </data>
   <data name="app1price1" xml:space="preserve">
-    <value>(3) 個 3.50</value>
+    <value>(3) for 3.50</value>
   </data>
   <data name="app1price2" xml:space="preserve">
-    <value>(6) 個 6.99</value>
+    <value>(6) for 6.99</value>
   </data>
   <data name="app1price3" xml:space="preserve">
-    <value>(12) 個 13.50</value>
+    <value>(12) for 13.50</value>
   </data>
   <data name="app2price" xml:space="preserve">
     <value>8.99</value>

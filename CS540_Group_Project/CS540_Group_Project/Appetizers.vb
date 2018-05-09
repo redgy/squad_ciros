@@ -15,6 +15,15 @@ Public Class Appetizers
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
 
+    ' Culture info variables
+    Dim usaCulture As CultureInfo = New CultureInfo("en-US")
+    Dim mexicoCulture As CultureInfo = New CultureInfo("es-MX")
+    Dim frenchCulture As CultureInfo = New CultureInfo("fr-FR")
+    Dim chinaCulture As CultureInfo = New CultureInfo("zh-CHT")
+    Dim saudiCulture As CultureInfo = New CultureInfo("ar-SA")
+    Dim currCulture As CultureInfo
+
+
     ' Exchange rate variables
     Dim CNYrate As Double
     Dim EURrate As Double
@@ -22,13 +31,46 @@ Public Class Appetizers
     Dim SARrate As Double
 
 
+
+
+    ' Function to do the conversion rates
+    Private Function convertPrice(amount As String)
+        Dim number As Double = CDbl(amount)
+        If resx_curr.Equals(resx_esMX) Then
+            number *= MXNrate
+        ElseIf resx_curr.Equals(resx_frFR) Then
+            number *= EURrate
+        ElseIf resx_curr.Equals(resx_zhCHT) Then
+            number *= CNYrate
+        ElseIf resx_curr.Equals(resx_arSA) Then
+            number *= SARrate
+        End If
+
+        Return number.ToString("C", currCulture)
+    End Function
+
+    ' Appetizer prices are a mix of words and price, need to parse this correctly
+    Private Function appetizerPrice(str As String, quantity As String)
+        str = str.Substring(8)
+        Return "(" + quantity + ") " + convertPrice(str)
+    End Function
+
+    ' Convert the prices based off the culture info
+    Private Sub setMenuPrices()
+        app1price1.Text = appetizerPrice(resx_curr.GetString("app1price1"), "3")
+        app1price2.Text = appetizerPrice(resx_curr.GetString("app1price2"), "6")
+        app1price3.Text = appetizerPrice(resx_curr.GetString("app1price3"), "12")
+        app2price.Text = convertPrice(resx_curr.GetString("app2price"))
+        app3price.Text = convertPrice(resx_curr.GetString("app3price"))
+        app4price.Text = convertPrice(resx_curr.GetString("app4price"))
+
+        resizeFont(app1price1)
+        resizeFont(app1price2)
+        resizeFont(app1price3)
+    End Sub
+
+    ' Text to change after each language click
     Private Sub setMenuText()
-        app1price1.Text = resx_curr.GetString("app1price1")
-        app1price2.Text = resx_curr.GetString("app1price2")
-        app1price3.Text = resx_curr.GetString("app1price3")
-        app2price.Text = resx_curr.GetString("app2price")
-        app3price.Text = resx_curr.GetString("app3price")
-        app4price.Text = resx_curr.GetString("app4price")
         appetizer0.Text = resx_curr.GetString("appetizer0")
         appetizer1.Text = resx_curr.GetString("appetizer1")
         appetizer1d.Text = resx_curr.GetString("appetizer1d")
@@ -38,6 +80,7 @@ Public Class Appetizers
         appetizer3d.Text = resx_curr.GetString("appetizer3d")
         appetizer4.Text = resx_curr.GetString("appetizer4")
         appetizer4d.Text = resx_curr.GetString("appetizer4d")
+        setMenuPrices()
     End Sub
 
 
@@ -45,6 +88,9 @@ Public Class Appetizers
     Private Sub Appetizers_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CenterForm(Me)
         resx_curr = resx_enUS
+        currCulture = usaCulture
+        mexicoCulture.NumberFormat.CurrencySymbol = "Mex$"
+        chinaCulture.NumberFormat.CurrencySymbol = "個"
         setLabelText()
         getExchangeRates()
     End Sub
@@ -91,7 +137,7 @@ Public Class Appetizers
         wRequest = WebRequest.Create(url)
         wRequest.Proxy = WebProxy.GetDefaultProxy()
         ostr = wRequest.GetResponse.GetResponseStream()
-        Return Convert.ToDouble(manipulateStream(ostr))
+        Return CDbl(manipulateStream(ostr))
     End Function
 
     ''' Method to grab currencies and do conversions '''
@@ -200,26 +246,31 @@ Public Class Appetizers
     ''' LANGUAGE SELECTION BUTTON METHODS '''
     Private Sub englishLabel_Click(sender As Object, e As EventArgs) Handles englishLabel.Click
         resx_curr = resx_enUS
+        currCulture = usaCulture
         setLabelText()
     End Sub
 
     Private Sub spanishLabel_Click(sender As Object, e As EventArgs) Handles spanishLabel.Click
         resx_curr = resx_esMX
+        currCulture = mexicoCulture
         setLabelText()
     End Sub
 
     Private Sub frenchLabel_Click(sender As Object, e As EventArgs) Handles frenchLabel.Click
         resx_curr = resx_frFR
+        currCulture = frenchCulture
         setLabelText()
     End Sub
 
     Private Sub chineseLabel_Click(sender As Object, e As EventArgs) Handles chineseLabel.Click
         resx_curr = resx_zhCHT
+        currCulture = chinaCulture
         setLabelText()
     End Sub
 
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
+        currCulture = saudiCulture
         setLabelText()
     End Sub
 

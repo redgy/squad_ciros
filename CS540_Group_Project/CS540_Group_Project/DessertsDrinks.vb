@@ -104,7 +104,7 @@ Public Class DessertsDrinks
         wRequest = WebRequest.Create(url)
         wRequest.Proxy = WebProxy.GetDefaultProxy()
         ostr = wRequest.GetResponse.GetResponseStream()
-        Return Convert.ToDouble(manipulateStream(ostr))
+        Return CDbl(manipulateStream(ostr))
     End Function
 
     ''' Method to grab currencies and do conversions '''
