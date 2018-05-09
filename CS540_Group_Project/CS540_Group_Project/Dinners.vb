@@ -15,6 +15,16 @@ Public Class Dinners
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
 
+    ' Culture info variables
+    Dim usaCulture As CultureInfo = New CultureInfo("en-US")
+    Dim mexicoCulture As CultureInfo = New CultureInfo("es-MX")
+    Dim frenchCulture As CultureInfo = New CultureInfo("fr-FR")
+    Dim chinaCulture As CultureInfo = New CultureInfo("zh-CHT")
+    Dim saudiCulture As CultureInfo = New CultureInfo("ar-SA")
+    Dim currCulture As CultureInfo
+
+
+
     ' Exchange rate variables
     Dim CNYrate As Double
     Dim EURrate As Double
@@ -57,6 +67,24 @@ Public Class Dinners
     End Sub
 
     ''' --------------------- TEMPLATE CODE THAT IS THE SAME FOR EVERY FORM ----------------------- '''
+
+    ''' CONVERT THE EXCHANGE RATES '''
+    ' Function to do the conversion rates
+    Private Function convertPrice(amount As String)
+        Dim number As Double = CDbl(amount)
+        If resx_curr.Equals(resx_esMX) Then
+            number *= MXNrate
+        ElseIf resx_curr.Equals(resx_frFR) Then
+            number *= EURrate
+        ElseIf resx_curr.Equals(resx_zhCHT) Then
+            number *= CNYrate
+        ElseIf resx_curr.Equals(resx_arSA) Then
+            number *= SARrate
+        End If
+
+        Return number.ToString("C", currCulture)
+    End Function
+
 
     ''' GETTING THE EXCHANGE RATES '''
     ''' Loops through the stream and extracts the conversion '''

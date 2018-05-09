@@ -33,21 +33,7 @@ Public Class Appetizers
 
 
 
-    ' Function to do the conversion rates
-    Private Function convertPrice(amount As String)
-        Dim number As Double = CDbl(amount)
-        If resx_curr.Equals(resx_esMX) Then
-            number *= MXNrate
-        ElseIf resx_curr.Equals(resx_frFR) Then
-            number *= EURrate
-        ElseIf resx_curr.Equals(resx_zhCHT) Then
-            number *= CNYrate
-        ElseIf resx_curr.Equals(resx_arSA) Then
-            number *= SARrate
-        End If
 
-        Return number.ToString("C", currCulture)
-    End Function
 
     ' Appetizer prices are a mix of words and price, need to parse this correctly
     Private Function appetizerPrice(str As String, quantity As String)
@@ -96,6 +82,24 @@ Public Class Appetizers
     End Sub
 
     ''' --------------------- TEMPLATE CODE THAT IS THE SAME FOR EVERY FORM ----------------------- '''
+
+    ''' CONVERT THE EXCHANGE RATES '''
+    ' Function to do the conversion rates
+    Private Function convertPrice(amount As String)
+        Dim number As Double = CDbl(amount)
+        If resx_curr.Equals(resx_esMX) Then
+            number *= MXNrate
+        ElseIf resx_curr.Equals(resx_frFR) Then
+            number *= EURrate
+        ElseIf resx_curr.Equals(resx_zhCHT) Then
+            number *= CNYrate
+        ElseIf resx_curr.Equals(resx_arSA) Then
+            number *= SARrate
+        End If
+
+        Return number.ToString("C", currCulture)
+    End Function
+
 
     ''' GETTING THE EXCHANGE RATES '''
     ''' Loops through the stream and extracts the conversion '''
