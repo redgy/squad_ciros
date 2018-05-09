@@ -12,12 +12,19 @@ Public Class SignatureSubs
     Dim resx_zhCHT As ResXResourceSet = New ResXResourceSet("zh-CHT.resx")
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
-    Public Sub New(resx_curr As ResXResourceSet)
-        Me.resx_curr = resx_curr
+    Public Sub setMenuText()
+
+        sginatureSub1price
+        sginatureSub2price
+        sginatureSub3price
+        signatureSub0
+        signatureSub1
+        signatureSub1d
+        signatureSub2
+        signatureSub2d
+        signatureSub3
+        signatureSub3d
     End Sub
-
-
-
 
     ''' This method name should be the same name as the form '''
     Private Sub SignatureSubs_Load(sender As Object, e As EventArgs) Handles MyBase.Load

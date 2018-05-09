@@ -440,14 +440,8 @@ oignon</value>
   <data name="sauce2" xml:space="preserve">
     <value>pesto</value>
   </data>
-  <data name="sginatureSub1price" xml:space="preserve">
+  <data name="signatureSub1price" xml:space="preserve">
     <value>7.99</value>
-  </data>
-  <data name="sginatureSub2price" xml:space="preserve">
-    <value />
-  </data>
-  <data name="sginatureSub3price" xml:space="preserve">
-    <value />
   </data>
   <data name="signatureSub0" xml:space="preserve">
     <value>SANDWICHS SIGNATURE</value>
