@@ -30,18 +30,38 @@ Public Class Salads
     Dim MXNrate As Double
     Dim SARrate As Double
 
+    ' Appetizer prices are a mix of words and price, need to parse this correctly
+    Private Function saladPrices(str As String)
+        Dim first As String
+        Dim second As String
+        first = str.Substring(0, 3)
+        second = str.Substring(5)
+        Return convertPrice(first) + "/" + convertPrice(second)
+    End Function
+
+    ' Convert the prices based off the culture info
+    Private Sub setMenuPrices()
+        salad1price.Text = saladPrices(resx_curr.GetString("salad1price"))
+        salad2price.Text = saladPrices(resx_curr.GetString("salad2price"))
+        salad3price.Text = saladPrices(resx_curr.GetString("salad3price"))
+        addSaladprice.Text = convertPrice(resx_curr.GetString("addSaladprice"))
+
+        resizeFont(salad1price)
+        resizeFont(salad2price)
+        resizeFont(salad3price)
+        resizeFont(addSaladprice)
+    End Sub
+
     Private Sub setMenuText()
         salad1.Text = resx_curr.GetString("salad1")
         salad1d.Text = resx_curr.GetString("salad1d")
-        salad1price.Text = resx_curr.GetString("salad1price")
         salad2.Text = resx_curr.GetString("salad2")
         salad2d.Text = resx_curr.GetString("salad2d")
-        salad2price.Text = resx_curr.GetString("salad2price")
         salad3.Text = resx_curr.GetString("salad3")
         salad3d.Text = resx_curr.GetString("salad3d")
-        salad3price.Text = resx_curr.GetString("salad3price")
         salads0.Text = resx_curr.GetString("salads0")
         addSalad.Text = resx_curr.GetString("addSalad")
+        setMenuPrices()
     End Sub
 
 
@@ -49,6 +69,9 @@ Public Class Salads
     Private Sub Salads_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CenterForm(Me)
         resx_curr = resx_enUS
+        currCulture = usaCulture
+        mexicoCulture.NumberFormat.CurrencySymbol = "Mex$"
+        chinaCulture.NumberFormat.CurrencySymbol = "個"
         setLabelText()
         getExchangeRates()
     End Sub
@@ -222,26 +245,31 @@ Public Class Salads
     ''' LANGUAGE SELECTION BUTTON METHODS '''
     Private Sub englishLabel_Click(sender As Object, e As EventArgs) Handles englishLabel.Click
         resx_curr = resx_enUS
+        currCulture = usaCulture
         setLabelText()
     End Sub
 
     Private Sub spanishLabel_Click(sender As Object, e As EventArgs) Handles spanishLabel.Click
         resx_curr = resx_esMX
+        currCulture = mexicoCulture
         setLabelText()
     End Sub
 
     Private Sub frenchLabel_Click(sender As Object, e As EventArgs) Handles frenchLabel.Click
         resx_curr = resx_frFR
+        currCulture = frenchCulture
         setLabelText()
     End Sub
 
     Private Sub chineseLabel_Click(sender As Object, e As EventArgs) Handles chineseLabel.Click
         resx_curr = resx_zhCHT
+        currCulture = chinaCulture
         setLabelText()
     End Sub
 
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
+        currCulture = saudiCulture
         setLabelText()
     End Sub
 

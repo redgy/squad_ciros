@@ -51,6 +51,9 @@ Public Class Stromboli
     Private Sub Stromboli_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CenterForm(Me)
         resx_curr = resx_enUS
+        currCulture = usaCulture
+        mexicoCulture.NumberFormat.CurrencySymbol = "Mex$"
+        chinaCulture.NumberFormat.CurrencySymbol = "個"
         setLabelText()
         getExchangeRates()
     End Sub

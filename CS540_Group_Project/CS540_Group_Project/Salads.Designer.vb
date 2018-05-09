@@ -111,7 +111,7 @@ Partial Class Salads
         Me.salad1price.ForeColor = System.Drawing.Color.White
         Me.salad1price.Location = New System.Drawing.Point(562, 223)
         Me.salad1price.Name = "salad1price"
-        Me.salad1price.Size = New System.Drawing.Size(143, 24)
+        Me.salad1price.Size = New System.Drawing.Size(257, 34)
         Me.salad1price.TabIndex = 67
         Me.salad1price.Text = "$5.99/$10.99"
         Me.salad1price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -157,9 +157,9 @@ Partial Class Salads
         Me.addSaladprice.BackColor = System.Drawing.Color.Firebrick
         Me.addSaladprice.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addSaladprice.ForeColor = System.Drawing.Color.White
-        Me.addSaladprice.Location = New System.Drawing.Point(614, 138)
+        Me.addSaladprice.Location = New System.Drawing.Point(610, 131)
         Me.addSaladprice.Name = "addSaladprice"
-        Me.addSaladprice.Size = New System.Drawing.Size(61, 24)
+        Me.addSaladprice.Size = New System.Drawing.Size(226, 36)
         Me.addSaladprice.TabIndex = 69
         Me.addSaladprice.Text = "$3"
         Me.addSaladprice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -171,7 +171,7 @@ Partial Class Salads
         Me.salad2price.ForeColor = System.Drawing.Color.White
         Me.salad2price.Location = New System.Drawing.Point(562, 364)
         Me.salad2price.Name = "salad2price"
-        Me.salad2price.Size = New System.Drawing.Size(143, 24)
+        Me.salad2price.Size = New System.Drawing.Size(257, 34)
         Me.salad2price.TabIndex = 72
         Me.salad2price.Text = "$4.99/$7.99"
         Me.salad2price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -207,7 +207,7 @@ Partial Class Salads
         Me.salad3price.ForeColor = System.Drawing.Color.White
         Me.salad3price.Location = New System.Drawing.Point(562, 507)
         Me.salad3price.Name = "salad3price"
-        Me.salad3price.Size = New System.Drawing.Size(143, 24)
+        Me.salad3price.Size = New System.Drawing.Size(257, 34)
         Me.salad3price.TabIndex = 75
         Me.salad3price.Text = "$4.99/$7.99"
         Me.salad3price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
