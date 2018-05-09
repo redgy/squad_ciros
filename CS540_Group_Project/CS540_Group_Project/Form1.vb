@@ -21,7 +21,7 @@ Public Class Form1
 
     ''' This method name should be the same name as the form '''
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.StartPosition = FormStartPosition.CenterScreen
+        StartPosition = FormStartPosition.CenterScreen
         If Me.resx_curr Is Nothing Then
             resx_curr = resx_enUS
         End If
@@ -46,7 +46,7 @@ Public Class Form1
     End Sub
 
     Private Sub signatureSubLabel_Click(sender As Object, e As EventArgs) Handles signatureSubLabel.Click
-        Dim f As New SignatureSubs(resx_curr)
+        Dim f As New SignatureSubs
         f.Show()
         Me.Hide()
     End Sub

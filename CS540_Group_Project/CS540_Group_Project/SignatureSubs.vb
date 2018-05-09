@@ -13,24 +13,18 @@ Public Class SignatureSubs
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
     Public Sub setMenuText()
-
-        sginatureSub1price
-        sginatureSub2price
-        sginatureSub3price
-        signatureSub0
-        signatureSub1
-        signatureSub1d
-        signatureSub2
-        signatureSub2d
-        signatureSub3
-        signatureSub3d
+        signatureSub0.Text = resx_curr.GetString("signatureSub0")
+        signatureSub1.Text = resx_curr.GetString("signatureSub1")
+        signatureSub1d.Text = resx_curr.GetString("signatureSub1d")
+        signatureSub2.Text = resx_curr.GetString("signatureSub2")
+        signatureSub2d.Text = resx_curr.GetString("signatureSub2d")
+        signatureSub3.Text = resx_curr.GetString("signatureSub3")
+        signatureSub3d.Text = resx_curr.GetString("signatureSub3d")
     End Sub
 
     ''' This method name should be the same name as the form '''
     Private Sub SignatureSubs_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If Me.resx_curr Is Nothing Then
-            resx_curr = resx_enUS
-        End If
+        resx_curr = resx_enUS
         setLabelText()
     End Sub
 
@@ -50,7 +44,7 @@ Public Class SignatureSubs
     End Sub
 
     Private Sub signatureSubLabel_Click(sender As Object, e As EventArgs) Handles signatureSubLabel.Click
-        Dim f As New SignatureSubs(resx_curr)
+        Dim f As New SignatureSubs
         f.Show()
         Me.Hide()
     End Sub
@@ -96,6 +90,8 @@ Public Class SignatureSubs
         resizeFont(stromboliLabel)
         resizeFont(dinnersLabel)
         resizeFont(dessertDrinkLabel)
+
+        setMenuText() '' For the menu which is different on every form
     End Sub
 
 

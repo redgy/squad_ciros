@@ -45,7 +45,7 @@ Public Class DessertsDrinks
     End Sub
 
     Private Sub signatureSubLabel_Click(sender As Object, e As EventArgs) Handles signatureSubLabel.Click
-        Dim f As New SignatureSubs(resx_curr)
+        Dim f As New SignatureSubs
         f.Show()
         Me.Hide()
     End Sub
