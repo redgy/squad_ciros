@@ -15,7 +15,21 @@ Public Class Appetizers
 
 
     Private Sub setMenuText()
+        app1price1.Text = resx_curr.GetString("app1price1")
+        app1price2.Text = resx_curr.GetString("app1price2")
+        app1price3.Text = resx_curr.GetString("app1price3")
+        app2price.Text = resx_curr.GetString("app2price")
+        app3price.Text = resx_curr.GetString("app3price")
+        app4price.Text = resx_curr.GetString("app4price")
         appetizer0.Text = resx_curr.GetString("appetizer0")
+        appetizer1.Text = resx_curr.GetString("appetizer1")
+        appetizer1d.Text = resx_curr.GetString("appetizer1d")
+        appetizer2.Text = resx_curr.GetString("appetizer2")
+        appetizer2d.Text = resx_curr.GetString("appetizer2d")
+        appetizer3.Text = resx_curr.GetString("appetizer3")
+        appetizer3d.Text = resx_curr.GetString("appetizer3d")
+        appetizer4.Text = resx_curr.GetString("appetizer4")
+        appetizer4d.Text = resx_curr.GetString("appetizer4d")
     End Sub
 
 
@@ -27,13 +41,7 @@ Public Class Appetizers
 
     ''' --------------------- TEMPLATE CODE THAT IS THE SAME FOR EVERY FORM ----------------------- '''
 
-    ''' LOAD NEW FORMS METHODS '''
-    Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
-        Dim f As New Appetizers
-        f.Show()
-        Me.Hide()
-    End Sub
-
+    ''' LOAD NEW FORMS METHODS (delete the label click of the current form) '''
     Private Sub saladLabel_Click(sender As Object, e As EventArgs) Handles saladLabel.Click
         Dim f As New Salads(resx_curr)
         f.Show()
