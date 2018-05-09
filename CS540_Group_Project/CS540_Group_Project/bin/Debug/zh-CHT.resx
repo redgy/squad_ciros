@@ -654,4 +654,7 @@
   <data name="stromboliLabel" xml:space="preserve">
     <value>斯特龍博利</value>
   </data>
+  <data name="pizzaLabel" xml:space="preserve">
+    <value>比萨</value>
+  </data>
 </root>

@@ -19,14 +19,17 @@ Public Class Form1
 
 
 
-
-
+    ''' This method name should be the same name as the form '''
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        resx_curr = resx_enUS
+        setLabelText()
+    End Sub
 
     ''' --------------------- TEMPLATE CODE THAT IS THE SAME FOR EVERY FORM ----------------------- '''
 
     ''' LOAD NEW FORMS METHODS '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
-        Dim f As New Appetizers
+        Dim f As New Appetizers(resx_curr)
         f.Show()
         Me.Hide()
     End Sub
@@ -138,11 +141,6 @@ Public Class Form1
 
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
-        setLabelText()
-    End Sub
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        resx_curr = resx_enUS
         setLabelText()
     End Sub
 
