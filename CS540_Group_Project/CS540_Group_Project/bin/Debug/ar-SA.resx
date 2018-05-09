@@ -205,10 +205,10 @@
     <value>قم بإنشاء البيتزا الخاصة بك</value>
   </data>
   <data name="createPizzaprice1" xml:space="preserve">
-    <value>10 inch cheese pizza 9.99</value>
+    <value>بيتزا الجبن 10 بوصة 10.99</value>
   </data>
   <data name="createPizzaprice2" xml:space="preserve">
-    <value>18 inch cheese pizza 18.99</value>
+    <value>بيتزا الجبن 18 بوصة 18.99</value>
   </data>
   <data name="description" xml:space="preserve">
     <value>قائمة كاملة من 11-9 | التسليم السريع | بيتزا خدمت كل يوم ، كل يوم
@@ -458,10 +458,10 @@
     <value>وصفة اللحم المميزة المصنوعة منزليًا مع جبنة الموتزاريلا والبارميزان المبشور وصلصة مارينارا</value>
   </data>
   <data name="specialtyPizzaprice1" xml:space="preserve">
-    <value>10 inch 11.99</value>
+    <value>10بوصة 11.99</value>
   </data>
   <data name="specialtyPizzaprice2" xml:space="preserve">
-    <value>18 inch 23.99</value>
+    <value>18بوصة23.99 </value>
   </data>
   <data name="specialtyPizzas" xml:space="preserve">
     <value>تخصص بيتزا</value>
