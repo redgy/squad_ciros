@@ -384,7 +384,7 @@ Partial Class Dinners
         Me.dinner3add.ForeColor = System.Drawing.Color.White
         Me.dinner3add.Location = New System.Drawing.Point(36, 591)
         Me.dinner3add.Name = "dinner3add"
-        Me.dinner3add.Size = New System.Drawing.Size(241, 23)
+        Me.dinner3add.Size = New System.Drawing.Size(347, 47)
         Me.dinner3add.TabIndex = 74
         Me.dinner3add.Text = "add 2 meatballs for $3"
         '

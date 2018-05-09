@@ -33,10 +33,10 @@ Public Class Dinners
 
 
     Public Sub setMenuPrices()
-        dinner1price.Text = resx_curr.GetString("dinner1price")
-        dinner2price.Text = resx_curr.GetString("dinner2price")
-        dinner3price.Text = resx_curr.GetString("dinner3price")
-        dinner4price.Text = resx_curr.GetString("dinner4price")
+        dinner1price.Text = convertPrice(resx_curr.GetString("dinner1price"))
+        dinner2price.Text = convertPrice(resx_curr.GetString("dinner2price"))
+        dinner3price.Text = convertPrice(resx_curr.GetString("dinner3price"))
+        dinner4price.Text = convertPrice(resx_curr.GetString("dinner4price"))
     End Sub
 
     Public Sub setMenuText()
@@ -47,7 +47,7 @@ Public Class Dinners
         dinner2.Text = resx_curr.GetString("dinner2")
         dinner2d.Text = resx_curr.GetString("dinner2d")
         dinner3.Text = resx_curr.GetString("dinner3")
-        dinner3add.Text = resx_curr.GetString("dinner3add")
+        dinner3add.Text = resx_curr.GetString("dinner3add") + "  " + convertPrice("3")
         dinner3d.Text = resx_curr.GetString("dinner3d")
         dinner4.Text = resx_curr.GetString("dinner4")
         dinner4d.Text = resx_curr.GetString("dinner4d")
@@ -238,26 +238,31 @@ Public Class Dinners
     ''' LANGUAGE SELECTION BUTTON METHODS '''
     Private Sub englishLabel_Click(sender As Object, e As EventArgs) Handles englishLabel.Click
         resx_curr = resx_enUS
+        currCulture = usaCulture
         setLabelText()
     End Sub
 
     Private Sub spanishLabel_Click(sender As Object, e As EventArgs) Handles spanishLabel.Click
         resx_curr = resx_esMX
+        currCulture = mexicoCulture
         setLabelText()
     End Sub
 
     Private Sub frenchLabel_Click(sender As Object, e As EventArgs) Handles frenchLabel.Click
         resx_curr = resx_frFR
+        currCulture = frenchCulture
         setLabelText()
     End Sub
 
     Private Sub chineseLabel_Click(sender As Object, e As EventArgs) Handles chineseLabel.Click
         resx_curr = resx_zhCHT
+        currCulture = chinaCulture
         setLabelText()
     End Sub
 
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
+        currCulture = saudiCulture
         setLabelText()
     End Sub
 

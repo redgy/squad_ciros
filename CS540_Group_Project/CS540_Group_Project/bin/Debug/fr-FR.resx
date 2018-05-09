@@ -272,7 +272,7 @@ PIZZA SERVI TOUT LE JOUR</value>
     <value>Penne Pâtes</value>
   </data>
   <data name="dinner3add" xml:space="preserve">
-    <value>ajouter 2 boulettes de viande pour $3</value>
+    <value>ajouter 2 boulettes de viande</value>
   </data>
   <data name="dinner3d" xml:space="preserve">
     <value>sauce marinara maison, basilic frais, fromage parmesan</value>
