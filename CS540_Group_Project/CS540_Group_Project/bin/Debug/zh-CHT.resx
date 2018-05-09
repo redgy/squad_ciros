@@ -214,7 +214,7 @@
     <value>完整的菜單服務從上午十一點到晚上九點 | 交貨快
  | 披薩每天服務</value>
   </data>
-  <data name="desser1price" xml:space="preserve">
+  <data name="dessert1price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert0" xml:space="preserve">
@@ -311,7 +311,7 @@
   <data name="drink4" xml:space="preserve">
     <value>二十盎司氣水</value>
   </data>
-  <data name="drink4prince" xml:space="preserve">
+  <data name="drink4price" xml:space="preserve">
     <value>3.25</value>
   </data>
   <data name="drink5" xml:space="preserve">

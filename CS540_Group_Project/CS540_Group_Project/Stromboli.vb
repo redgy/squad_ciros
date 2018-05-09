@@ -68,7 +68,7 @@ Public Class Stromboli
     End Sub
 
     Private Sub dessertDrinkLabel_Click(sender As Object, e As EventArgs) Handles dessertDrinkLabel.Click
-        Dim f As New DessertsDrinks(resx_curr)
+        Dim f As New DessertsDrinks
         f.Show()
         Me.Hide()
     End Sub

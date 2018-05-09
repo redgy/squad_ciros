@@ -217,7 +217,7 @@ servi avec du ketchup</value>
 LIVRAISON RAPIDE | 
 PIZZA SERVI TOUT LE JOUR</value>
   </data>
-  <data name="desser1price" xml:space="preserve">
+  <data name="dessert1price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert0" xml:space="preserve">
@@ -313,7 +313,7 @@ PIZZA SERVI TOUT LE JOUR</value>
   <data name="drink4" xml:space="preserve">
     <value>20 oz soda</value>
   </data>
-  <data name="drink4prince" xml:space="preserve">
+  <data name="drink4price" xml:space="preserve">
     <value>3.25</value>
   </data>
   <data name="drink5" xml:space="preserve">

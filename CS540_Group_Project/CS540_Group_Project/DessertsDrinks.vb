@@ -12,20 +12,42 @@ Public Class DessertsDrinks
     Dim resx_zhCHT As ResXResourceSet = New ResXResourceSet("zh-CHT.resx")
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
-    Public Sub New(resx_curr As ResXResourceSet)
-        Me.resx_curr = resx_curr
+
+    Public Sub setMenuPrices()
+        dessert1price.Text = resx_curr.GetString("dessert1price")
+        dessert2price.Text = resx_curr.GetString("dessert2price")
+        dessert3price.Text = resx_curr.GetString("dessert3price")
+
+        drink1price.Text = resx_curr.GetString("drink1price")
+        drink2price.Text = resx_curr.GetString("drink2price")
+        drink3price.Text = resx_curr.GetString("drink3price")
+        drink4price.Text = resx_curr.GetString("drink4price")
+        drink5price.Text = resx_curr.GetString("drink5price")
     End Sub
 
 
+    Public Sub setMenuText()
+        dessert0.Text = resx_curr.GetString("dessert0")
+        dessert1.Text = resx_curr.GetString("dessert1")
+        dessert1d.Text = resx_curr.GetString("dessert1d")
+        dessert2.Text = resx_curr.GetString("dessert2")
+        dessert2d.Text = resx_curr.GetString("dessert2d")
+        dessert3.Text = resx_curr.GetString("dessert3")
 
+        drink0.Text = resx_curr.GetString("drink0")
+        drink1.Text = resx_curr.GetString("drink1")
+        drink2.Text = resx_curr.GetString("drink2")
+        drink3.Text = resx_curr.GetString("drink3")
+        drink4.Text = resx_curr.GetString("drink4")
+        drink5.Text = resx_curr.GetString("drink5")
 
+        setMenuPrices()
+    End Sub
 
 
     ''' This method name should be the same name as the form '''
     Private Sub DessertsDrinks_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If Me.resx_curr Is Nothing Then
-            resx_curr = resx_enUS
-        End If
+        resx_curr = resx_enUS
         setLabelText()
     End Sub
 
@@ -63,7 +85,7 @@ Public Class DessertsDrinks
     End Sub
 
     Private Sub dessertDrinkLabel_Click(sender As Object, e As EventArgs) Handles dessertDrinkLabel.Click
-        Dim f As New DessertsDrinks(resx_curr)
+        Dim f As New DessertsDrinks
         f.Show()
         Me.Hide()
     End Sub
@@ -91,6 +113,8 @@ Public Class DessertsDrinks
         resizeFont(stromboliLabel)
         resizeFont(dinnersLabel)
         resizeFont(dessertDrinkLabel)
+
+        setMenuText() '' For the menu which is different on every form
     End Sub
 
 

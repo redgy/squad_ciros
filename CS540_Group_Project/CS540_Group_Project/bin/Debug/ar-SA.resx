@@ -214,7 +214,7 @@
     <value>قائمة كاملة من 11-9 | التسليم السريع | بيتزا خدمت كل يوم ، كل يوم
 </value>
   </data>
-  <data name="desser1price" xml:space="preserve">
+  <data name="dessert1price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert0" xml:space="preserve">
@@ -310,7 +310,7 @@
   <data name="drink4" xml:space="preserve">
     <value>20 oz مشروب غازي</value>
   </data>
-  <data name="drink4prince" xml:space="preserve">
+  <data name="drink4price" xml:space="preserve">
     <value>3.25</value>
   </data>
   <data name="drink5" xml:space="preserve">

@@ -51,7 +51,7 @@ Partial Class DessertsDrinks
         Me.drink0 = New System.Windows.Forms.Label()
         Me.dessert1d = New System.Windows.Forms.Label()
         Me.dessert2d = New System.Windows.Forms.Label()
-        Me.desser1price = New System.Windows.Forms.Label()
+        Me.dessert1price = New System.Windows.Forms.Label()
         Me.dessert2price = New System.Windows.Forms.Label()
         Me.dessert3price = New System.Windows.Forms.Label()
         Me.drink1price = New System.Windows.Forms.Label()
@@ -382,17 +382,17 @@ Partial Class DessertsDrinks
         Me.dessert2d.Text = "chocolate mousse, whipped cream, chocolate cookie crust"
         Me.dessert2d.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'desser1price
+        'dessert1price
         '
-        Me.desser1price.BackColor = System.Drawing.Color.Firebrick
-        Me.desser1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.desser1price.ForeColor = System.Drawing.Color.White
-        Me.desser1price.Location = New System.Drawing.Point(102, 243)
-        Me.desser1price.Name = "desser1price"
-        Me.desser1price.Size = New System.Drawing.Size(224, 26)
-        Me.desser1price.TabIndex = 109
-        Me.desser1price.Text = "$5.99"
-        Me.desser1price.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.dessert1price.BackColor = System.Drawing.Color.Firebrick
+        Me.dessert1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dessert1price.ForeColor = System.Drawing.Color.White
+        Me.dessert1price.Location = New System.Drawing.Point(102, 243)
+        Me.dessert1price.Name = "dessert1price"
+        Me.dessert1price.Size = New System.Drawing.Size(224, 26)
+        Me.dessert1price.TabIndex = 109
+        Me.dessert1price.Text = "$5.99"
+        Me.dessert1price.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'dessert2price
         '
@@ -491,7 +491,7 @@ Partial Class DessertsDrinks
         Me.Controls.Add(Me.drink1price)
         Me.Controls.Add(Me.dessert3price)
         Me.Controls.Add(Me.dessert2price)
-        Me.Controls.Add(Me.desser1price)
+        Me.Controls.Add(Me.dessert1price)
         Me.Controls.Add(Me.dessert2d)
         Me.Controls.Add(Me.dessert1d)
         Me.Controls.Add(Me.drink0)
@@ -557,7 +557,7 @@ Partial Class DessertsDrinks
     Friend WithEvents drink0 As Label
     Friend WithEvents dessert1d As Label
     Friend WithEvents dessert2d As Label
-    Friend WithEvents desser1price As Label
+    Friend WithEvents dessert1price As Label
     Friend WithEvents dessert2price As Label
     Friend WithEvents dessert3price As Label
     Friend WithEvents drink1price As Label

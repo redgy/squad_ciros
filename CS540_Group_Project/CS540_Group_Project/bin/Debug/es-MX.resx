@@ -213,7 +213,7 @@
   <data name="description" xml:space="preserve">
     <value>MENÚ COMPLETO SERVIDO DE 11 a.m.-9 p.m. ENTREGA RÁPIDA | PIZZA SERVIDA TODO EL DÍA, TODOS LOS DÍAS</value>
   </data>
-  <data name="desser1price" xml:space="preserve">
+  <data name="dessert1price" xml:space="preserve">
     <value>5.99</value>
   </data>
   <data name="dessert0" xml:space="preserve">
@@ -235,7 +235,7 @@
     <value>5.99</value>
   </data>
   <data name="dessert3" xml:space="preserve">
-    <value>Fudge Brownie</value>
+    <value>Dulce de Chocolate</value>
   </data>
   <data name="dessert3price" xml:space="preserve">
     <value>1.99</value>
@@ -309,7 +309,7 @@
   <data name="drink4" xml:space="preserve">
     <value>20 g de soda</value>
   </data>
-  <data name="drink4prince" xml:space="preserve">
+  <data name="drink4price" xml:space="preserve">
     <value>3.25</value>
   </data>
   <data name="drink5" xml:space="preserve">

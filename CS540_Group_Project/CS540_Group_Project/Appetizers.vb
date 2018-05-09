@@ -71,7 +71,7 @@ Public Class Appetizers
     End Sub
 
     Private Sub dessertDrinkLabel_Click(sender As Object, e As EventArgs) Handles dessertDrinkLabel.Click
-        Dim f As New DessertsDrinks(resx_curr)
+        Dim f As New DessertsDrinks
         f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
