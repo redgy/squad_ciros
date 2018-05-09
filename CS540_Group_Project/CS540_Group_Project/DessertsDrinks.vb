@@ -47,6 +47,7 @@ Public Class DessertsDrinks
 
     ''' This method name should be the same name as the form '''
     Private Sub DessertsDrinks_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        CenterForm(Me)
         resx_curr = resx_enUS
         setLabelText()
     End Sub
@@ -56,12 +57,14 @@ Public Class DessertsDrinks
     ''' LOAD NEW FORMS METHODS '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
         Dim f As New Appetizers
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub saladLabel_Click(sender As Object, e As EventArgs) Handles saladLabel.Click
         Dim f As New Salads
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
@@ -113,8 +116,6 @@ Public Class DessertsDrinks
         resizeFont(stromboliLabel)
         resizeFont(dinnersLabel)
         resizeFont(dessertDrinkLabel)
-
-        setMenuText() '' For the menu which is different on every form
     End Sub
 
 
@@ -172,7 +173,18 @@ Public Class DessertsDrinks
         setLabelText()
     End Sub
 
-    Private Sub Label14_Click(sender As Object, e As EventArgs) Handles englishLabel.Click
+    ''' CENTERING THE FORM (be sure to call from Load function) '''
+    Public Shared Sub CenterForm(ByVal frm As Form, Optional ByVal parent As Form = Nothing)
+        Dim r As Rectangle
+        If parent IsNot Nothing Then
+            r = parent.RectangleToScreen(parent.ClientRectangle)
+        Else
+            r = Screen.FromPoint(frm.Location).WorkingArea
+        End If
 
+        Dim x = r.Left + (r.Width - frm.Width) \ 2
+        Dim y = r.Top + (r.Height - frm.Height) \ 2
+        frm.Location = New Point(x, y)
     End Sub
+
 End Class

@@ -18,13 +18,10 @@ Public Class Form1
 
 
 
-
     ''' This method name should be the same name as the form '''
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        StartPosition = FormStartPosition.CenterScreen
-        If Me.resx_curr Is Nothing Then
-            resx_curr = resx_enUS
-        End If
+        CenterForm(Me)
+        resx_curr = resx_enUS
         setLabelText()
     End Sub
 
@@ -147,6 +144,20 @@ Public Class Form1
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
         setLabelText()
+    End Sub
+
+    ''' CENTERING THE FORM (be sure to call from Load function) '''
+    Public Shared Sub CenterForm(ByVal frm As Form, Optional ByVal parent As Form = Nothing)
+        Dim r As Rectangle
+        If parent IsNot Nothing Then
+            r = parent.RectangleToScreen(parent.ClientRectangle)
+        Else
+            r = Screen.FromPoint(frm.Location).WorkingArea
+        End If
+
+        Dim x = r.Left + (r.Width - frm.Width) \ 2
+        Dim y = r.Top + (r.Height - frm.Height) \ 2
+        frm.Location = New Point(x, y)
     End Sub
 
 End Class

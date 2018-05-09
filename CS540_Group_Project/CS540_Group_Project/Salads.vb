@@ -30,6 +30,7 @@ Public Class Salads
 
     ''' This method name should be the same name as the form '''
     Private Sub Salads_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        CenterForm(Me)
         resx_curr = resx_enUS
         setLabelText()
     End Sub
@@ -44,36 +45,38 @@ Public Class Salads
         Me.Hide()
     End Sub
 
+    Private Sub saladLabel_Click(sender As Object, e As EventArgs) Handles saladLabel.Click
+        Dim f As New Salads
+        f.StartPosition = FormStartPosition.CenterScreen
+        f.Show()
+        Me.Hide()
+    End Sub
+
     Private Sub signatureSubLabel_Click(sender As Object, e As EventArgs) Handles signatureSubLabel.Click
         Dim f As New SignatureSubs
-        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub pizzaLabel_Click(sender As Object, e As EventArgs) Handles pizzaLabel.Click
         Dim f As New Pizza
-        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub stromboliLabel_Click(sender As Object, e As EventArgs) Handles stromboliLabel.Click
         Dim f As New Stromboli
-        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub dessertDrinkLabel_Click(sender As Object, e As EventArgs) Handles dessertDrinkLabel.Click
         Dim f As New DessertsDrinks
-        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
     Private Sub dinnersLabel_Click(sender As Object, e As EventArgs) Handles dinnersLabel.Click
         Dim f As New Dinners
-        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
@@ -96,8 +99,6 @@ Public Class Salads
         resizeFont(stromboliLabel)
         resizeFont(dinnersLabel)
         resizeFont(dessertDrinkLabel)
-
-        setMenuText() '' For the menu which is different on every form
     End Sub
 
 
@@ -153,6 +154,20 @@ Public Class Salads
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
         setLabelText()
+    End Sub
+
+    ''' CENTERING THE FORM (be sure to call from Load function) '''
+    Public Shared Sub CenterForm(ByVal frm As Form, Optional ByVal parent As Form = Nothing)
+        Dim r As Rectangle
+        If parent IsNot Nothing Then
+            r = parent.RectangleToScreen(parent.ClientRectangle)
+        Else
+            r = Screen.FromPoint(frm.Location).WorkingArea
+        End If
+
+        Dim x = r.Left + (r.Width - frm.Width) \ 2
+        Dim y = r.Top + (r.Height - frm.Height) \ 2
+        frm.Location = New Point(x, y)
     End Sub
 
 End Class
