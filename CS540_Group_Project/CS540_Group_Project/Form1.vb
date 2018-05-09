@@ -2,7 +2,6 @@
 Imports System.Globalization
 Imports System.Resources
 Imports System.Threading
-
 Imports System.Net
 Imports System.IO
 
@@ -22,11 +21,6 @@ Public Class Form1
     Dim SARrate As Double
 
 
-    Dim appetizerForm As New Appetizers
-
-
-
-
 
 
 
@@ -35,14 +29,14 @@ Public Class Form1
         CenterForm(Me)
         resx_curr = resx_enUS
         setLabelText()
-        CalculateExchangeRate()
+        getExchangeRates()
     End Sub
 
     ''' --------------------- TEMPLATE CODE THAT IS THE SAME FOR EVERY FORM ----------------------- '''
 
     ''' GETTING THE EXCHANGE RATES '''
     ''' Loops through the stream and extracts the conversion '''
-    Private Function getExchangeRate(ostr As Stream)
+    Private Function manipulateStream(ostr As Stream)
         Dim objReader As New StreamReader(ostr)
         Dim sLine As String = ""
         Dim i As Integer = 0
@@ -80,11 +74,11 @@ Public Class Form1
         wRequest = WebRequest.Create(url)
         wRequest.Proxy = WebProxy.GetDefaultProxy()
         ostr = wRequest.GetResponse.GetResponseStream()
-        Return Convert.ToDouble(getExchangeRate(ostr))
+        Return Convert.ToDouble(manipulateStream(ostr))
     End Function
 
     ''' Method to grab currencies and do conversions '''
-    Private Sub CalculateExchangeRate()
+    Private Sub getExchangeRates()
         CNYrate = loadURL("CNY")
         EURrate = loadURL("EUR")
         MXNrate = loadURL("MXN")
@@ -94,11 +88,9 @@ Public Class Form1
 
     ''' LOAD NEW FORMS METHODS '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
-        'Dim f As New Appetizers
-        'f.StartPosition = FormStartPosition.CenterScreen
-        'f.Show()
-        appetizerForm.Show()
-        appetizerForm = Nothing
+        Dim f As New Appetizers
+        f.StartPosition = FormStartPosition.CenterScreen
+        f.Show()
         Me.Hide()
     End Sub
 

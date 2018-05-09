@@ -2,6 +2,8 @@
 Imports System.Globalization
 Imports System.Resources
 Imports System.Threading
+Imports System.Net
+Imports System.IO
 
 Public Class Salads
     ' ResX file variables
@@ -12,6 +14,12 @@ Public Class Salads
     Dim resx_zhCHT As ResXResourceSet = New ResXResourceSet("zh-CHT.resx")
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
+
+    ' Exchange rate variables
+    Dim CNYrate As Double
+    Dim EURrate As Double
+    Dim MXNrate As Double
+    Dim SARrate As Double
 
     Private Sub setMenuText()
         salad1.Text = resx_curr.GetString("salad1")
@@ -33,9 +41,62 @@ Public Class Salads
         CenterForm(Me)
         resx_curr = resx_enUS
         setLabelText()
+        getExchangeRates()
     End Sub
 
     ''' --------------------- TEMPLATE CODE THAT IS THE SAME FOR EVERY FORM ----------------------- '''
+
+    ''' GETTING THE EXCHANGE RATES '''
+    ''' Loops through the stream and extracts the conversion '''
+    Private Function manipulateStream(ostr As Stream)
+        Dim objReader As New StreamReader(ostr)
+        Dim sLine As String = ""
+        Dim i As Integer = 0
+        Dim foundIndex As Integer
+
+        Dim str As String = ""
+        Do While Not sLine Is Nothing
+            i += 1
+            sLine = objReader.ReadLine
+            If Not sLine Is Nothing Then
+                foundIndex = sLine.IndexOf("uccResultAmount")
+                If foundIndex.CompareTo(-1) Then
+                    str = sLine.Substring(foundIndex)
+                    foundIndex = str.IndexOf(">") '' start of number
+
+                    str = str.Substring(foundIndex)
+                    foundIndex = str.IndexOf("<") '' end of number
+
+                    str = str.Substring(1, foundIndex - 1)
+                End If
+            End If
+        Loop
+        Return str '' this will be the conversion rate
+    End Function
+
+
+    '' Method will take in the desired currency and grab currency from url ''
+    Private Function loadURL(currency As String)
+        Dim url As String
+        Dim wRequest As WebRequest
+        Dim ostr As Stream
+
+        url = "https://xe.com/currencyconverter/convert/?Amount=1&From=USD&To="
+        url = url + currency
+        wRequest = WebRequest.Create(url)
+        wRequest.Proxy = WebProxy.GetDefaultProxy()
+        ostr = wRequest.GetResponse.GetResponseStream()
+        Return Convert.ToDouble(manipulateStream(ostr))
+    End Function
+
+    ''' Method to grab currencies and do conversions '''
+    Private Sub getExchangeRates()
+        CNYrate = loadURL("CNY")
+        EURrate = loadURL("EUR")
+        MXNrate = loadURL("MXN")
+        SARrate = loadURL("SAR")
+    End Sub
+
 
     ''' LOAD NEW FORMS METHODS '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
@@ -99,6 +160,7 @@ Public Class Salads
         resizeFont(stromboliLabel)
         resizeFont(dinnersLabel)
         resizeFont(dessertDrinkLabel)
+        setMenuText()
     End Sub
 
 
@@ -169,5 +231,4 @@ Public Class Salads
         Dim y = r.Top + (r.Height - frm.Height) \ 2
         frm.Location = New Point(x, y)
     End Sub
-
 End Class
