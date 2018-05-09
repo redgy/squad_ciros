@@ -148,7 +148,7 @@ Public Class Pizza
     End Sub
 
     Private Sub stromboliLabel_Click(sender As Object, e As EventArgs) Handles stromboliLabel.Click
-        Dim f As New Stromboli(resx_curr)
+        Dim f As New Stromboli
         f.Show()
         Me.Hide()
     End Sub

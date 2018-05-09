@@ -59,7 +59,7 @@ Public Class Salads
     End Sub
 
     Private Sub stromboliLabel_Click(sender As Object, e As EventArgs) Handles stromboliLabel.Click
-        Dim f As New Stromboli(resx_curr)
+        Dim f As New Stromboli
         f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()

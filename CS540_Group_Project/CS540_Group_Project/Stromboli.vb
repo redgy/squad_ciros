@@ -12,16 +12,25 @@ Public Class Stromboli
     Dim resx_zhCHT As ResXResourceSet = New ResXResourceSet("zh-CHT.resx")
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
-    Public Sub New(resx_curr As ResXResourceSet)
-        Me.resx_curr = resx_curr
+    Public Sub setMenuText()
+        stromboli0.Text = resx_curr.GetString("stromboli0")
+        stromboli1.Text = resx_curr.GetString("stromboli1")
+        stromboli1d.Text = resx_curr.GetString("stromboli1d")
+        stromboli2.Text = resx_curr.GetString("stromboli2")
+        stromboli2d.Text = resx_curr.GetString("stromboli2d")
+        stromboli3.Text = resx_curr.GetString("stromboli3")
+        stromboli3d.Text = resx_curr.GetString("stromboli3d")
+        stromboli4.Text = resx_curr.GetString("stromboli4")
+        stromboli4d.Text = resx_curr.GetString("stromboli4d")
+        stromboli5.Text = resx_curr.GetString("stromboli5")
+        stromboli5d.Text = resx_curr.GetString("stromboli5d")
+        stromboliprice.Text = resx_curr.GetString("stromboliprice")
     End Sub
 
 
     ''' This method name should be the same name as the form '''
     Private Sub Stromboli_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If Me.resx_curr Is Nothing Then
-            resx_curr = resx_enUS
-        End If
+        resx_curr = resx_enUS
         setLabelText()
     End Sub
 
@@ -53,7 +62,7 @@ Public Class Stromboli
     End Sub
 
     Private Sub stromboliLabel_Click(sender As Object, e As EventArgs) Handles stromboliLabel.Click
-        Dim f As New Stromboli(resx_curr)
+        Dim f As New Stromboli
         f.Show()
         Me.Hide()
     End Sub
@@ -87,6 +96,8 @@ Public Class Stromboli
         resizeFont(stromboliLabel)
         resizeFont(dinnersLabel)
         resizeFont(dessertDrinkLabel)
+
+        setMenuText() '' For the menu which is different on every form
     End Sub
 
 
