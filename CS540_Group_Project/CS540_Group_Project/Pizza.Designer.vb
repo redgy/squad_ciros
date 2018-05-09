@@ -22,7 +22,6 @@ Partial Class Pizza
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim protein5price As System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label()
         Me.cirosLogo = New System.Windows.Forms.PictureBox()
         Me.background = New System.Windows.Forms.Label()
@@ -82,12 +81,12 @@ Partial Class Pizza
         Me.veggie8 = New System.Windows.Forms.Label()
         Me.veggie9 = New System.Windows.Forms.Label()
         Me.veggie10 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
+        Me.protein1 = New System.Windows.Forms.Label()
+        Me.protein2 = New System.Windows.Forms.Label()
+        Me.protein3 = New System.Windows.Forms.Label()
+        Me.protein4 = New System.Windows.Forms.Label()
+        Me.protein5 = New System.Windows.Forms.Label()
+        Me.protein6 = New System.Windows.Forms.Label()
         Me.veggie11 = New System.Windows.Forms.Label()
         Me.cheese1price = New System.Windows.Forms.Label()
         Me.cheese2price = New System.Windows.Forms.Label()
@@ -124,21 +123,9 @@ Partial Class Pizza
         Me.appetizerLabel = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
-        protein5price = New System.Windows.Forms.Label()
+        Me.protein5price = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'protein5price
-        '
-        protein5price.BackColor = System.Drawing.Color.Firebrick
-        protein5price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        protein5price.ForeColor = System.Drawing.Color.White
-        protein5price.Location = New System.Drawing.Point(978, 629)
-        protein5price.Name = "protein5price"
-        protein5price.Size = New System.Drawing.Size(15, 15)
-        protein5price.TabIndex = 130
-        protein5price.Text = "2"
-        protein5price.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Label2
         '
@@ -833,77 +820,77 @@ Partial Class Pizza
         Me.veggie10.Text = "spinach"
         Me.veggie10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label24
+        'protein1
         '
-        Me.Label24.BackColor = System.Drawing.Color.Firebrick
-        Me.Label24.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.ForeColor = System.Drawing.Color.White
-        Me.Label24.Location = New System.Drawing.Point(696, 626)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(140, 23)
-        Me.Label24.TabIndex = 103
-        Me.Label24.Text = "pepperoni"
-        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.protein1.BackColor = System.Drawing.Color.Firebrick
+        Me.protein1.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.protein1.ForeColor = System.Drawing.Color.White
+        Me.protein1.Location = New System.Drawing.Point(696, 626)
+        Me.protein1.Name = "protein1"
+        Me.protein1.Size = New System.Drawing.Size(140, 23)
+        Me.protein1.TabIndex = 103
+        Me.protein1.Text = "pepperoni"
+        Me.protein1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label25
+        'protein2
         '
-        Me.Label25.BackColor = System.Drawing.Color.Firebrick
-        Me.Label25.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.ForeColor = System.Drawing.Color.White
-        Me.Label25.Location = New System.Drawing.Point(695, 645)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(140, 23)
-        Me.Label25.TabIndex = 104
-        Me.Label25.Text = "sausage"
-        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.protein2.BackColor = System.Drawing.Color.Firebrick
+        Me.protein2.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.protein2.ForeColor = System.Drawing.Color.White
+        Me.protein2.Location = New System.Drawing.Point(695, 645)
+        Me.protein2.Name = "protein2"
+        Me.protein2.Size = New System.Drawing.Size(140, 23)
+        Me.protein2.TabIndex = 104
+        Me.protein2.Text = "sausage"
+        Me.protein2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label26
+        'protein3
         '
-        Me.Label26.BackColor = System.Drawing.Color.Firebrick
-        Me.Label26.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.ForeColor = System.Drawing.Color.White
-        Me.Label26.Location = New System.Drawing.Point(696, 666)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(140, 23)
-        Me.Label26.TabIndex = 105
-        Me.Label26.Text = "meatball"
-        Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.protein3.BackColor = System.Drawing.Color.Firebrick
+        Me.protein3.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.protein3.ForeColor = System.Drawing.Color.White
+        Me.protein3.Location = New System.Drawing.Point(696, 666)
+        Me.protein3.Name = "protein3"
+        Me.protein3.Size = New System.Drawing.Size(140, 23)
+        Me.protein3.TabIndex = 105
+        Me.protein3.Text = "meatball"
+        Me.protein3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label27
+        'protein4
         '
-        Me.Label27.BackColor = System.Drawing.Color.Firebrick
-        Me.Label27.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.ForeColor = System.Drawing.Color.White
-        Me.Label27.Location = New System.Drawing.Point(697, 687)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(140, 23)
-        Me.Label27.TabIndex = 106
-        Me.Label27.Text = "ham"
-        Me.Label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.protein4.BackColor = System.Drawing.Color.Firebrick
+        Me.protein4.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.protein4.ForeColor = System.Drawing.Color.White
+        Me.protein4.Location = New System.Drawing.Point(697, 687)
+        Me.protein4.Name = "protein4"
+        Me.protein4.Size = New System.Drawing.Size(140, 23)
+        Me.protein4.TabIndex = 106
+        Me.protein4.Text = "ham"
+        Me.protein4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label28
+        'protein5
         '
-        Me.Label28.BackColor = System.Drawing.Color.Firebrick
-        Me.Label28.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.White
-        Me.Label28.Location = New System.Drawing.Point(858, 626)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(111, 23)
-        Me.Label28.TabIndex = 107
-        Me.Label28.Text = "bacon"
-        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.protein5.BackColor = System.Drawing.Color.Firebrick
+        Me.protein5.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.protein5.ForeColor = System.Drawing.Color.White
+        Me.protein5.Location = New System.Drawing.Point(858, 626)
+        Me.protein5.Name = "protein5"
+        Me.protein5.Size = New System.Drawing.Size(111, 23)
+        Me.protein5.TabIndex = 107
+        Me.protein5.Text = "bacon"
+        Me.protein5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label29
+        'protein6
         '
-        Me.Label29.BackColor = System.Drawing.Color.Firebrick
-        Me.Label29.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.ForeColor = System.Drawing.Color.White
-        Me.Label29.Location = New System.Drawing.Point(858, 645)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(111, 23)
-        Me.Label29.TabIndex = 108
-        Me.Label29.Text = "roasted chicken"
-        Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.protein6.BackColor = System.Drawing.Color.Firebrick
+        Me.protein6.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.protein6.ForeColor = System.Drawing.Color.White
+        Me.protein6.Location = New System.Drawing.Point(858, 645)
+        Me.protein6.Name = "protein6"
+        Me.protein6.Size = New System.Drawing.Size(111, 23)
+        Me.protein6.TabIndex = 108
+        Me.protein6.Text = "roasted chicken"
+        Me.protein6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'veggie11
         '
@@ -1317,12 +1304,25 @@ Partial Class Pizza
         Me.Label12.Size = New System.Drawing.Size(3, 68)
         Me.Label12.TabIndex = 145
         '
+        'protein5price
+        '
+        Me.protein5price.BackColor = System.Drawing.Color.Firebrick
+        Me.protein5price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.protein5price.ForeColor = System.Drawing.Color.White
+        Me.protein5price.Location = New System.Drawing.Point(978, 629)
+        Me.protein5price.Name = "protein5price"
+        Me.protein5price.Size = New System.Drawing.Size(15, 15)
+        Me.protein5price.TabIndex = 146
+        Me.protein5price.Text = "2"
+        Me.protein5price.TextAlign = System.Drawing.ContentAlignment.TopRight
+        '
         'Pizza
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.Controls.Add(Me.protein5price)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.dinnersLabel)
@@ -1338,7 +1338,6 @@ Partial Class Pizza
         Me.Controls.Add(Me.saladLabel)
         Me.Controls.Add(Me.appetizerLabel)
         Me.Controls.Add(Me.protein6price)
-        Me.Controls.Add(protein5price)
         Me.Controls.Add(Me.protein4price)
         Me.Controls.Add(Me.protein3price)
         Me.Controls.Add(Me.protein2price)
@@ -1360,12 +1359,12 @@ Partial Class Pizza
         Me.Controls.Add(Me.cheese2price)
         Me.Controls.Add(Me.cheese1price)
         Me.Controls.Add(Me.veggie11)
-        Me.Controls.Add(Me.Label29)
-        Me.Controls.Add(Me.Label28)
-        Me.Controls.Add(Me.Label27)
-        Me.Controls.Add(Me.Label26)
-        Me.Controls.Add(Me.Label25)
-        Me.Controls.Add(Me.Label24)
+        Me.Controls.Add(Me.protein6)
+        Me.Controls.Add(Me.protein5)
+        Me.Controls.Add(Me.protein4)
+        Me.Controls.Add(Me.protein3)
+        Me.Controls.Add(Me.protein2)
+        Me.Controls.Add(Me.protein1)
         Me.Controls.Add(Me.veggie10)
         Me.Controls.Add(Me.veggie9)
         Me.Controls.Add(Me.veggie8)
@@ -1491,12 +1490,12 @@ Partial Class Pizza
     Friend WithEvents veggie8 As Label
     Friend WithEvents veggie9 As Label
     Friend WithEvents veggie10 As Label
-    Friend WithEvents Label24 As Label
-    Friend WithEvents Label25 As Label
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Label29 As Label
+    Friend WithEvents protein1 As Label
+    Friend WithEvents protein2 As Label
+    Friend WithEvents protein3 As Label
+    Friend WithEvents protein4 As Label
+    Friend WithEvents protein5 As Label
+    Friend WithEvents protein6 As Label
     Friend WithEvents veggie11 As Label
     Friend WithEvents cheese1price As Label
     Friend WithEvents cheese2price As Label
@@ -1533,4 +1532,5 @@ Partial Class Pizza
     Friend WithEvents appetizerLabel As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label12 As Label
+    Friend WithEvents protein5price As Label
 End Class

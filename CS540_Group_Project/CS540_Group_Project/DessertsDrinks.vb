@@ -51,7 +51,7 @@ Public Class DessertsDrinks
     End Sub
 
     Private Sub pizzaLabel_Click(sender As Object, e As EventArgs) Handles pizzaLabel.Click
-        Dim f As New Pizza(resx_curr)
+        Dim f As New Pizza
         f.Show()
         Me.Hide()
     End Sub

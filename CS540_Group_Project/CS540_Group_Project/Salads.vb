@@ -52,7 +52,7 @@ Public Class Salads
     End Sub
 
     Private Sub pizzaLabel_Click(sender As Object, e As EventArgs) Handles pizzaLabel.Click
-        Dim f As New Pizza(resx_curr)
+        Dim f As New Pizza
         f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
