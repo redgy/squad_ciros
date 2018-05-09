@@ -244,13 +244,13 @@
     <value>CENAS</value>
   </data>
   <data name="dinner0d" xml:space="preserve">
-    <value>all dinners are served with 2 garlic knots</value>
+    <value>todas las cenas se sirven con 2 nudos de ajo</value>
   </data>
   <data name="dinner1" xml:space="preserve">
     <value>Pollo parmesano</value>
   </data>
   <data name="dinner1d" xml:space="preserve">
-    <value>topped with mozzarella cheese, served with penne pasta, tossed in our homemade marinara sauce, fresh basil, parmesan cheese</value>
+    <value>cubierto con queso mozzarella, servido con pasta penne, arrojado en nuestra salsa marinara casera, albahaca fresca, queso parmesano</value>
   </data>
   <data name="dinner1price" xml:space="preserve">
     <value>11.99</value>
@@ -259,7 +259,7 @@
     <value>Lasaña de carne</value>
   </data>
   <data name="dinner2d" xml:space="preserve">
-    <value>prepared with our homemade meatball, sausage, ricotte, parmesan cheese, baked to perfection!</value>
+    <value>¡preparado con nuestra albóndiga casera, salchicha, ricota, queso parmesano, horneado a la perfección!</value>
   </data>
   <data name="dinner2price" xml:space="preserve">
     <value>11.99</value>
@@ -268,10 +268,10 @@
     <value>Pasta penne</value>
   </data>
   <data name="dinner3add" xml:space="preserve">
-    <value>add 2 meatballs for $3</value>
+    <value>agregue 2 albóndigas por $3</value>
   </data>
   <data name="dinner3d" xml:space="preserve">
-    <value>homemade marinara sauce, fresh basil, parmesan cheese</value>
+    <value>salsa marinara casera, albahaca fresca, queso parmesano</value>
   </data>
   <data name="dinner3price" xml:space="preserve">
     <value>8.99</value>
@@ -280,7 +280,7 @@
     <value>Hornea Penne Pasta con salchicha</value>
   </data>
   <data name="dinner4d" xml:space="preserve">
-    <value>homemade marinara sauce, fresh basil, ricotta, parmesan cheese topped with mozzarella</value>
+    <value>salsa marinara casera, albahaca fresca, ricotta, queso parmesano cubierto con mozzarella</value>
   </data>
   <data name="dinner4price" xml:space="preserve">
     <value>11.99</value>
@@ -478,25 +478,25 @@
     <value>Vegetal</value>
   </data>
   <data name="stromboli2d" xml:space="preserve">
-    <value>spinach, tomato, mushroom, garlic, mozzarella</value>
+    <value>espinacas, tomate, champiñones, ajo, mozzarella</value>
   </data>
   <data name="stromboli3" xml:space="preserve">
     <value>Pollo Buffalo</value>
   </data>
   <data name="stromboli3d" xml:space="preserve">
-    <value>roasted chicken, mozzarella, bleu cheese, buffalo sauce</value>
+    <value>pollo asado, mozzarella, queso azul, salsa de búfalo</value>
   </data>
   <data name="stromboli4" xml:space="preserve">
     <value>CASA BOLI</value>
   </data>
   <data name="stromboli4d" xml:space="preserve">
-    <value>sausage, pepperoni, bacon, pepper, onions, mozarella</value>
+    <value>salchicha, pepperoni, tocino, pimiento, cebolla, mozarella</value>
   </data>
   <data name="stromboli5" xml:space="preserve">
     <value>Construye tu propio Stromboli</value>
   </data>
   <data name="stromboli5d" xml:space="preserve">
-    <value>choose up to 4 toppings</value>
+    <value>elija hasta 4 ingredientes</value>
   </data>
   <data name="stromboliprice" xml:space="preserve">
     <value>10.99</value>
