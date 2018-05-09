@@ -12,8 +12,27 @@ Public Class Dinners
     Dim resx_zhCHT As ResXResourceSet = New ResXResourceSet("zh-CHT.resx")
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
-    Public Sub New(resx_curr As ResXResourceSet)
-        Me.resx_curr = resx_curr
+    Public Sub setMenuPrices()
+        dinner1price.Text = resx_curr.GetString("dinner1price")
+        dinner2price.Text = resx_curr.GetString("dinner2price")
+        dinner3price.Text = resx_curr.GetString("dinner3price")
+        dinner4price.Text = resx_curr.GetString("dinner4price")
+    End Sub
+
+    Public Sub setMenuText()
+        dinner0.Text = resx_curr.GetString("dinner0")
+        dinner0d.Text = resx_curr.GetString("dinner0d")
+        dinner1.Text = resx_curr.GetString("dinner1")
+        dinner1d.Text = resx_curr.GetString("dinner1d")
+        dinner2.Text = resx_curr.GetString("dinner2")
+        dinner2d.Text = resx_curr.GetString("dinner2d")
+        dinner3.Text = resx_curr.GetString("dinner3")
+        dinner3add.Text = resx_curr.GetString("dinner3add")
+        dinner3d.Text = resx_curr.GetString("dinner3d")
+        dinner4.Text = resx_curr.GetString("dinner4")
+        dinner4d.Text = resx_curr.GetString("dinner4d")
+
+        setMenuPrices()
     End Sub
 
 
@@ -21,9 +40,7 @@ Public Class Dinners
 
     ''' This method name should be the same name as the form '''
     Private Sub Dinners_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If Me.resx_curr Is Nothing Then
-            resx_curr = resx_enUS
-        End If
+        resx_curr = resx_enUS
         setLabelText()
     End Sub
 
@@ -66,7 +83,7 @@ Public Class Dinners
         Me.Hide()
     End Sub
     Private Sub dinnersLabel_Click(sender As Object, e As EventArgs) Handles dinnersLabel.Click
-        Dim f As New Dinners(resx_curr)
+        Dim f As New Dinners
         f.Show()
         Me.Hide()
     End Sub
@@ -89,6 +106,8 @@ Public Class Dinners
         resizeFont(stromboliLabel)
         resizeFont(dinnersLabel)
         resizeFont(dessertDrinkLabel)
+
+        setMenuText() '' For the menu which is different on every form
     End Sub
 
 

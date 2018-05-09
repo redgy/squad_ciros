@@ -67,7 +67,7 @@ Public Class SignatureSubs
         Me.Hide()
     End Sub
     Private Sub dinnersLabel_Click(sender As Object, e As EventArgs) Handles dinnersLabel.Click
-        Dim f As New Dinners(resx_curr)
+        Dim f As New Dinners
         f.Show()
         Me.Hide()
     End Sub

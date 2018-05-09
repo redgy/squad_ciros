@@ -72,7 +72,7 @@ Public Class Salads
         Me.Hide()
     End Sub
     Private Sub dinnersLabel_Click(sender As Object, e As EventArgs) Handles dinnersLabel.Click
-        Dim f As New Dinners(resx_curr)
+        Dim f As New Dinners
         f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
