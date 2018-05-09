@@ -21,7 +21,9 @@ Public Class Form1
 
     ''' This method name should be the same name as the form '''
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        resx_curr = resx_enUS
+        If Me.resx_curr Is Nothing Then
+            resx_curr = resx_enUS
+        End If
         setLabelText()
     End Sub
 
@@ -29,42 +31,43 @@ Public Class Form1
 
     ''' LOAD NEW FORMS METHODS '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
-        Dim f As New Appetizers(resx_curr)
+        Dim f As New Appetizers
+        f.StartPosition = f.StartPosition.CenterParent
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub saladLabel_Click(sender As Object, e As EventArgs) Handles saladLabel.Click
-        Dim f As New Salads
+        Dim f As New Salads(resx_curr)
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub signatureSubLabel_Click(sender As Object, e As EventArgs) Handles signatureSubLabel.Click
-        Dim f As New SignatureSubs
+        Dim f As New SignatureSubs(resx_curr)
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub pizzaLabel_Click(sender As Object, e As EventArgs) Handles pizzaLabel.Click
-        Dim f As New Pizza
+        Dim f As New Pizza(resx_curr)
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub stromboliLabel_Click(sender As Object, e As EventArgs) Handles stromboliLabel.Click
-        Dim f As New Stromboli
+        Dim f As New Stromboli(resx_curr)
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub dessertDrinkLabel_Click(sender As Object, e As EventArgs) Handles dessertDrinkLabel.Click
-        Dim f As New DessertsDrinks
+        Dim f As New DessertsDrinks(resx_curr)
         f.Show()
         Me.Hide()
     End Sub
     Private Sub dinnersLabel_Click(sender As Object, e As EventArgs) Handles dinnersLabel.Click
-        Dim f As New Dinners
+        Dim f As New Dinners(resx_curr)
         f.Show()
         Me.Hide()
     End Sub
