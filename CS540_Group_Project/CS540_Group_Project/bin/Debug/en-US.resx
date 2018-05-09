@@ -442,7 +442,7 @@
     <value>Cheesesteak</value>
   </data>
   <data name="signatureSub1d" xml:space="preserve">
-    <value>our cheesesteak includes premium grilled steak, melted white american cheese add mushrooms, onions, or hot peppers for $0.25 each to spice it up!</value>
+    <value>our cheesesteak includes premium grilled steak, melted white american cheese add mushrooms, onions, or hot peppers</value>
   </data>
   <data name="signatureSub2" xml:space="preserve">
     <value>Chicken Parmesan</value>
@@ -650,5 +650,8 @@
   </data>
   <data name="stromboliLabel" xml:space="preserve">
     <value>Stromboli</value>
+  </data>
+  <data name="signatureSub1d2" xml:space="preserve">
+    <value>$0.25 each to spice it up!</value>
   </data>
 </root>

@@ -450,7 +450,7 @@ oignon</value>
     <value>Steak au Fromage</value>
   </data>
   <data name="signatureSub1d" xml:space="preserve">
-    <value>notre cheesesteak comprend un steak grillé de qualité supérieure, fromage américain blanc fondu, ajouter des champignons, des oignons ou des piments pour $0.25 chacun pour pimenter!</value>
+    <value>notre cheesesteak comprend un steak grillé de qualité supérieure, fromage américain blanc fondu, ajouter des champignons, des oignons ou des piments</value>
   </data>
   <data name="signatureSub2" xml:space="preserve">
     <value>Poulet au Parmesan</value>
@@ -660,5 +660,8 @@ parmesan râpé, sauce marinara</value>
   </data>
   <data name="stromboliLabel" xml:space="preserve">
     <value>Stromboli</value>
+  </data>
+  <data name="signatureSub1d2" xml:space="preserve">
+    <value>$0.25 chacun pour pimenter!</value>
   </data>
 </root>

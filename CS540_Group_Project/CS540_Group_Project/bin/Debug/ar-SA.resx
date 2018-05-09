@@ -443,7 +443,7 @@
     <value>الجبن</value>
   </data>
   <data name="signatureSub1d" xml:space="preserve">
-    <value>تشمل شرائح الجبن الخاصة بنا شرائح لحم مشوية ممتازة وجبن أمريكي أبيض مذاب أو إضافة عيش الغراب أو البصل أو الفلفل الحار مقابل 0.25 دولار لكل منها لتوابله!</value>
+    <value>تشمل شرائح الجبن الخاصة بنا شرائح لحم مشوية ممتازة وجبن أمريكي أبيض مذاب أو  دولار لكل منها لتوابله!</value>
   </data>
   <data name="signatureSub2" xml:space="preserve">
     <value>بارميزان بالدجاج</value>
@@ -653,5 +653,8 @@
   </data>
   <data name="stromboliLabel" xml:space="preserve">
     <value>سترومبولي</value>
+  </data>
+  <data name="signatureSub1d2" xml:space="preserve">
+    <value>إضافة عيش الغراب أو البصل أو الفلفل الحار مقابل $0.25</value>
   </data>
 </root>

@@ -446,7 +446,7 @@
     <value>奶酪牛排</value>
   </data>
   <data name="signatureSub1d" xml:space="preserve">
-    <value>我們的奶酪牛排包括烤牛排, 融化的美國奶酪 加蘑菇, 洋蔥, 或辣椒每個加0.25美分!</value>
+    <value>我們的奶酪牛排包括烤牛排, 融化的美國奶酪 加蘑菇, 洋蔥, 或辣椒每個加</value>
   </data>
   <data name="signatureSub2" xml:space="preserve">
     <value>雞干酪</value>
@@ -656,5 +656,8 @@
   </data>
   <data name="pizzaLabel" xml:space="preserve">
     <value>比萨</value>
+  </data>
+  <data name="signatureSub1d2" xml:space="preserve">
+    <value>$0.25美分!</value>
   </data>
 </root>

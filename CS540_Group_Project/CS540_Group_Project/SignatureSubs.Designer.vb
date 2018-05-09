@@ -44,7 +44,7 @@ Partial Class SignatureSubs
         Me.signatureSub3 = New System.Windows.Forms.Label()
         Me.signatureSub2d = New System.Windows.Forms.Label()
         Me.signatureSub2 = New System.Windows.Forms.Label()
-        Me.sginatureSub1price = New System.Windows.Forms.Label()
+        Me.signatureSub1price = New System.Windows.Forms.Label()
         Me.signatureSub1d = New System.Windows.Forms.Label()
         Me.signatureSub1 = New System.Windows.Forms.Label()
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -286,17 +286,17 @@ Partial Class SignatureSubs
         Me.signatureSub2.Text = "Chicken Parmesean"
         Me.signatureSub2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'sginatureSub1price
+        'signatureSub1price
         '
-        Me.sginatureSub1price.BackColor = System.Drawing.Color.Firebrick
-        Me.sginatureSub1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.sginatureSub1price.ForeColor = System.Drawing.Color.White
-        Me.sginatureSub1price.Location = New System.Drawing.Point(481, 136)
-        Me.sginatureSub1price.Name = "sginatureSub1price"
-        Me.sginatureSub1price.Size = New System.Drawing.Size(71, 24)
-        Me.sginatureSub1price.TabIndex = 93
-        Me.sginatureSub1price.Text = "$7.99"
-        Me.sginatureSub1price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.signatureSub1price.BackColor = System.Drawing.Color.Firebrick
+        Me.signatureSub1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.signatureSub1price.ForeColor = System.Drawing.Color.White
+        Me.signatureSub1price.Location = New System.Drawing.Point(451, 127)
+        Me.signatureSub1price.Name = "signatureSub1price"
+        Me.signatureSub1price.Size = New System.Drawing.Size(139, 68)
+        Me.signatureSub1price.TabIndex = 93
+        Me.signatureSub1price.Text = "$7.99"
+        Me.signatureSub1price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'signatureSub1d
         '
@@ -333,7 +333,7 @@ Partial Class SignatureSubs
         Me.Controls.Add(Me.signatureSub3)
         Me.Controls.Add(Me.signatureSub2d)
         Me.Controls.Add(Me.signatureSub2)
-        Me.Controls.Add(Me.sginatureSub1price)
+        Me.Controls.Add(Me.signatureSub1price)
         Me.Controls.Add(Me.signatureSub1d)
         Me.Controls.Add(Me.signatureSub1)
         Me.Controls.Add(Me.Label1)
@@ -383,7 +383,7 @@ Partial Class SignatureSubs
     Friend WithEvents signatureSub3 As Label
     Friend WithEvents signatureSub2d As Label
     Friend WithEvents signatureSub2 As Label
-    Friend WithEvents sginatureSub1price As Label
+    Friend WithEvents signatureSub1price As Label
     Friend WithEvents signatureSub1d As Label
     Friend WithEvents signatureSub1 As Label
 End Class
