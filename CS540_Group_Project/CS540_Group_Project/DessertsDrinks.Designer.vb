@@ -389,7 +389,7 @@ Partial Class DessertsDrinks
         Me.dessert1price.ForeColor = System.Drawing.Color.White
         Me.dessert1price.Location = New System.Drawing.Point(102, 243)
         Me.dessert1price.Name = "dessert1price"
-        Me.dessert1price.Size = New System.Drawing.Size(224, 26)
+        Me.dessert1price.Size = New System.Drawing.Size(224, 44)
         Me.dessert1price.TabIndex = 109
         Me.dessert1price.Text = "$5.99"
         Me.dessert1price.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -399,9 +399,9 @@ Partial Class DessertsDrinks
         Me.dessert2price.BackColor = System.Drawing.Color.Firebrick
         Me.dessert2price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dessert2price.ForeColor = System.Drawing.Color.White
-        Me.dessert2price.Location = New System.Drawing.Point(100, 393)
+        Me.dessert2price.Location = New System.Drawing.Point(99, 416)
         Me.dessert2price.Name = "dessert2price"
-        Me.dessert2price.Size = New System.Drawing.Size(224, 23)
+        Me.dessert2price.Size = New System.Drawing.Size(224, 38)
         Me.dessert2price.TabIndex = 110
         Me.dessert2price.Text = "$5.99"
         Me.dessert2price.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -425,7 +425,7 @@ Partial Class DessertsDrinks
         Me.drink1price.ForeColor = System.Drawing.Color.White
         Me.drink1price.Location = New System.Drawing.Point(883, 184)
         Me.drink1price.Name = "drink1price"
-        Me.drink1price.Size = New System.Drawing.Size(90, 27)
+        Me.drink1price.Size = New System.Drawing.Size(90, 34)
         Me.drink1price.TabIndex = 112
         Me.drink1price.Text = "$3.99"
         Me.drink1price.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -437,7 +437,7 @@ Partial Class DessertsDrinks
         Me.drink2price.ForeColor = System.Drawing.Color.White
         Me.drink2price.Location = New System.Drawing.Point(883, 239)
         Me.drink2price.Name = "drink2price"
-        Me.drink2price.Size = New System.Drawing.Size(90, 27)
+        Me.drink2price.Size = New System.Drawing.Size(90, 34)
         Me.drink2price.TabIndex = 113
         Me.drink2price.Text = "$3"
         Me.drink2price.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -449,7 +449,7 @@ Partial Class DessertsDrinks
         Me.drink3price.ForeColor = System.Drawing.Color.White
         Me.drink3price.Location = New System.Drawing.Point(883, 296)
         Me.drink3price.Name = "drink3price"
-        Me.drink3price.Size = New System.Drawing.Size(90, 27)
+        Me.drink3price.Size = New System.Drawing.Size(90, 38)
         Me.drink3price.TabIndex = 114
         Me.drink3price.Text = "$2.29"
         Me.drink3price.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -461,7 +461,7 @@ Partial Class DessertsDrinks
         Me.drink4price.ForeColor = System.Drawing.Color.White
         Me.drink4price.Location = New System.Drawing.Point(883, 361)
         Me.drink4price.Name = "drink4price"
-        Me.drink4price.Size = New System.Drawing.Size(90, 27)
+        Me.drink4price.Size = New System.Drawing.Size(90, 38)
         Me.drink4price.TabIndex = 115
         Me.drink4price.Text = "$3.25"
         Me.drink4price.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -473,7 +473,7 @@ Partial Class DessertsDrinks
         Me.drink5price.ForeColor = System.Drawing.Color.White
         Me.drink5price.Location = New System.Drawing.Point(883, 427)
         Me.drink5price.Name = "drink5price"
-        Me.drink5price.Size = New System.Drawing.Size(90, 27)
+        Me.drink5price.Size = New System.Drawing.Size(90, 38)
         Me.drink5price.TabIndex = 116
         Me.drink5price.Text = "$3.29"
         Me.drink5price.TextAlign = System.Drawing.ContentAlignment.TopCenter
