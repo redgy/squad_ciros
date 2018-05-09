@@ -39,7 +39,7 @@ Public Class DessertsDrinks
     End Sub
 
     Private Sub saladLabel_Click(sender As Object, e As EventArgs) Handles saladLabel.Click
-        Dim f As New Salads(resx_curr)
+        Dim f As New Salads
         f.Show()
         Me.Hide()
     End Sub

@@ -21,6 +21,7 @@ Public Class Form1
 
     ''' This method name should be the same name as the form '''
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.StartPosition = FormStartPosition.CenterScreen
         If Me.resx_curr Is Nothing Then
             resx_curr = resx_enUS
         End If
@@ -32,13 +33,14 @@ Public Class Form1
     ''' LOAD NEW FORMS METHODS '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
         Dim f As New Appetizers
-        f.StartPosition = f.StartPosition.CenterParent
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub saladLabel_Click(sender As Object, e As EventArgs) Handles saladLabel.Click
-        Dim f As New Salads(resx_curr)
+        Dim f As New Salads
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub

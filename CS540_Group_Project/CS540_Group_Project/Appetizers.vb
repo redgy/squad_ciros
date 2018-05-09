@@ -43,36 +43,42 @@ Public Class Appetizers
 
     ''' LOAD NEW FORMS METHODS (delete the label click of the current form) '''
     Private Sub saladLabel_Click(sender As Object, e As EventArgs) Handles saladLabel.Click
-        Dim f As New Salads(resx_curr)
+        Dim f As New Salads
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub signatureSubLabel_Click(sender As Object, e As EventArgs) Handles signatureSubLabel.Click
         Dim f As New SignatureSubs(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub pizzaLabel_Click(sender As Object, e As EventArgs) Handles pizzaLabel.Click
         Dim f As New Pizza(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub stromboliLabel_Click(sender As Object, e As EventArgs) Handles stromboliLabel.Click
         Dim f As New Stromboli(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub dessertDrinkLabel_Click(sender As Object, e As EventArgs) Handles dessertDrinkLabel.Click
         Dim f As New DessertsDrinks(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
     Private Sub dinnersLabel_Click(sender As Object, e As EventArgs) Handles dinnersLabel.Click
         Dim f As New Dinners(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub

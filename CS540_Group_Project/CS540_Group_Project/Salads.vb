@@ -12,16 +12,25 @@ Public Class Salads
     Dim resx_zhCHT As ResXResourceSet = New ResXResourceSet("zh-CHT.resx")
     Dim resx_arSA As ResXResourceSet = New ResXResourceSet("ar-SA.resx")
 
-    Public Sub New(resx_curr As ResXResourceSet)
-        Me.resx_curr = resx_curr
+
+    Private Sub setMenuText()
+        salad1.Text = resx_curr.GetString("salad1")
+        salad1d.Text = resx_curr.GetString("salad1d")
+        salad1price.Text = resx_curr.GetString("salad1price")
+        salad2.Text = resx_curr.GetString("salad2")
+        salad2d.Text = resx_curr.GetString("salad2d")
+        salad2price.Text = resx_curr.GetString("salad2price")
+        salad3.Text = resx_curr.GetString("salad3")
+        salad3d.Text = resx_curr.GetString("salad3d")
+        salad3price.Text = resx_curr.GetString("salad3price")
+        salads0.Text = resx_curr.GetString("salads0")
+        addSalad.Text = resx_curr.GetString("addSalad")
     End Sub
 
 
     ''' This method name should be the same name as the form '''
     Private Sub Salads_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If Me.resx_curr Is Nothing Then
-            resx_curr = resx_enUS
-        End If
+        resx_curr = resx_enUS
         setLabelText()
     End Sub
 
@@ -30,41 +39,41 @@ Public Class Salads
     ''' LOAD NEW FORMS METHODS '''
     Private Sub appetizerLabel_Click(sender As Object, e As EventArgs) Handles appetizerLabel.Click
         Dim f As New Appetizers
-        f.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub saladLabel_Click(sender As Object, e As EventArgs) Handles saladLabel.Click
-        Dim f As New Salads(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub signatureSubLabel_Click(sender As Object, e As EventArgs) Handles signatureSubLabel.Click
         Dim f As New SignatureSubs(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub pizzaLabel_Click(sender As Object, e As EventArgs) Handles pizzaLabel.Click
         Dim f As New Pizza(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub stromboliLabel_Click(sender As Object, e As EventArgs) Handles stromboliLabel.Click
         Dim f As New Stromboli(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
 
     Private Sub dessertDrinkLabel_Click(sender As Object, e As EventArgs) Handles dessertDrinkLabel.Click
         Dim f As New DessertsDrinks(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
     Private Sub dinnersLabel_Click(sender As Object, e As EventArgs) Handles dinnersLabel.Click
         Dim f As New Dinners(resx_curr)
+        f.StartPosition = FormStartPosition.CenterScreen
         f.Show()
         Me.Hide()
     End Sub
@@ -87,6 +96,8 @@ Public Class Salads
         resizeFont(stromboliLabel)
         resizeFont(dinnersLabel)
         resizeFont(dessertDrinkLabel)
+
+        setMenuText() '' For the menu which is different on every form
     End Sub
 
 
