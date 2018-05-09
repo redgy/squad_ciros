@@ -368,7 +368,7 @@ Partial Class Stromboli
         Me.stromboliprice.ForeColor = System.Drawing.Color.White
         Me.stromboliprice.Location = New System.Drawing.Point(373, 137)
         Me.stromboliprice.Name = "stromboliprice"
-        Me.stromboliprice.Size = New System.Drawing.Size(307, 25)
+        Me.stromboliprice.Size = New System.Drawing.Size(307, 47)
         Me.stromboliprice.TabIndex = 86
         Me.stromboliprice.Text = "$10.99"
         Me.stromboliprice.TextAlign = System.Drawing.ContentAlignment.TopCenter

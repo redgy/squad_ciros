@@ -31,13 +31,6 @@ Public Class SignatureSubs
     Dim MXNrate As Double
     Dim SARrate As Double
 
-    Private Function concatDesc(first As String, second As String)
-        Dim price As String = convertPrice(second.Substring(1, 4))
-        first = first.Substring(0, first.Length - 5)
-        second = second.Substring(5)
-        'Return first + " " + price + " " + second
-        Return second
-    End Function
 
     Private Sub setMenuText()
         signatureSub0.Text = resx_curr.GetString("signatureSub0")
@@ -48,6 +41,7 @@ Public Class SignatureSubs
         signatureSub3d.Text = resx_curr.GetString("signatureSub3d")
         signatureSub1d.Text = resx_curr.GetString("signatureSub1d")
         signatureSub1price.Text = convertPrice(resx_curr.GetString("signatureSub1price"))
+        resizeFont(signatureSub1price)
     End Sub
 
     ''' This method name should be the same name as the form '''

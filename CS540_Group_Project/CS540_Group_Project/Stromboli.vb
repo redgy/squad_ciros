@@ -43,7 +43,7 @@ Public Class Stromboli
         stromboli4d.Text = resx_curr.GetString("stromboli4d")
         stromboli5.Text = resx_curr.GetString("stromboli5")
         stromboli5d.Text = resx_curr.GetString("stromboli5d")
-        stromboliprice.Text = resx_curr.GetString("stromboliprice")
+        stromboliprice.Text = convertPrice(resx_curr.GetString("stromboliprice"))
     End Sub
 
 
@@ -227,26 +227,31 @@ Public Class Stromboli
     ''' LANGUAGE SELECTION BUTTON METHODS '''
     Private Sub englishLabel_Click(sender As Object, e As EventArgs) Handles englishLabel.Click
         resx_curr = resx_enUS
+        currCulture = usaCulture
         setLabelText()
     End Sub
 
     Private Sub spanishLabel_Click(sender As Object, e As EventArgs) Handles spanishLabel.Click
         resx_curr = resx_esMX
+        currCulture = mexicoCulture
         setLabelText()
     End Sub
 
     Private Sub frenchLabel_Click(sender As Object, e As EventArgs) Handles frenchLabel.Click
         resx_curr = resx_frFR
+        currCulture = frenchCulture
         setLabelText()
     End Sub
 
     Private Sub chineseLabel_Click(sender As Object, e As EventArgs) Handles chineseLabel.Click
         resx_curr = resx_zhCHT
+        currCulture = chinaCulture
         setLabelText()
     End Sub
 
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
+        currCulture = saudiCulture
         setLabelText()
     End Sub
 
