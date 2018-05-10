@@ -207,10 +207,10 @@ servi avec du ketchup</value>
     <value>CRÉEZ VOTRE PROPRE TARTE</value>
   </data>
   <data name="createPizzaprice1" xml:space="preserve">
-    <value>10 pouce pizza au fromage 9.99</value>
+    <value>10 pouce pizza au fromage $9.99</value>
   </data>
   <data name="createPizzaprice2" xml:space="preserve">
-    <value>18 pouce pizza au fromage 18.99</value>
+    <value>18 pouce pizza au fromage $18.99</value>
   </data>
   <data name="description" xml:space="preserve">
     <value>MENU COMPLET SERVI DE | 
@@ -467,10 +467,10 @@ parmesan râpé, sauce marinara</value>
 parmesan râpé, sauce marinara</value>
   </data>
   <data name="specialtyPizzaprice1" xml:space="preserve">
-    <value>10 pouce 11.99</value>
+    <value>10 pouce $11.99</value>
   </data>
   <data name="specialtyPizzaprice2" xml:space="preserve">
-    <value>18 pouce 23.99</value>
+    <value>18 pouce $23.99</value>
   </data>
   <data name="specialtyPizzas" xml:space="preserve">
     <value>PIZZAS SPÉCIALISÉES</value>

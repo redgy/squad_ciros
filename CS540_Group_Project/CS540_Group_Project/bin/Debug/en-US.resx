@@ -205,10 +205,10 @@
     <value>CREATE YOUR OWN PIE</value>
   </data>
   <data name="createPizzaprice1" xml:space="preserve">
-    <value>10 inch cheese pizza 9.99</value>
+    <value>10 inch cheese pizza $9.99</value>
   </data>
   <data name="createPizzaprice2" xml:space="preserve">
-    <value>18 inch cheese pizza 18.99</value>
+    <value>18 inch cheese pizza $18.99</value>
   </data>
   <data name="description" xml:space="preserve">
     <value>FULL MENU SERVED FROM 11AM-9PM | FAST DELIVERY | PIZZA SERVED ALL DAY, EVERYDAY</value>
@@ -457,10 +457,10 @@
     <value>our signature homemade meatball recipe, topped with mozzarella cheese, grated parmesean, marinara sauce</value>
   </data>
   <data name="specialtyPizzaprice1" xml:space="preserve">
-    <value>10 inch 11.99</value>
+    <value>10 inch $11.99</value>
   </data>
   <data name="specialtyPizzaprice2" xml:space="preserve">
-    <value>18 inch 23.99</value>
+    <value>18 inch $23.99</value>
   </data>
   <data name="specialtyPizzas" xml:space="preserve">
     <value>SPECIALTY PIZZAS</value>

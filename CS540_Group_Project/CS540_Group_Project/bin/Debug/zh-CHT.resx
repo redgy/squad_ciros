@@ -205,10 +205,10 @@
     <value>創建你自己的派</value>
   </data>
   <data name="createPizzaprice1" xml:space="preserve">
-    <value>十英寸披薩 9.99</value>
+    <value>十英寸披薩$ 9.99</value>
   </data>
   <data name="createPizzaprice2" xml:space="preserve">
-    <value>十八英寸披薩18.99</value>
+    <value>十八英寸披薩$18.99</value>
   </data>
   <data name="description" xml:space="preserve">
     <value>完整的菜單服務從上午十一點到晚上九點 | 交貨快
@@ -461,10 +461,10 @@
     <value>我們的招牌肉丸配方, 配上奶酪, 干酪, 瑪麗娜醬</value>
   </data>
   <data name="specialtyPizzaprice1" xml:space="preserve">
-    <value>10 英寸 11.99</value>
+    <value>10 英寸 $11.99</value>
   </data>
   <data name="specialtyPizzaprice2" xml:space="preserve">
-    <value>18 英寸 23.99</value>
+    <value>18 英寸 $23.99</value>
   </data>
   <data name="specialtyPizzas" xml:space="preserve">
     <value>特色披薩</value>

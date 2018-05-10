@@ -157,7 +157,7 @@ Partial Class Pizza
         'specialtyPizzas
         '
         Me.specialtyPizzas.BackColor = System.Drawing.Color.Firebrick
-        Me.specialtyPizzas.Font = New System.Drawing.Font("Lucida Sans Unicode", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.specialtyPizzas.Font = New System.Drawing.Font("Lucida Sans Unicode", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.specialtyPizzas.ForeColor = System.Drawing.Color.Black
         Me.specialtyPizzas.Location = New System.Drawing.Point(175, 54)
         Me.specialtyPizzas.Name = "specialtyPizzas"
@@ -515,7 +515,7 @@ Partial Class Pizza
         Me.createPizza.BackColor = System.Drawing.Color.Firebrick
         Me.createPizza.Font = New System.Drawing.Font("Lucida Sans Unicode", 14.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.createPizza.ForeColor = System.Drawing.Color.White
-        Me.createPizza.Location = New System.Drawing.Point(701, 149)
+        Me.createPizza.Location = New System.Drawing.Point(701, 127)
         Me.createPizza.Name = "createPizza"
         Me.createPizza.Size = New System.Drawing.Size(237, 38)
         Me.createPizza.TabIndex = 77
@@ -524,51 +524,55 @@ Partial Class Pizza
         '
         'specialtyPizzaprice1
         '
+        Me.specialtyPizzaprice1.AutoSize = True
         Me.specialtyPizzaprice1.BackColor = System.Drawing.Color.Firebrick
         Me.specialtyPizzaprice1.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.specialtyPizzaprice1.ForeColor = System.Drawing.Color.White
-        Me.specialtyPizzaprice1.Location = New System.Drawing.Point(47, 72)
+        Me.specialtyPizzaprice1.Location = New System.Drawing.Point(25, 72)
         Me.specialtyPizzaprice1.Name = "specialtyPizzaprice1"
-        Me.specialtyPizzaprice1.Size = New System.Drawing.Size(140, 28)
+        Me.specialtyPizzaprice1.Size = New System.Drawing.Size(116, 18)
         Me.specialtyPizzaprice1.TabIndex = 78
         Me.specialtyPizzaprice1.Text = "10 inch $11.99"
-        Me.specialtyPizzaprice1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.specialtyPizzaprice1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'specialtyPizzaprice2
         '
+        Me.specialtyPizzaprice2.AutoSize = True
         Me.specialtyPizzaprice2.BackColor = System.Drawing.Color.Firebrick
         Me.specialtyPizzaprice2.Font = New System.Drawing.Font("Lucida Sans Unicode", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.specialtyPizzaprice2.ForeColor = System.Drawing.Color.White
-        Me.specialtyPizzaprice2.Location = New System.Drawing.Point(47, 105)
+        Me.specialtyPizzaprice2.Location = New System.Drawing.Point(25, 105)
         Me.specialtyPizzaprice2.Name = "specialtyPizzaprice2"
-        Me.specialtyPizzaprice2.Size = New System.Drawing.Size(140, 22)
+        Me.specialtyPizzaprice2.Size = New System.Drawing.Size(116, 18)
         Me.specialtyPizzaprice2.TabIndex = 79
         Me.specialtyPizzaprice2.Text = "18 inch $23.99"
-        Me.specialtyPizzaprice2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.specialtyPizzaprice2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'createPizzaprice1
         '
+        Me.createPizzaprice1.AutoSize = True
         Me.createPizzaprice1.BackColor = System.Drawing.Color.Firebrick
         Me.createPizzaprice1.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.createPizzaprice1.ForeColor = System.Drawing.Color.White
-        Me.createPizzaprice1.Location = New System.Drawing.Point(619, 184)
+        Me.createPizzaprice1.Location = New System.Drawing.Point(702, 160)
         Me.createPizzaprice1.Name = "createPizzaprice1"
-        Me.createPizzaprice1.Size = New System.Drawing.Size(195, 23)
+        Me.createPizzaprice1.Size = New System.Drawing.Size(186, 16)
         Me.createPizzaprice1.TabIndex = 80
         Me.createPizzaprice1.Text = "10 inch CHEESE PIZZA $9.99"
-        Me.createPizzaprice1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.createPizzaprice1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'createPizzaprice2
         '
+        Me.createPizzaprice2.AutoSize = True
         Me.createPizzaprice2.BackColor = System.Drawing.Color.Firebrick
         Me.createPizzaprice2.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.createPizzaprice2.ForeColor = System.Drawing.Color.White
-        Me.createPizzaprice2.Location = New System.Drawing.Point(820, 184)
+        Me.createPizzaprice2.Location = New System.Drawing.Point(702, 187)
         Me.createPizzaprice2.Name = "createPizzaprice2"
-        Me.createPizzaprice2.Size = New System.Drawing.Size(189, 23)
+        Me.createPizzaprice2.Size = New System.Drawing.Size(187, 16)
         Me.createPizzaprice2.TabIndex = 81
         Me.createPizzaprice2.Text = "18 inch cheese pizza $18.99"
-        Me.createPizzaprice2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.createPizzaprice2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'sauce0
         '
@@ -577,7 +581,7 @@ Partial Class Pizza
         Me.sauce0.ForeColor = System.Drawing.Color.White
         Me.sauce0.Location = New System.Drawing.Point(700, 217)
         Me.sauce0.Name = "sauce0"
-        Me.sauce0.Size = New System.Drawing.Size(140, 38)
+        Me.sauce0.Size = New System.Drawing.Size(90, 38)
         Me.sauce0.TabIndex = 82
         Me.sauce0.Text = "SAUCE"
         Me.sauce0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -704,7 +708,7 @@ Partial Class Pizza
         Me.veggie1.BackColor = System.Drawing.Color.Firebrick
         Me.veggie1.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie1.ForeColor = System.Drawing.Color.White
-        Me.veggie1.Location = New System.Drawing.Point(702, 456)
+        Me.veggie1.Location = New System.Drawing.Point(672, 456)
         Me.veggie1.Name = "veggie1"
         Me.veggie1.Size = New System.Drawing.Size(140, 23)
         Me.veggie1.TabIndex = 93
@@ -716,7 +720,7 @@ Partial Class Pizza
         Me.veggie2.BackColor = System.Drawing.Color.Firebrick
         Me.veggie2.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie2.ForeColor = System.Drawing.Color.White
-        Me.veggie2.Location = New System.Drawing.Point(699, 479)
+        Me.veggie2.Location = New System.Drawing.Point(669, 479)
         Me.veggie2.Name = "veggie2"
         Me.veggie2.Size = New System.Drawing.Size(140, 23)
         Me.veggie2.TabIndex = 94
@@ -728,7 +732,7 @@ Partial Class Pizza
         Me.veggie3.BackColor = System.Drawing.Color.Firebrick
         Me.veggie3.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie3.ForeColor = System.Drawing.Color.White
-        Me.veggie3.Location = New System.Drawing.Point(699, 503)
+        Me.veggie3.Location = New System.Drawing.Point(669, 503)
         Me.veggie3.Name = "veggie3"
         Me.veggie3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.veggie3.Size = New System.Drawing.Size(140, 23)
@@ -741,7 +745,7 @@ Partial Class Pizza
         Me.veggie4.BackColor = System.Drawing.Color.Firebrick
         Me.veggie4.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie4.ForeColor = System.Drawing.Color.White
-        Me.veggie4.Location = New System.Drawing.Point(699, 526)
+        Me.veggie4.Location = New System.Drawing.Point(669, 526)
         Me.veggie4.Name = "veggie4"
         Me.veggie4.Size = New System.Drawing.Size(140, 23)
         Me.veggie4.TabIndex = 96
@@ -753,7 +757,7 @@ Partial Class Pizza
         Me.veggie5.BackColor = System.Drawing.Color.Firebrick
         Me.veggie5.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie5.ForeColor = System.Drawing.Color.White
-        Me.veggie5.Location = New System.Drawing.Point(700, 548)
+        Me.veggie5.Location = New System.Drawing.Point(621, 548)
         Me.veggie5.Name = "veggie5"
         Me.veggie5.Size = New System.Drawing.Size(140, 23)
         Me.veggie5.TabIndex = 97
@@ -765,7 +769,7 @@ Partial Class Pizza
         Me.veggie6.BackColor = System.Drawing.Color.Firebrick
         Me.veggie6.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie6.ForeColor = System.Drawing.Color.White
-        Me.veggie6.Location = New System.Drawing.Point(701, 569)
+        Me.veggie6.Location = New System.Drawing.Point(671, 569)
         Me.veggie6.Name = "veggie6"
         Me.veggie6.Size = New System.Drawing.Size(140, 23)
         Me.veggie6.TabIndex = 98
@@ -777,7 +781,7 @@ Partial Class Pizza
         Me.veggie7.BackColor = System.Drawing.Color.Firebrick
         Me.veggie7.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie7.ForeColor = System.Drawing.Color.White
-        Me.veggie7.Location = New System.Drawing.Point(858, 460)
+        Me.veggie7.Location = New System.Drawing.Point(844, 460)
         Me.veggie7.Name = "veggie7"
         Me.veggie7.Size = New System.Drawing.Size(111, 23)
         Me.veggie7.TabIndex = 99
@@ -789,7 +793,7 @@ Partial Class Pizza
         Me.veggie8.BackColor = System.Drawing.Color.Firebrick
         Me.veggie8.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie8.ForeColor = System.Drawing.Color.White
-        Me.veggie8.Location = New System.Drawing.Point(858, 482)
+        Me.veggie8.Location = New System.Drawing.Point(844, 482)
         Me.veggie8.Name = "veggie8"
         Me.veggie8.Size = New System.Drawing.Size(111, 23)
         Me.veggie8.TabIndex = 100
@@ -801,7 +805,7 @@ Partial Class Pizza
         Me.veggie9.BackColor = System.Drawing.Color.Firebrick
         Me.veggie9.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie9.ForeColor = System.Drawing.Color.White
-        Me.veggie9.Location = New System.Drawing.Point(858, 505)
+        Me.veggie9.Location = New System.Drawing.Point(844, 505)
         Me.veggie9.Name = "veggie9"
         Me.veggie9.Size = New System.Drawing.Size(111, 23)
         Me.veggie9.TabIndex = 101
@@ -813,7 +817,7 @@ Partial Class Pizza
         Me.veggie10.BackColor = System.Drawing.Color.Firebrick
         Me.veggie10.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie10.ForeColor = System.Drawing.Color.White
-        Me.veggie10.Location = New System.Drawing.Point(858, 530)
+        Me.veggie10.Location = New System.Drawing.Point(844, 530)
         Me.veggie10.Name = "veggie10"
         Me.veggie10.Size = New System.Drawing.Size(111, 23)
         Me.veggie10.TabIndex = 102
@@ -825,7 +829,7 @@ Partial Class Pizza
         Me.protein1.BackColor = System.Drawing.Color.Firebrick
         Me.protein1.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein1.ForeColor = System.Drawing.Color.White
-        Me.protein1.Location = New System.Drawing.Point(696, 626)
+        Me.protein1.Location = New System.Drawing.Point(672, 625)
         Me.protein1.Name = "protein1"
         Me.protein1.Size = New System.Drawing.Size(140, 23)
         Me.protein1.TabIndex = 103
@@ -837,7 +841,7 @@ Partial Class Pizza
         Me.protein2.BackColor = System.Drawing.Color.Firebrick
         Me.protein2.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein2.ForeColor = System.Drawing.Color.White
-        Me.protein2.Location = New System.Drawing.Point(695, 645)
+        Me.protein2.Location = New System.Drawing.Point(671, 644)
         Me.protein2.Name = "protein2"
         Me.protein2.Size = New System.Drawing.Size(140, 23)
         Me.protein2.TabIndex = 104
@@ -849,7 +853,7 @@ Partial Class Pizza
         Me.protein3.BackColor = System.Drawing.Color.Firebrick
         Me.protein3.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein3.ForeColor = System.Drawing.Color.White
-        Me.protein3.Location = New System.Drawing.Point(696, 666)
+        Me.protein3.Location = New System.Drawing.Point(672, 665)
         Me.protein3.Name = "protein3"
         Me.protein3.Size = New System.Drawing.Size(140, 23)
         Me.protein3.TabIndex = 105
@@ -861,7 +865,7 @@ Partial Class Pizza
         Me.protein4.BackColor = System.Drawing.Color.Firebrick
         Me.protein4.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein4.ForeColor = System.Drawing.Color.White
-        Me.protein4.Location = New System.Drawing.Point(697, 687)
+        Me.protein4.Location = New System.Drawing.Point(673, 686)
         Me.protein4.Name = "protein4"
         Me.protein4.Size = New System.Drawing.Size(140, 23)
         Me.protein4.TabIndex = 106
@@ -873,7 +877,7 @@ Partial Class Pizza
         Me.protein5.BackColor = System.Drawing.Color.Firebrick
         Me.protein5.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein5.ForeColor = System.Drawing.Color.White
-        Me.protein5.Location = New System.Drawing.Point(858, 626)
+        Me.protein5.Location = New System.Drawing.Point(844, 626)
         Me.protein5.Name = "protein5"
         Me.protein5.Size = New System.Drawing.Size(111, 23)
         Me.protein5.TabIndex = 107
@@ -885,7 +889,7 @@ Partial Class Pizza
         Me.protein6.BackColor = System.Drawing.Color.Firebrick
         Me.protein6.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein6.ForeColor = System.Drawing.Color.White
-        Me.protein6.Location = New System.Drawing.Point(858, 645)
+        Me.protein6.Location = New System.Drawing.Point(844, 645)
         Me.protein6.Name = "protein6"
         Me.protein6.Size = New System.Drawing.Size(111, 23)
         Me.protein6.TabIndex = 108
@@ -897,7 +901,7 @@ Partial Class Pizza
         Me.veggie11.BackColor = System.Drawing.Color.Firebrick
         Me.veggie11.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie11.ForeColor = System.Drawing.Color.White
-        Me.veggie11.Location = New System.Drawing.Point(858, 557)
+        Me.veggie11.Location = New System.Drawing.Point(844, 557)
         Me.veggie11.Name = "veggie11"
         Me.veggie11.Size = New System.Drawing.Size(111, 15)
         Me.veggie11.TabIndex = 109
@@ -909,9 +913,9 @@ Partial Class Pizza
         Me.cheese1price.BackColor = System.Drawing.Color.Firebrick
         Me.cheese1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cheese1price.ForeColor = System.Drawing.Color.White
-        Me.cheese1price.Location = New System.Drawing.Point(978, 321)
+        Me.cheese1price.Location = New System.Drawing.Point(895, 321)
         Me.cheese1price.Name = "cheese1price"
-        Me.cheese1price.Size = New System.Drawing.Size(15, 15)
+        Me.cheese1price.Size = New System.Drawing.Size(98, 15)
         Me.cheese1price.TabIndex = 110
         Me.cheese1price.Text = "2"
         Me.cheese1price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -921,9 +925,9 @@ Partial Class Pizza
         Me.cheese2price.BackColor = System.Drawing.Color.Firebrick
         Me.cheese2price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cheese2price.ForeColor = System.Drawing.Color.White
-        Me.cheese2price.Location = New System.Drawing.Point(978, 340)
+        Me.cheese2price.Location = New System.Drawing.Point(895, 340)
         Me.cheese2price.Name = "cheese2price"
-        Me.cheese2price.Size = New System.Drawing.Size(15, 15)
+        Me.cheese2price.Size = New System.Drawing.Size(98, 15)
         Me.cheese2price.TabIndex = 111
         Me.cheese2price.Text = "2"
         Me.cheese2price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -933,9 +937,9 @@ Partial Class Pizza
         Me.cheese3price.BackColor = System.Drawing.Color.Firebrick
         Me.cheese3price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cheese3price.ForeColor = System.Drawing.Color.White
-        Me.cheese3price.Location = New System.Drawing.Point(978, 362)
+        Me.cheese3price.Location = New System.Drawing.Point(895, 362)
         Me.cheese3price.Name = "cheese3price"
-        Me.cheese3price.Size = New System.Drawing.Size(15, 15)
+        Me.cheese3price.Size = New System.Drawing.Size(98, 15)
         Me.cheese3price.TabIndex = 112
         Me.cheese3price.Text = "2"
         Me.cheese3price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -945,9 +949,9 @@ Partial Class Pizza
         Me.cheese4price.BackColor = System.Drawing.Color.Firebrick
         Me.cheese4price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cheese4price.ForeColor = System.Drawing.Color.White
-        Me.cheese4price.Location = New System.Drawing.Point(978, 382)
+        Me.cheese4price.Location = New System.Drawing.Point(895, 382)
         Me.cheese4price.Name = "cheese4price"
-        Me.cheese4price.Size = New System.Drawing.Size(15, 15)
+        Me.cheese4price.Size = New System.Drawing.Size(98, 15)
         Me.cheese4price.TabIndex = 113
         Me.cheese4price.Text = "2"
         Me.cheese4price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -957,9 +961,9 @@ Partial Class Pizza
         Me.cheese5price.BackColor = System.Drawing.Color.Firebrick
         Me.cheese5price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cheese5price.ForeColor = System.Drawing.Color.White
-        Me.cheese5price.Location = New System.Drawing.Point(978, 405)
+        Me.cheese5price.Location = New System.Drawing.Point(895, 405)
         Me.cheese5price.Name = "cheese5price"
-        Me.cheese5price.Size = New System.Drawing.Size(15, 15)
+        Me.cheese5price.Size = New System.Drawing.Size(98, 15)
         Me.cheese5price.TabIndex = 114
         Me.cheese5price.Text = "3"
         Me.cheese5price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -969,9 +973,9 @@ Partial Class Pizza
         Me.veggie1price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie1price.ForeColor = System.Drawing.Color.White
-        Me.veggie1price.Location = New System.Drawing.Point(823, 464)
+        Me.veggie1price.Location = New System.Drawing.Point(791, 464)
         Me.veggie1price.Name = "veggie1price"
-        Me.veggie1price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie1price.Size = New System.Drawing.Size(47, 15)
         Me.veggie1price.TabIndex = 115
         Me.veggie1price.Text = "2"
         Me.veggie1price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -981,9 +985,9 @@ Partial Class Pizza
         Me.veggie2price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie2price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie2price.ForeColor = System.Drawing.Color.White
-        Me.veggie2price.Location = New System.Drawing.Point(823, 482)
+        Me.veggie2price.Location = New System.Drawing.Point(791, 482)
         Me.veggie2price.Name = "veggie2price"
-        Me.veggie2price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie2price.Size = New System.Drawing.Size(47, 15)
         Me.veggie2price.TabIndex = 116
         Me.veggie2price.Text = "2"
         Me.veggie2price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -993,9 +997,9 @@ Partial Class Pizza
         Me.veggie3price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie3price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie3price.ForeColor = System.Drawing.Color.White
-        Me.veggie3price.Location = New System.Drawing.Point(823, 505)
+        Me.veggie3price.Location = New System.Drawing.Point(791, 505)
         Me.veggie3price.Name = "veggie3price"
-        Me.veggie3price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie3price.Size = New System.Drawing.Size(47, 15)
         Me.veggie3price.TabIndex = 117
         Me.veggie3price.Text = "2"
         Me.veggie3price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1005,9 +1009,9 @@ Partial Class Pizza
         Me.veggie4price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie4price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie4price.ForeColor = System.Drawing.Color.White
-        Me.veggie4price.Location = New System.Drawing.Point(823, 525)
+        Me.veggie4price.Location = New System.Drawing.Point(791, 525)
         Me.veggie4price.Name = "veggie4price"
-        Me.veggie4price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie4price.Size = New System.Drawing.Size(47, 15)
         Me.veggie4price.TabIndex = 118
         Me.veggie4price.Text = "2"
         Me.veggie4price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1017,9 +1021,9 @@ Partial Class Pizza
         Me.veggie5price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie5price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie5price.ForeColor = System.Drawing.Color.White
-        Me.veggie5price.Location = New System.Drawing.Point(823, 548)
+        Me.veggie5price.Location = New System.Drawing.Point(791, 548)
         Me.veggie5price.Name = "veggie5price"
-        Me.veggie5price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie5price.Size = New System.Drawing.Size(47, 15)
         Me.veggie5price.TabIndex = 119
         Me.veggie5price.Text = "2"
         Me.veggie5price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1029,9 +1033,9 @@ Partial Class Pizza
         Me.veggie6price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie6price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie6price.ForeColor = System.Drawing.Color.White
-        Me.veggie6price.Location = New System.Drawing.Point(823, 571)
+        Me.veggie6price.Location = New System.Drawing.Point(791, 571)
         Me.veggie6price.Name = "veggie6price"
-        Me.veggie6price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie6price.Size = New System.Drawing.Size(47, 15)
         Me.veggie6price.TabIndex = 120
         Me.veggie6price.Text = "2"
         Me.veggie6price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1041,9 +1045,9 @@ Partial Class Pizza
         Me.veggie7price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie7price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie7price.ForeColor = System.Drawing.Color.White
-        Me.veggie7price.Location = New System.Drawing.Point(977, 461)
+        Me.veggie7price.Location = New System.Drawing.Point(944, 461)
         Me.veggie7price.Name = "veggie7price"
-        Me.veggie7price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie7price.Size = New System.Drawing.Size(48, 15)
         Me.veggie7price.TabIndex = 121
         Me.veggie7price.Text = "2"
         Me.veggie7price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1053,9 +1057,9 @@ Partial Class Pizza
         Me.veggie8price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie8price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie8price.ForeColor = System.Drawing.Color.White
-        Me.veggie8price.Location = New System.Drawing.Point(978, 482)
+        Me.veggie8price.Location = New System.Drawing.Point(945, 482)
         Me.veggie8price.Name = "veggie8price"
-        Me.veggie8price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie8price.Size = New System.Drawing.Size(48, 15)
         Me.veggie8price.TabIndex = 122
         Me.veggie8price.Text = "2"
         Me.veggie8price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1065,9 +1069,9 @@ Partial Class Pizza
         Me.veggie9price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie9price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie9price.ForeColor = System.Drawing.Color.White
-        Me.veggie9price.Location = New System.Drawing.Point(977, 505)
+        Me.veggie9price.Location = New System.Drawing.Point(944, 505)
         Me.veggie9price.Name = "veggie9price"
-        Me.veggie9price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie9price.Size = New System.Drawing.Size(48, 15)
         Me.veggie9price.TabIndex = 123
         Me.veggie9price.Text = "2"
         Me.veggie9price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1077,9 +1081,9 @@ Partial Class Pizza
         Me.veggie10price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie10price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie10price.ForeColor = System.Drawing.Color.White
-        Me.veggie10price.Location = New System.Drawing.Point(978, 530)
+        Me.veggie10price.Location = New System.Drawing.Point(945, 530)
         Me.veggie10price.Name = "veggie10price"
-        Me.veggie10price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie10price.Size = New System.Drawing.Size(48, 15)
         Me.veggie10price.TabIndex = 124
         Me.veggie10price.Text = "2"
         Me.veggie10price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1089,9 +1093,9 @@ Partial Class Pizza
         Me.veggie11price.BackColor = System.Drawing.Color.Firebrick
         Me.veggie11price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.veggie11price.ForeColor = System.Drawing.Color.White
-        Me.veggie11price.Location = New System.Drawing.Point(977, 553)
+        Me.veggie11price.Location = New System.Drawing.Point(944, 553)
         Me.veggie11price.Name = "veggie11price"
-        Me.veggie11price.Size = New System.Drawing.Size(15, 15)
+        Me.veggie11price.Size = New System.Drawing.Size(48, 15)
         Me.veggie11price.TabIndex = 125
         Me.veggie11price.Text = "2"
         Me.veggie11price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1101,9 +1105,9 @@ Partial Class Pizza
         Me.protein1price.BackColor = System.Drawing.Color.Firebrick
         Me.protein1price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein1price.ForeColor = System.Drawing.Color.White
-        Me.protein1price.Location = New System.Drawing.Point(820, 630)
+        Me.protein1price.Location = New System.Drawing.Point(788, 630)
         Me.protein1price.Name = "protein1price"
-        Me.protein1price.Size = New System.Drawing.Size(15, 15)
+        Me.protein1price.Size = New System.Drawing.Size(47, 15)
         Me.protein1price.TabIndex = 126
         Me.protein1price.Text = "2"
         Me.protein1price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1113,9 +1117,9 @@ Partial Class Pizza
         Me.protein2price.BackColor = System.Drawing.Color.Firebrick
         Me.protein2price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein2price.ForeColor = System.Drawing.Color.White
-        Me.protein2price.Location = New System.Drawing.Point(820, 648)
+        Me.protein2price.Location = New System.Drawing.Point(788, 648)
         Me.protein2price.Name = "protein2price"
-        Me.protein2price.Size = New System.Drawing.Size(15, 15)
+        Me.protein2price.Size = New System.Drawing.Size(47, 15)
         Me.protein2price.TabIndex = 127
         Me.protein2price.Text = "2"
         Me.protein2price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1125,9 +1129,9 @@ Partial Class Pizza
         Me.protein3price.BackColor = System.Drawing.Color.Firebrick
         Me.protein3price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein3price.ForeColor = System.Drawing.Color.White
-        Me.protein3price.Location = New System.Drawing.Point(820, 669)
+        Me.protein3price.Location = New System.Drawing.Point(788, 669)
         Me.protein3price.Name = "protein3price"
-        Me.protein3price.Size = New System.Drawing.Size(15, 15)
+        Me.protein3price.Size = New System.Drawing.Size(47, 15)
         Me.protein3price.TabIndex = 128
         Me.protein3price.Text = "2"
         Me.protein3price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1137,9 +1141,9 @@ Partial Class Pizza
         Me.protein4price.BackColor = System.Drawing.Color.Firebrick
         Me.protein4price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein4price.ForeColor = System.Drawing.Color.White
-        Me.protein4price.Location = New System.Drawing.Point(820, 691)
+        Me.protein4price.Location = New System.Drawing.Point(788, 691)
         Me.protein4price.Name = "protein4price"
-        Me.protein4price.Size = New System.Drawing.Size(15, 15)
+        Me.protein4price.Size = New System.Drawing.Size(47, 15)
         Me.protein4price.TabIndex = 129
         Me.protein4price.Text = "2"
         Me.protein4price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1149,9 +1153,9 @@ Partial Class Pizza
         Me.protein6price.BackColor = System.Drawing.Color.Firebrick
         Me.protein6price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein6price.ForeColor = System.Drawing.Color.White
-        Me.protein6price.Location = New System.Drawing.Point(978, 653)
+        Me.protein6price.Location = New System.Drawing.Point(945, 653)
         Me.protein6price.Name = "protein6price"
-        Me.protein6price.Size = New System.Drawing.Size(15, 15)
+        Me.protein6price.Size = New System.Drawing.Size(48, 15)
         Me.protein6price.TabIndex = 131
         Me.protein6price.Text = "3"
         Me.protein6price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1309,9 +1313,9 @@ Partial Class Pizza
         Me.protein5price.BackColor = System.Drawing.Color.Firebrick
         Me.protein5price.Font = New System.Drawing.Font("Lucida Sans Unicode", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.protein5price.ForeColor = System.Drawing.Color.White
-        Me.protein5price.Location = New System.Drawing.Point(978, 629)
+        Me.protein5price.Location = New System.Drawing.Point(945, 629)
         Me.protein5price.Name = "protein5price"
-        Me.protein5price.Size = New System.Drawing.Size(15, 15)
+        Me.protein5price.Size = New System.Drawing.Size(48, 15)
         Me.protein5price.TabIndex = 146
         Me.protein5price.Text = "2"
         Me.protein5price.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -1428,6 +1432,7 @@ Partial Class Pizza
         Me.Text = "Pizza"
         CType(Me.cirosLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 

@@ -31,22 +31,66 @@ Public Class Pizza
     Dim MXNrate As Double
     Dim SARrate As Double
 
+    ' Function get the weird pizza label price
+    Private Function convertPizza(str As String)
+        Dim foundIndex As Integer
+        foundIndex = str.IndexOf("$")
+        Dim first As String = str.Substring(0, foundIndex)
+        Dim second As String = str.Substring(foundIndex + 1)
+        Return first + " " + convertPrice(second)
+    End Function
+
     Public Sub setPriceText()
-        cheese1price.Text = resx_curr.GetString("cheese1price")
-        cheese2price.Text = resx_curr.GetString("cheese2price")
-        cheese3price.Text = resx_curr.GetString("cheese3price")
-        cheese4price.Text = resx_curr.GetString("cheese4price")
-        cheese5price.Text = resx_curr.GetString("cheese5price")
-        createPizzaprice1.Text = resx_curr.GetString("createPizzaprice1")
-        createPizzaprice2.Text = resx_curr.GetString("createPizzaprice2")
-        protein1price.Text = resx_curr.GetString("protein1price")
-        protein2price.Text = resx_curr.GetString("protein2price")
-        protein3price.Text = resx_curr.GetString("protein3price")
-        protein4price.Text = resx_curr.GetString("protein4price")
-        protein5price.Text = resx_curr.GetString("protein5price")
-        protein6price.Text = resx_curr.GetString("protein6price")
-        specialtyPizzaprice1.Text = resx_curr.GetString("specialtyPizzaprice1")
-        specialtyPizzaprice2.Text = resx_curr.GetString("specialtyPizzaprice2")
+        cheese1price.Text = convertPrice(resx_curr.GetString("cheese1price"))
+        cheese2price.Text = convertPrice(resx_curr.GetString("cheese2price"))
+        cheese3price.Text = convertPrice(resx_curr.GetString("cheese3price"))
+        cheese4price.Text = convertPrice(resx_curr.GetString("cheese4price"))
+        cheese5price.Text = convertPrice(resx_curr.GetString("cheese5price"))
+        protein1price.Text = convertPrice(resx_curr.GetString("protein1price"))
+        protein2price.Text = convertPrice(resx_curr.GetString("protein2price"))
+        protein3price.Text = convertPrice(resx_curr.GetString("protein3price"))
+        protein4price.Text = convertPrice(resx_curr.GetString("protein4price"))
+        protein5price.Text = convertPrice(resx_curr.GetString("protein5price"))
+        protein6price.Text = convertPrice(resx_curr.GetString("protein6price"))
+        veggie1price.Text = convertPrice(resx_curr.GetString("veggie1price"))
+        veggie2price.Text = convertPrice(resx_curr.GetString("veggie2price"))
+        veggie3price.Text = convertPrice(resx_curr.GetString("veggie3price"))
+        veggie4price.Text = convertPrice(resx_curr.GetString("veggie4price"))
+        veggie5price.Text = convertPrice(resx_curr.GetString("veggie5price"))
+        veggie6price.Text = convertPrice(resx_curr.GetString("veggie6price"))
+        veggie7price.Text = convertPrice(resx_curr.GetString("veggie7price"))
+        veggie8price.Text = convertPrice(resx_curr.GetString("veggie8price"))
+        veggie9price.Text = convertPrice(resx_curr.GetString("veggie9price"))
+        veggie10price.Text = convertPrice(resx_curr.GetString("veggie10price"))
+        veggie11price.Text = convertPrice(resx_curr.GetString("veggie11price"))
+
+        resizeFont(cheese1price)
+        resizeFont(cheese2price)
+        resizeFont(cheese3price)
+        resizeFont(cheese4price)
+        resizeFont(cheese5price)
+        resizeFont(protein1price)
+        resizeFont(protein2price)
+        resizeFont(protein3price)
+        resizeFont(protein4price)
+        resizeFont(protein5price)
+        resizeFont(protein6price)
+        resizeFont(veggie1price)
+        resizeFont(veggie2price)
+        resizeFont(veggie3price)
+        resizeFont(veggie4price)
+        resizeFont(veggie5price)
+        resizeFont(veggie6price)
+        resizeFont(veggie7price)
+        resizeFont(veggie8price)
+        resizeFont(veggie9price)
+        resizeFont(veggie10price)
+        resizeFont(veggie11price)
+
+        createPizzaprice1.Text = convertPizza(resx_curr.GetString("createPizzaprice1"))
+        createPizzaprice2.Text = convertPizza(resx_curr.GetString("createPizzaprice2"))
+        specialtyPizzaprice1.Text = convertPizza(resx_curr.GetString("specialtyPizzaprice1"))
+        specialtyPizzaprice2.Text = convertPizza(resx_curr.GetString("specialtyPizzaprice2"))
     End Sub
 
 
@@ -84,19 +128,6 @@ Public Class Pizza
         sauce2.Text = resx_curr.GetString("sauce2")
 
         specialtyPizzas.Text = resx_curr.GetString("specialtyPizzas")
-
-        veggie1price.Text = resx_curr.GetString("veggie1price")
-        veggie2price.Text = resx_curr.GetString("veggie2price")
-        veggie3price.Text = resx_curr.GetString("veggie3price")
-        veggie4price.Text = resx_curr.GetString("veggie4price")
-        veggie5price.Text = resx_curr.GetString("veggie5price")
-        veggie6price.Text = resx_curr.GetString("veggie6price")
-        veggie7price.Text = resx_curr.GetString("veggie7price")
-        veggie8price.Text = resx_curr.GetString("veggie8price")
-        veggie9price.Text = resx_curr.GetString("veggie9price")
-        veggie10price.Text = resx_curr.GetString("veggie10price")
-        veggie11price.Text = resx_curr.GetString("veggie11price")
-
 
         veggies0.Text = resx_curr.GetString("veggies0")
         veggie1.Text = resx_curr.GetString("veggie1")
@@ -313,26 +344,31 @@ Public Class Pizza
     ''' LANGUAGE SELECTION BUTTON METHODS '''
     Private Sub englishLabel_Click(sender As Object, e As EventArgs) Handles englishLabel.Click
         resx_curr = resx_enUS
+        currCulture = usaCulture
         setLabelText()
     End Sub
 
     Private Sub spanishLabel_Click(sender As Object, e As EventArgs) Handles spanishLabel.Click
         resx_curr = resx_esMX
+        currCulture = mexicoCulture
         setLabelText()
     End Sub
 
     Private Sub frenchLabel_Click(sender As Object, e As EventArgs) Handles frenchLabel.Click
         resx_curr = resx_frFR
+        currCulture = frenchCulture
         setLabelText()
     End Sub
 
     Private Sub chineseLabel_Click(sender As Object, e As EventArgs) Handles chineseLabel.Click
         resx_curr = resx_zhCHT
+        currCulture = chinaCulture
         setLabelText()
     End Sub
 
     Private Sub saLabel_Click(sender As Object, e As EventArgs) Handles saLabel.Click
         resx_curr = resx_arSA
+        currCulture = saudiCulture
         setLabelText()
     End Sub
 
