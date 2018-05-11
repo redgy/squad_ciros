@@ -11,19 +11,18 @@ following languages: English, Spanish, French, Arabic, and Mandarin.
 -----------------
 
 Design Decisions: 
-The menu uses a top navigation bar to easily navigate between the 
+
+This menu uses a top navigation bar to easily navigate between the 
 categories on the menu and the different languages that are available. 
 
-For the best practices to translate the menu, the language
-choices are placed in the top right of the display for ease of access.
+For the best practices to seamlessly switch to a different language, 
+the language choices are placed in the top right of the display for ease of access.
 
-The menu inteface supports the right to left reading orientation of 
-the Arabic language. 
+Based on the selection of the language, the resx files are used for the fluid 
+translation and localization of the menu items from one language to another. 
 
-Resx files are used for the fluid translation and localization of 
-the menu items from one language to another. 
-
-The conversion rates are fetched in real-time from the website, xe.com.
+The conversion rates are fetched in real-time from the website, xe.com. THe
+rates of the menu items will change according to the language that is selected. 
 
 -----------------
 
@@ -43,4 +42,9 @@ and not at this time. The project is satisfactory in that it does
 what it is supposed to do and is a decendtly working product. Also
 due to time constraints, the developers decided to leave this 
 project as it currently is.
+
+The menu inteface currently does not support the right to left reading 
+orientation for all of the Arabic sub menus. This is something that the
+developers wish to implement in the future. Due to time constraints, this
+feature has not yet been integrated. 
 
