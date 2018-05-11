@@ -13,8 +13,9 @@ following languages: English, Spanish, French, Arabic, and Mandarin.
 Design Decisions: 
 The menu uses a top navigation bar to easily navigate between the 
 categories on the menu and the different languages that are available. 
-The language choices are placed in the top right of the display for 
-easy access. 
+
+For the best practices to translate the menu, the language
+choices are placed in the top right of the display for ease of access.
 
 The menu inteface supports the right to left reading orientation of 
 the Arabic language. 
